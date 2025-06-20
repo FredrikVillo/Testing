@@ -1,0 +1,74 @@
+EmployeeID,CompanyName,Industry,EffectiveFrom,EffectiveTo,PositionTitle,Department,FTE,ManagerID
+E00007,Fjordkraft AS,Energy (Renewable Power),2005-11-23,2008-07-23,Sales Representative - Key Accounts,Sales,80,S00254
+E00007,Fjordkraft AS,Energy (Renewable Power),2008-07-24,2011-06-24,Sales Team Lead,Sales,100,S00452
+E00007,Fjordkraft AS,Energy (Renewable Power),2011-06-25,2013-01-25,Regional Account Manager,Sales,100,S23456
+E00007,Fjordkraft AS,Energy (Renewable Power),2013-01-26,2014-04-26,Business Development Specialist,Sales,80,E00025
+E00007,Fjordkraft AS,Energy (Renewable Power),2014-04-27,2015-11-23,"Project Coordinator, Renewable Energy Initiatives",Operations,80,E00025
+E00008,Fjordkraft AS,Energy (Renewable Power),2007-03-23,2009-04-23,Sales Representative - Residential Accounts,Sales,80,S00256
+E00008,Fjordkraft AS,Energy (Renewable Power),2009-04-24,2010-06-24,Sales Coordinator - Business Accounts,Sales,80,E00025
+E00008,Fjordkraft AS,Energy (Renewable Power),2010-06-25,2012-10-25,Junior Marketing Specialist,Marketing,80,M00235
+E00008,Fjordkraft AS,Energy (Renewable Power),2012-10-26,2015-03-26,Marketing Coordinator,Marketing,80,M00234
+E00008,Fjordkraft AS,Energy (Renewable Power),2015-03-27,2017-03-23,Sales Representative - Key Accounts,Sales,80,S00452
+E00006,Fjordkraft AS,Energy (Renewable Power),1992-01-17,1994-02-17,Sales Representative - Residential Accounts,Sales,80,S00234
+E00006,Fjordkraft AS,Energy (Renewable Power),1994-02-18,1996-08-18,Sales Team Lead - Regional Accounts,Sales,80,S00234
+E00006,Fjordkraft AS,Energy (Renewable Power),1996-08-19,1997-08-19,Key Account Manager - Strategic Partnerships,Sales,100,E00025
+E00006,Fjordkraft AS,Energy (Renewable Power),1997-08-20,1999-09-20,Sales Operations Analyst,Sales,80,S00235
+E00006,Fjordkraft AS,Energy (Renewable Power),1999-09-21,2001-01-21,Marketing Coordinator,Marketing,80,M20345
+E00006,Fjordkraft AS,Energy (Renewable Power),2001-01-22,2002-01-17,Sales Representative - Key Accounts,Sales,80,S00452
+E00011,Fjordkraft AS,Energy (Renewable Power),2006-04-16,2008-04-16,Sales Representative - Residential Accounts,Sales,80,S00427
+E00011,Fjordkraft AS,Energy (Renewable Power),2008-04-17,2010-03-17,Sales Team Lead - Key Accounts,Sales,100,S23456
+E00011,Fjordkraft AS,Energy (Renewable Power),2010-03-18,2011-04-18,Business Development Specialist,Marketing,80,M00527
+E00011,Fjordkraft AS,Energy (Renewable Power),2011-04-19,2013-09-19,Sales Representative - Key Accounts,Sales,80,S00234
+E00011,Fjordkraft AS,Energy (Renewable Power),2013-09-20,2014-11-20,Sales Operations Analyst,Sales,80,S12457
+E00011,Fjordkraft AS,Energy (Renewable Power),2014-11-21,2016-04-16,Marketing Coordinator,Marketing,80,M00452
+E00013,Fjordkraft AS,Energy (Renewable Power),2007-04-15,2009-10-15,Sales Representative - Key Accounts,Sales,80,S00234
+E00013,Fjordkraft AS,Energy (Renewable Power),2009-10-16,2010-12-16,Sales Team Lead,Sales,100,S00235
+E00013,Fjordkraft AS,Energy (Renewable Power),2010-12-17,2012-07-17,Regional Sales Manager,Sales,100,E00025
+E00013,Fjordkraft AS,Energy (Renewable Power),2012-07-18,2014-02-18,Key Account Manager,Sales,100,S00425
+E00013,Fjordkraft AS,Energy (Renewable Power),2014-02-19,2015-10-19,Business Development Specialist,Sales,80,E00025
+E00013,Fjordkraft AS,Energy (Renewable Power),2015-10-20,2017-04-15,Project Manager - Renewable Energy Initiatives,Operations,100,E00025
+E00012,Fjordkraft AS,Energy (Renewable Power),2029-03-23,,Regional Sales Manager - West Norway,Sales,100,S00425
+E00009,Fjordkraft AS,Energy (Renewable Power),1994-07-20,1996-03-20,Sales Representative - Western Norway,Sales,80,S00234
+E00009,Fjordkraft AS,Energy (Renewable Power),1996-03-21,1998-11-21,Sales Team Lead - Western Norway,Sales,100,S00234
+E00009,Fjordkraft AS,Energy (Renewable Power),1998-11-22,2001-07-22,Regional Sales Manager - Southwest Norway,Sales,100,E00012
+E00009,Fjordkraft AS,Energy (Renewable Power),2001-07-23,2004-06-23,Key Account Manager - Major Clients,Sales,100,E00025
+E00009,Fjordkraft AS,Energy (Renewable Power),2004-06-24,2004-07-20,Project Coordinator - New Business Development,Sales,80,E00025
+E00005,Fjordkraft AS,Energy (Renewable Power),1981-11-28,1984-07-28,Sales Representative - Southwest Region,Sales,80,S00234
+E00005,Fjordkraft AS,Energy (Renewable Power),1984-07-29,1986-02-28,Territory Sales Manager,Sales,80,S00427
+E00005,Fjordkraft AS,Energy (Renewable Power),1986-03-01,1989-03-01,Regional Sales Coordinator,Sales,80,E00025
+E00005,Fjordkraft AS,Energy (Renewable Power),1989-03-02,1990-04-02,Sales Analyst,Sales,80,S00235
+E00005,Fjordkraft AS,Energy (Renewable Power),1990-04-03,1991-11-28,Junior Marketing Coordinator,Marketing,80,M00254
+E00002,Fjordkraft AS,Energy (Renewable Power),1988-06-10,1990-12-10,Sales Representative - Residential Accounts,Sales,80,S00234
+E00002,Fjordkraft AS,Energy (Renewable Power),1990-12-11,1992-06-11,Sales Coordinator - Key Accounts,Sales,80,S00234
+E00002,Fjordkraft AS,Energy (Renewable Power),1992-06-12,1994-06-12,Sales Analyst,Sales,80,S00325
+E00002,Fjordkraft AS,Energy (Renewable Power),1994-06-13,1995-10-13,Customer Service Representative,Customer Service,80,C20453
+E00002,Fjordkraft AS,Energy (Renewable Power),1995-10-14,1997-05-14,Sales Associate,Sales,80,S00235
+E00002,Fjordkraft AS,Energy (Renewable Power),1997-05-15,1998-06-10,Customer Service Representative,Customer Service,80,C34567
+E00014,Fjordkraft AS,Energy (Renewable Power),1985-04-10,1987-10-10,Sales Representative - Western Norway,Sales,80,S00427
+E00014,Fjordkraft AS,Energy (Renewable Power),1987-10-11,1989-10-11,Territory Sales Manager - Southwest Norway,Sales,80,S00234
+E00014,Fjordkraft AS,Energy (Renewable Power),1989-10-12,1991-02-12,Key Account Manager - Major Clients,Sales,100,S00234
+E00014,Fjordkraft AS,Energy (Renewable Power),1991-02-13,1992-04-13,Sales Analyst,Sales,80,S00234
+E00014,Fjordkraft AS,Energy (Renewable Power),1992-04-14,1993-08-14,Marketing Coordinator,Marketing,80,M00025
+E00014,Fjordkraft AS,Energy (Renewable Power),1993-08-15,1995-04-10,Sales Representative - Residential Accounts,Sales,80,S00234
+E00010,Fjordkraft AS,Energy (Renewable Power),1986-11-23,1988-01-23,Sales Representative - Residential Accounts,Sales,80,S00245
+E00010,Fjordkraft AS,Energy (Renewable Power),1988-01-24,1990-08-24,Sales Coordinator - Commercial Accounts,Sales,80,S00452
+E00010,Fjordkraft AS,Energy (Renewable Power),1990-08-25,1992-04-25,Junior Marketing Analyst,Marketing,80,M00452
+E00010,Fjordkraft AS,Energy (Renewable Power),1992-04-26,1995-01-26,Marketing Coordinator,Marketing,80,M00452
+E00010,Fjordkraft AS,Energy (Renewable Power),1995-01-27,1996-11-23,Sales Representative (Hydropower Focus),Sales,80,S00425
+E00004,Fjordkraft AS,Energy (Renewable Power),1994-12-30,1996-08-30,Sales Representative - Residential Accounts,Sales,80,S00234
+E00004,Fjordkraft AS,Energy (Renewable Power),1996-08-31,1997-11-30,Sales Coordinator - Commercial Accounts,Sales,80,E00025
+E00004,Fjordkraft AS,Energy (Renewable Power),1997-12-01,1999-05-01,Junior Marketing Specialist,Marketing,80,M00152
+E00004,Fjordkraft AS,Energy (Renewable Power),1999-05-02,2002-04-02,Marketing Coordinator,Marketing,80,M00235
+E00004,Fjordkraft AS,Energy (Renewable Power),2002-04-03,2004-08-03,Sales Representative,Sales,80,S00234
+E00004,Fjordkraft AS,Energy (Renewable Power),2004-08-04,2004-12-30,Sales Support Specialist,Sales,80,S23456
+E00001,Fjordkraft AS,Energy (Renewable Power),1983-03-02,1985-11-02,Sales Representative - Western Norway,Sales,80,S00325
+E00001,Fjordkraft AS,Energy (Renewable Power),1985-11-03,1987-05-03,Territory Sales Manager - Southwest Norway,Sales,100,S00234
+E00001,Fjordkraft AS,Energy (Renewable Power),1987-05-04,1990-05-04,Key Account Manager - Major Clients,Sales,100,E00025
+E00001,Fjordkraft AS,Energy (Renewable Power),1990-05-05,1993-03-02,Regional Sales Manager,Sales,100,S00247
+E00003,Fjordkraft AS,Energy (Renewable Power),1987-11-03,1990-06-03,Sales Representative - Southern Region,Sales,80,S00234
+E00003,Fjordkraft AS,Energy (Renewable Power),1990-06-04,1991-06-04,Territory Sales Manager - Vestfold,Sales,80,S00234
+E00003,Fjordkraft AS,Energy (Renewable Power),1991-06-05,1993-03-05,Sales Support Specialist,Sales,80,S00237
+E00003,Fjordkraft AS,Energy (Renewable Power),1993-03-06,1994-10-06,Customer Service Representative,Customer Service,80,C12345
+E00003,Fjordkraft AS,Energy (Renewable Power),1994-10-07,1995-12-07,Sales Associate,Sales,80,S00234
+E00003,Fjordkraft AS,Energy (Renewable Power),1995-12-08,1997-02-08,Customer Service Representative,Customer Service,100,C23456
+E00003,Fjordkraft AS,Energy (Renewable Power),1997-02-09,1997-11-03,Sales Associate,Sales,80,S00235

@@ -8,12 +8,15 @@ import time
 
 fake = Faker("no_NO")
 
+# Set the LLM model name here to switch models easily
+LLM_MODEL_NAME = "vikhr-gemma-2b-instruct"  # e.g., "phi-2", "google/gemma-3-12b", etc.
+
 def query_LLM(prompt):
     """Send a prompt to the Lmstudio API and return the response text. Includes debug output and fallback."""
     url = "http://localhost:1234/v1/chat/completions"  # Update if your Lmstudio runs elsewhere
     headers = {"Content-Type": "application/json"}
     data = {
-        "model": "google/gemma-3-12b",  # Replace with your model name if needed
+        "model": LLM_MODEL_NAME,  # Use the global model name variable
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": 128,
         "temperature": 0.5
@@ -43,27 +46,50 @@ def query_LLM(prompt):
         print(f"❌ [DEBUG] API call failed: {e}")
         return '{"PositionTitle": "API_ERROR", "Department": "API_ERROR"}'
 
+def get_companies_and_industries(n=3):
+    """Generate a list of companies and industries, either via LLM or fallback."""
+    companies = []
+    industries = [
+        "Technology", "Finance", "Retail", "Manufacturing", "Healthcare", "Education", "Logistics", "Hospitality", "Construction", "Energy", "Consulting", "Media", "Transportation", "Real Estate", "Public Sector"
+    ]
+    for _ in range(n):
+        try:
+            company_prompt = (
+                "Invent a realistic Norwegian company. Respond with a single-line JSON object only, no markdown or explanation. "
+                "Example: {\"CompanyName\":\"...\", \"Industry\":\"...\", \"Description\":\"...\"}"
+            )
+            company_response = query_LLM(company_prompt)
+            company_response = company_response.splitlines()[0].strip()
+            company_data = json.loads(company_response)
+            if isinstance(company_data, list):
+                company_data = company_data[0] if company_data else {}
+        except Exception:
+            company_data = {
+                "CompanyName": fake.company(),
+                "Industry": random.choice(industries),
+                "Description": fake.catch_phrase()
+            }
+        companies.append(company_data)
+    return companies
+
 def make_job_history(employees_df, seed=42):
     random.seed(seed)
     Faker.seed(seed)
     rows, today = [], dt.date.today()
     manager_pool = employees_df["EmployeeID"].tolist()
 
-    # --- New: Let the model decide the company and its business ---
+    # --- Single company logic (as before) ---
     company_prompt = (
         "Invent a realistic Norwegian company. Respond with a single-line JSON object only, no markdown or explanation. "
         "Example: {\"CompanyName\":\"...\", \"Industry\":\"...\", \"Description\":\"...\"}"
     )
     try:
         company_response = query_LLM(company_prompt)
-        # Only use the first line, strip whitespace
         company_response = company_response.splitlines()[0].strip()
         company_data = json.loads(company_response)
         if isinstance(company_data, list):
             company_data = company_data[0] if company_data else {}
     except Exception as e:
-        print("⚠️  AI error (company):", e)
-        # Fallback: use Faker and a static industry list
         industries = [
             "Technology", "Finance", "Retail", "Manufacturing", "Healthcare", "Education", "Logistics", "Hospitality", "Construction", "Energy", "Consulting", "Media", "Transportation", "Real Estate", "Public Sector"
         ]
@@ -73,6 +99,19 @@ def make_job_history(employees_df, seed=42):
             "Description": fake.catch_phrase()
         }
     print(f"🏢 Company: {company_data}")
+
+    # Department and role diversity lists
+    departments = [
+        "Research & Development (R&D)", "Sales", "Marketing", "Finance", "Human Resources (HR)",
+        "Legal", "IT", "Customer Service", "Logistics", "Procurement", "Facilities", "Executive Management",
+        "Operations", "Office Management", "Production", "Janitorial"
+    ]
+    roles = [
+        "Research Scientist", "Sales Manager", "Marketing Specialist", "Accountant", "HR Coordinator",
+        "Legal Counsel", "IT Support Specialist", "Customer Service Rep", "Logistics Coordinator",
+        "Procurement Officer", "Facilities Manager", "CEO", "CFO", "COO", "Office Manager",
+        "Operations Analyst", "Production Supervisor", "Janitor", "Receptionist", "Data Analyst"
+    ]
 
     for _, emp in employees_df.iterrows():
         emp_id  = emp["EmployeeID"]
@@ -85,14 +124,14 @@ def make_job_history(employees_df, seed=42):
         prev_dept = None
         prev_end = None
         while start < end_of_history:
-            months = random.randint(12, 36)  # Shorter jobs for more variety
+            months = random.randint(12, 36)
             end = start + pd.DateOffset(months=months)
             if end > end_of_history:
                 end = end_of_history
             if end.date() >= today:
                 end = pd.NaT
 
-            # --- New: Prompt for diverse roles based on company ---
+            # --- Improved: Prompt for diverse roles and departments, and company ---
             prompt = (
                 f"The company is {company_data.get('CompanyName', 'a Norwegian company')} in the {company_data.get('Industry', 'industry')} sector. "
                 f"It does: {company_data.get('Description', '')}. "
@@ -105,8 +144,9 @@ def make_job_history(employees_df, seed=42):
                 f"This job must start: {start.date()}. "
                 f"This job must end: {'' if pd.isna(end) else end.date()}. "
                 "FTE should be 100, 80, or 60. "
-                "The role should be chosen from a wide range of departments and job types relevant for the company, such as sales, marketing, IT, janitorial, HR, finance, logistics, customer service, production, legal, R&D, management, operations, and more. "
-                "Do not generate only IT or data roles. "
+                "The role and department should be chosen from a wide range, including but not limited to: "
+                "Research & Development (R&D), Sales, Marketing, Finance, Human Resources (HR), Legal, IT, Customer Service, Logistics, Procurement, Facilities, Executive Management, Operations, Office Management, Production, Janitorial, and more. "
+                "Do not generate only R&D, IT, or data roles. At least half of the jobs in the company should be from non-R&D departments. "
                 "Return only JSON like:\n"
                 '{"PositionTitle":"...","Department":"...",'
                 '"FTE":100,"ManagerID":"E00010",'
@@ -119,7 +159,15 @@ def make_job_history(employees_df, seed=42):
                     job_data = job_data[0] if job_data else {}
             except Exception as e:
                 print("⚠️  AI error:", e)
-                break  # skip this employee
+                # Fallback: assign random diverse role/department
+                job_data = {
+                    "PositionTitle": random.choice(roles),
+                    "Department": random.choice(departments),
+                    "FTE": random.choice([100, 80, 60]),
+                    "ManagerID": random.choice([m for m in manager_pool if m != emp_id]),
+                    "EffectiveFrom": start.date().isoformat(),
+                    "EffectiveTo": ("" if pd.isna(end) else end.date().isoformat())
+                }
 
             # safety: never self-manager
             if str(job_data.get("ManagerID", "")) == str(emp_id):
@@ -141,7 +189,6 @@ def make_job_history(employees_df, seed=42):
                 "ManagerID":     job_data.get("ManagerID", random.choice([m for m in manager_pool if m != emp_id]))
             })
 
-            # Update previous job info for next iteration
             prev_title = job_data.get("PositionTitle", None)
             prev_dept = job_data.get("Department", None)
             prev_end = end
@@ -162,19 +209,19 @@ if __name__ == "__main__":
         {"EmployeeID": f"E{i+1:05d}", "DOB": dob}
         for i, dob in enumerate([
             "1961-03-02",
-            "1966-06-10",
-            "1965-11-03",
-            "1972-12-30",
-            "1959-11-28",
-            "1970-01-17",
-            "1983-11-23",
-            "1985-03-23",
-            "1972-07-20",
-            "1964-11-23",
-            "1984-04-16",
-            "2007-03-23",
-            "1985-04-15",
-            "1963-04-10"
+            "1966-06-10"
+           #"1965-11-03",
+            #"1972-12-30",
+           # "1959-11-28",
+           # "1970-01-17",
+           # "1983-11-23",
+            #"1985-03-23",
+           # "1972-07-20",
+           # "1964-11-23",
+            #"1984-04-16",
+            #"2007-03-23",
+           # "1985-04-15",
+           # "1963-04-10"
         ])
     ]
     random.shuffle(employees)
