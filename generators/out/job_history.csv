@@ -1,8 +1,74 @@
-EmployeeID,EffectiveFrom,EffectiveTo,PositionTitle,Department,FTE,ManagerID
-1,2012-01-01,2015-09-01,Junior Software Developer,Software Development,80,N00234
-1,2015-09-02,2019-08-02,Software Developer,Software Development,100,E00012
-1,2019-08-03,2022-01-01,Senior Software Developer,Software Development,100,E00012
-2,2007-05-15,2011-02-15,Junior Software Developer,Software Development,80,N00234
-2,2011-02-16,2014-08-16,Software Developer,Software Development,100,E00012
-2,2014-08-17,2016-08-17,Senior Software Developer,Software Development,100,E00012
-2,2016-08-18,2017-05-15,"Team Lead, Software Development",Software Development,100,E00025
+EmployeeID,CompanyName,Industry,EffectiveFrom,EffectiveTo,PositionTitle,Department,FTE,ManagerID
+E00012,Nordlys Havforskning AS,Marine Biotechnology,2029-03-23,,Senior Research Scientist - Bioactive Compound Discovery,Research & Development (R&D),100,E00025
+E00001,Nordlys Havforskning AS,Marine Biotechnology,1983-03-02,1986-02-02,Research Assistant - Marine Biology,R&D,80,E00005
+E00001,Nordlys Havforskning AS,Marine Biotechnology,1986-02-03,1987-09-03,Laboratory Technician - Algae Culturing,R&D,80,E00025
+E00001,Nordlys Havforskning AS,Marine Biotechnology,1987-09-04,1988-12-04,Research Assistant - Marine Chemistry,R&D,80,E00012
+E00001,Nordlys Havforskning AS,Marine Biotechnology,1988-12-05,1991-05-05,Laboratory Technician - Algae Culturing,R&D,80,E00012
+E00001,Nordlys Havforskning AS,Marine Biotechnology,1991-05-06,1993-03-02,Research Assistant - Marine Chemistry,R&D,80,E00012
+E00011,Nordlys Havforskning AS,Marine Biotechnology,2006-04-16,2007-06-16,Research Assistant - Marine Biology,R&D (Research and Development),80,R00025
+E00011,Nordlys Havforskning AS,Marine Biotechnology,2007-06-17,2009-10-17,Laboratory Technician - Bioextraction,R&D (Research and Development),80,E00025
+E00011,Nordlys Havforskning AS,Marine Biotechnology,2009-10-18,2012-03-18,Research Scientist - Marine Chemistry,R&D (Research and Development),100,E00025
+E00011,Nordlys Havforskning AS,Marine Biotechnology,2012-03-19,2014-11-19,Project Manager - Bioactive Compound Development,R&D (Research and Development),80,E00012
+E00011,Nordlys Havforskning AS,Marine Biotechnology,2014-11-20,2016-04-16,Senior Research Scientist - Marine Chemistry,R&D (Research and Development),100,E00012
+E00010,Nordlys Havforskning AS,Marine Biotechnology,1986-11-23,1989-05-23,Research Assistant - Marine Biology,R&D,80,E00005
+E00010,Nordlys Havforskning AS,Marine Biotechnology,1989-05-24,1990-05-24,Laboratory Technician - Algae Culturing,R&D,80,E00012
+E00010,Nordlys Havforskning AS,Marine Biotechnology,1990-05-25,1992-06-25,Research Assistant - Marine Chemistry,R&D,80,E00012
+E00010,Nordlys Havforskning AS,Marine Biotechnology,1992-06-26,1993-10-26,Laboratory Technician - Algae Culturing,R&D Production,80,E00012
+E00010,Nordlys Havforskning AS,Marine Biotechnology,1993-10-27,1995-08-27,Research Assistant - Marine Chemistry,R&D - Analytical Chemistry,80,E00012
+E00010,Nordlys Havforskning AS,Marine Biotechnology,1995-08-28,1996-11-23,Laboratory Technician - Algae Culturing,R&D - Marine Biology & Culturing,80,E00012
+E00006,Nordlys Havforskning AS,Marine Biotechnology,1992-01-17,1993-12-17,Research Assistant - Marine Biology,R&D (Research and Development),80,R00025
+E00006,Nordlys Havforskning AS,Marine Biotechnology,1993-12-18,1995-01-18,Laboratory Technician - Algae Culturing,R&D (Research and Development),80,E00012
+E00006,Nordlys Havforskning AS,Marine Biotechnology,1995-01-19,1997-06-19,Research Assistant - Marine Chemistry,R&D (Research and Development),80,E00012
+E00006,Nordlys Havforskning AS,Marine Biotechnology,1997-06-20,1998-08-20,Laboratory Technician - Algae Culturing,R&D (Research and Development),80,E00012
+E00006,Nordlys Havforskning AS,Marine Biotechnology,1998-08-21,2001-04-21,Research Assistant - Marine Biochemistry,R&D (Research and Development),80,E00012
+E00006,Nordlys Havforskning AS,Marine Biotechnology,2001-04-22,2002-01-17,Project Scientist - Algae Cultivation & Optimization,R&D (Research and Development),80,E00012
+E00003,Nordlys Havforskning AS,Marine Biotechnology,1987-11-03,1989-01-03,Research Assistant - Marine Biology,R&D (Research and Development),80,R00025
+E00003,Nordlys Havforskning AS,Marine Biotechnology,1989-01-04,1990-08-04,Laboratory Technician - Algae Culturing,R&D (Research and Development),80,E00012
+E00003,Nordlys Havforskning AS,Marine Biotechnology,1990-08-05,1992-03-05,Research Assistant - Marine Chemistry,R&D (Research and Development),80,E00012
+E00003,Nordlys Havforskning AS,Marine Biotechnology,1992-03-06,1993-11-06,Laboratory Technician - Algae Culturing,R&D (Research and Development),80,E00012
+E00003,Nordlys Havforskning AS,Marine Biotechnology,1993-11-07,1995-10-07,Research Assistant - Marine Chemistry,R&D (Research and Development),80,E00012
+E00003,Nordlys Havforskning AS,Marine Biotechnology,1995-10-08,1997-09-08,Laboratory Technician - Algae Cultivation,R&D (Research and Development),80,E00012
+E00003,Nordlys Havforskning AS,Marine Biotechnology,1997-09-09,1997-11-03,Research Assistant - Bioactive Compound Analysis,R&D (Research and Development),80,E00012
+E00004,Nordlys Havforskning AS,Marine Biotechnology,1994-12-30,1997-08-30,Research Assistant - Marine Biology,R&D,80,R00032
+E00004,Nordlys Havforskning AS,Marine Biotechnology,1997-08-31,2000-04-30,Laboratory Technician - Algae Culturing,R&D,80,E00012
+E00004,Nordlys Havforskning AS,Marine Biotechnology,2000-05-01,2003-04-01,Research Assistant - Marine Chemistry,R&D,80,E00025
+E00004,Nordlys Havforskning AS,Marine Biotechnology,2003-04-02,2004-12-30,Laboratory Technician - Algae Cultivation,R&D,80,E00025
+E00013,Nordlys Havforskning AS,Marine Biotechnology,2007-04-15,2009-12-15,Research Assistant - Marine Biology,R&D,80,E00005
+E00013,Nordlys Havforskning AS,Marine Biotechnology,2009-12-16,2011-07-16,Laboratory Technician - Algae Culturing,R&D Production,80,E00025
+E00013,Nordlys Havforskning AS,Marine Biotechnology,2011-07-17,2014-07-17,Research Associate - Marine Bioactivity Screening,R&D – Discovery & Analytical Services,80,E00012
+E00013,Nordlys Havforskning AS,Marine Biotechnology,2014-07-18,2015-08-18,Project Scientist - Algae Cultivation & Optimization,R&D – Production Development,80,E00012
+E00013,Nordlys Havforskning AS,Marine Biotechnology,2015-08-19,2017-04-15,Research Associate - Bioactive Compound Analysis,R&D – Analytical Chemistry,80,E00025
+E00008,Nordlys Havforskning AS,Marine Biotechnology,2007-03-23,2009-09-23,Research Assistant - Marine Biology,R&D (Research and Development),80,R00025
+E00008,Nordlys Havforskning AS,Marine Biotechnology,2009-09-24,2011-03-24,Laboratory Technician - Algae Culturing,R&D (Research and Development),80,E00012
+E00008,Nordlys Havforskning AS,Marine Biotechnology,2011-03-25,2013-03-25,Research Assistant - Marine Chemistry,R&D (Research and Development),80,E00025
+E00008,Nordlys Havforskning AS,Marine Biotechnology,2013-03-26,2014-07-26,Laboratory Technician - Algae Culturing,R&D (Research and Development),80,E00012
+E00008,Nordlys Havforskning AS,Marine Biotechnology,2014-07-27,2016-02-27,Research Assistant - Marine Bioactivity Screening,R&D (Research and Development),80,E00012
+E00008,Nordlys Havforskning AS,Marine Biotechnology,2016-02-28,2017-03-23,Project Scientist - Algae Cultivation & Optimization,R&D (Research and Development),80,E00012
+E00009,Nordlys Havforskning AS,Marine Biotechnology,1994-07-20,1997-01-20,Research Assistant - Marine Biology,R&D,80,R00025
+E00009,Nordlys Havforskning AS,Marine Biotechnology,1997-01-21,1999-01-21,Laboratory Technician - Algae Culturing,R&D,80,E00012
+E00009,Nordlys Havforskning AS,Marine Biotechnology,1999-01-22,2000-05-22,Research Assistant - Marine Biochemistry,R&D,80,E00012
+E00009,Nordlys Havforskning AS,Marine Biotechnology,2000-05-23,2001-07-23,Project Scientist - Algae Cultivation,R&D,80,E00025
+E00009,Nordlys Havforskning AS,Marine Biotechnology,2001-07-24,2002-11-24,Research Associate - Bioactive Compound Analysis,R&D,80,E00012
+E00009,Nordlys Havforskning AS,Marine Biotechnology,2002-11-25,2004-07-20,Project Scientist - Marine Algae Cultivation,R&D,80,E00012
+E00007,Nordlys Havforskning AS,Marine Biotechnology,2005-11-23,2007-01-23,Research Assistant - Marine Biology,R&D (Research and Development),80,R00032
+E00007,Nordlys Havforskning AS,Marine Biotechnology,2007-01-24,2009-08-24,Laboratory Technician - Algae Culturing,R&D (Research and Development),80,E00012
+E00007,Nordlys Havforskning AS,Marine Biotechnology,2009-08-25,2011-04-25,Research Assistant - Marine Chemistry,R&D (Research and Development),80,E00012
+E00007,Nordlys Havforskning AS,Marine Biotechnology,2011-04-26,2014-01-26,Project Scientist - Bioactive Compound Screening,R&D (Research and Development),80,E00012
+E00007,Nordlys Havforskning AS,Marine Biotechnology,2014-01-27,2015-11-23,Technical Sales Specialist - Marine Ingredients,Sales & Business Development,80,M00052
+E00005,Nordlys Havforskning AS,Marine Biotechnology,1981-11-28,1983-07-28,Laboratory Technician - Algae Cultivation,Research & Development (R&D),80,E00002
+E00005,Nordlys Havforskning AS,Marine Biotechnology,1983-07-29,1984-10-29,Research Assistant - Marine Chemistry,Research & Development (R&D),80,E00012
+E00005,Nordlys Havforskning AS,Marine Biotechnology,1984-10-30,1986-03-30,Laboratory Technician - Algae Culturing,Research & Development (R&D),80,E00012
+E00005,Nordlys Havforskning AS,Marine Biotechnology,1986-03-31,1989-02-28,Research Assistant - Marine Biochemistry,Research & Development (R&D),80,E00012
+E00005,Nordlys Havforskning AS,Marine Biotechnology,1989-03-01,1991-07-01,Laboratory Technician - Algae Culturing,Research & Development (R&D),80,E00012
+E00005,Nordlys Havforskning AS,Marine Biotechnology,1991-07-02,1991-11-28,Research Assistant - Marine Chemistry,Research & Development (R&D),80,E00012
+E00002,Nordlys Havforskning AS,Marine Biotechnology,1988-06-10,1991-02-10,Research Assistant - Marine Biology,R&D,80,R00025
+E00002,Nordlys Havforskning AS,Marine Biotechnology,1991-02-11,1992-08-11,Laboratory Technician - Algae Culturing,R&D,80,E00025
+E00002,Nordlys Havforskning AS,Marine Biotechnology,1992-08-12,1995-08-12,Research Assistant - Marine Chemistry,R&D,80,E00012
+E00002,Nordlys Havforskning AS,Marine Biotechnology,1995-08-13,1998-06-10,Laboratory Technician - Algae Cultivation,R&D,80,E00025
+E00014,Nordlys Havforskning AS,Marine Biotechnology,1985-04-10,1987-11-10,Laboratory Technician - Algae Cultivation,Research & Development (R&D),80,E00005
+E00014,Nordlys Havforskning AS,Marine Biotechnology,1987-11-11,1988-11-11,Research Assistant - Marine Chemistry,Research & Development (R&D),80,E00012
+E00014,Nordlys Havforskning AS,Marine Biotechnology,1988-11-12,1990-08-12,Laboratory Technician - Algae Culturing,Research & Development (R&D),80,E00012
+E00014,Nordlys Havforskning AS,Marine Biotechnology,1990-08-13,1992-03-13,Research Assistant - Marine Biochemistry,Research & Development (R&D),80,E00025
+E00014,Nordlys Havforskning AS,Marine Biotechnology,1992-03-14,1993-05-14,Laboratory Technician - Algae Culturing,Research & Development (R&D),80,E00012
+E00014,Nordlys Havforskning AS,Marine Biotechnology,1993-05-15,1994-07-15,Research Assistant - Marine Chemistry,Research & Development (R&D),80,E00012
+E00014,Nordlys Havforskning AS,Marine Biotechnology,1994-07-16,1995-04-10,Laboratory Technician - Algae Culturing,Research & Development (R&D),80,E00012
