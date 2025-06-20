@@ -1,0 +1,8 @@
+EmployeeID,EffectiveFrom,EffectiveTo,PositionTitle,Department,FTE,ManagerID
+1,2012-01-01,2015-09-01,Junior Software Developer,Software Development,80,N00234
+1,2015-09-02,2019-08-02,Software Developer,Software Development,100,E00012
+1,2019-08-03,2022-01-01,Senior Software Developer,Software Development,100,E00012
+2,2007-05-15,2011-02-15,Junior Software Developer,Software Development,80,N00234
+2,2011-02-16,2014-08-16,Software Developer,Software Development,100,E00012
+2,2014-08-17,2016-08-17,Senior Software Developer,Software Development,100,E00012
+2,2016-08-18,2017-05-15,"Team Lead, Software Development",Software Development,100,E00025
