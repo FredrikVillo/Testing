@@ -9,7 +9,7 @@ import time
 fake = Faker("no_NO")
 
 # Set the LLM model name here to switch models easily
-LLM_MODEL_NAME = "vikhr-gemma-2b-instruct"  # e.g., "phi-2", "google/gemma-3-12b", etc.
+LLM_MODEL_NAME = "gemma-3"  # e.g., "phi-2", "google/gemma-3-12b", etc.
 
 def query_LLM(prompt):
     """Send a prompt to the Lmstudio API and return the response text. Includes debug output and fallback."""
