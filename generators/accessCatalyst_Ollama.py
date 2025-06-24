@@ -51,20 +51,19 @@ Follow this schema:
 Give the response as a valid JSON object, 1 entry only.
 """
 
-def query_lmstudio(prompt):
-    url = "http://localhost:1234/v1/completions"  # Default LM Studio API endpoint
+def query_ollama(prompt):
+    url = "http://localhost:11434/api/generate"
     headers = {"Content-Type": "application/json"}
     data = {
-        "model": "gemma3-4b",
+        "model": "gemma3:4b",  # Exact tag may vary (e.g., "gemma3:4b-instruct")
         "prompt": prompt,
-        "max_tokens": 1024,
-        "temperature": 0.7,
-        "stream": False
+        "stream": False,
+        "temperature": 0.7
     }
     response = requests.post(url, headers=headers, json=data)
     result = response.json()
-    # LM Studio returns completions under 'choices'
-    return result.get("choices", [{}])[0].get("text", "").strip()
+    return result.get("response", "").strip()
+
 
 def extract_json(text):
     text = text.strip()
@@ -174,7 +173,7 @@ def main():
                 ". Generate a new, unique user not in these lists."
             )
         print(f"\n=== Generating entry {i+1} of {num_entries} ===")
-        raw_output = query_lmstudio(current_prompt)
+        raw_output = query_ollama(current_prompt)
         try:
             json_candidate = extract_json(raw_output)
             if json_candidate.count('{') > 0 and json_candidate.count('}') > 0:
