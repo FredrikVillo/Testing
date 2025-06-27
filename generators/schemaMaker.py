@@ -105,10 +105,10 @@ def write_schema_to_file(rows, output_path):
 if __name__ == "__main__":
     # Use env vars if present, else fallback to hardcoded/test values
     server = os.getenv("DB_SERVER", "DESKTOP-R9S4CFK")
-    database = os.getenv("DB_NAME", "analyticsroutinedev")
+    database = os.getenv("DB_NAME", "TestTinyPII")
     username = os.getenv("DB_UID", "sa")
     password = os.getenv("DB_PWD", "(catalystone123)")
-    output_file = "schema_output.txt"
+    output_file = f"schema_{database}.txt"
 
     conn = get_connection(server, database, username, password)
     cursor = conn.cursor()
