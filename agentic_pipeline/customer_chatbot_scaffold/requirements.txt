@@ -1,0 +1,5 @@
+langgraph>=0.0.36
+langchain-openai>=0.1.6
+gradio>=4.15
+pyodbc>=5.1.0
+graphviz
