@@ -9,7 +9,7 @@ def read_schema_from_file(file_path: str) -> str:
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
 
-def query_lmstudio(prompt: str, model: str = "gemma-3", max_tokens: int = 1500, temperature: float = 0.5) -> str:
+def query_lmstudio(prompt: str, model: str = "gemma-3", max_tokens: int = 4000, temperature: float = 0.5) -> str:
     url = "http://localhost:1234/v1/completions"
     headers = {"Content-Type": "application/json"}
     data = {
@@ -94,19 +94,25 @@ def analyse_schema(schema: str, max_retries: int = 2) -> List[Dict[str, Any]]:
     table_chunks = chunk_schema_by_table(schema)
     all_tables = []
 
+
+    #Refine the prompt to get better responses
     for chunk in table_chunks:
         prompt = (
-            "Return a JSON object:\n"
-            "{\n"
-            "  \"table_name\": \"...\",\n"
-            "  \"columns\": [\n"
-            "    {\"name\": \"...\", \"type\": \"...\", \"key_type\": \"...\", \"is_pii\": true|false, \"pii_reason\": \"...\"}\n"
-            "  ]\n"
-            "}\n\n"
-            "No explanation. Begin with '{'. End with '}'.\n\n"
-            "Schema:\n"
-            f"{chunk}"
-        )
+        "You are a strict JSON formatter. You must output only a single JSON object — starting with '{' and ending with '}'. Do NOT include explanations, markdown, comments, or any extra text.\n\n"
+        "Instructions:\n"
+        "- Output a JSON object with two keys: 'table_name' (string) and 'columns' (list of column definitions).\n"
+        "- Each column definition must include:\n"
+        "    - name (string)\n"
+        "    - type (string)\n"
+        "    - key_type (string or null)\n"
+        "    - is_pii (true or false)\n"
+        "    - pii_reason (string or null)\n"
+        "- Treat as PII: first/last/full names, emails, phone numbers, usernames, government-issued IDs (SSN, passport, etc.), birthdates, addresses, IP/MAC addresses, biometric or financial info, and any field that may uniquely identify a person.\n"
+        "- Use your best judgment when unsure. If PII, explain briefly why in pii_reason. If not, set pii_reason to null.\n"
+        "- Follow the format exactly. Output only the JSON object.\n\n"
+        f"Schema:\n{chunk}"
+    )
+
 
         llm_response = query_lmstudio(prompt)
         parsed = try_parse_llm_response(llm_response)
