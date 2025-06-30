@@ -15,112 +15,112 @@
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Personal identifier - name"
+          "pii_reason": "Contains personal name."
         },
         {
           "name": "LastName",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Personal identifier - name"
+          "pii_reason": "Contains personal name."
         },
         {
           "name": "FullName",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Concatenation of personal identifiers (names)"
+          "pii_reason": "Concatenation of personal names."
         },
         {
           "name": "Email",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Personal identifier - email address"
+          "pii_reason": "Contains email address - identifies individual."
         },
         {
           "name": "PhoneNumber",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Personal identifier - phone number"
+          "pii_reason": "Contact information - identifies individual."
         },
         {
           "name": "SSN",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Government-issued ID (Social Security Number)"
+          "pii_reason": "Government-issued ID (Social Security Number)."
         },
         {
           "name": "PassportNumber",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Government-issued ID (passport number)"
+          "pii_reason": "Government-issued ID (Passport Number)."
         },
         {
           "name": "NationalID",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Government-issued ID (national identification number)"
+          "pii_reason": "Government-issued ID."
         },
         {
           "name": "BirthDate",
           "type": "date",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Personal identifier - birth date"
+          "pii_reason": "Personal identifying information - birth date."
         },
         {
           "name": "AddressLine1",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Personal identifier - address"
+          "pii_reason": "Contains address information."
         },
         {
           "name": "AddressLine2",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Personal identifier - address"
+          "pii_reason": "Contains address information."
         },
         {
           "name": "City",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Personal identifier - part of address"
+          "pii_reason": "Part of address information."
         },
         {
           "name": "State",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Personal identifier - part of address"
+          "pii_reason": "Part of address information."
         },
         {
           "name": "PostalCode",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Personal identifier - part of address"
+          "pii_reason": "Part of address information."
         },
         {
           "name": "Country",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Personal identifier - part of address"
+          "pii_reason": "Part of address information."
         },
         {
           "name": "Username",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Personal identifier - username"
+          "pii_reason": "User identifier - can be used to identify individual."
         },
         {
           "name": "PasswordHash",
@@ -134,49 +134,49 @@
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Financial information - credit card number"
+          "pii_reason": "Financial information."
         },
         {
           "name": "CVV",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Financial information - CVV code"
+          "pii_reason": "Financial information - security code."
         },
         {
           "name": "ExpirationDate",
           "type": "date",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Financial Information - credit card expiration date"
+          "pii_reason": "Financial information related to credit card."
         },
         {
           "name": "IPAddress",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Network identifier - IP address"
+          "pii_reason": "Identifies device and potentially individual location."
         },
         {
           "name": "MACAddress",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Network identifier - MAC address"
+          "pii_reason": "Device identifier - can be linked to an individual."
         },
         {
           "name": "BankAccountNumber",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Financial information - bank account number"
+          "pii_reason": "Financial information."
         },
         {
           "name": "IBAN",
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Financial information - IBAN"
+          "pii_reason": "Financial information - international bank account number."
         },
         {
           "name": "BIC",
@@ -190,7 +190,7 @@
           "type": "nvarchar",
           "key_type": null,
           "is_pii": true,
-          "pii_reason": "Biometric data - hash"
+          "pii_reason": "Sensitive biometric data."
         },
         {
           "name": "Notes",

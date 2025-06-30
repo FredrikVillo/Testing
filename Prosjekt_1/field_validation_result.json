@@ -1,0 +1,8 @@
+```json
+{
+  "missing": [],
+  "extra": [],
+  "match": true,
+  "explanation": "The expected fields from the schema perfectly match the actual fields in the generated data. There are no missing or extra fields."
+}
+```

@@ -7,7 +7,7 @@
     "Email": "ola.nordmann@example.com",
     "PhoneNumber": "+47123456789",
     "SSN": "000-00-0000",
-    "PassportNumber": "ABC123XYZ",
+    "PassportNumber": "XX1234567",
     "NationalID": "12345678901",
     "BirthDate": "1980-01-15",
     "AddressLine1": "Storgata 1",
@@ -16,17 +16,17 @@
     "State": null,
     "PostalCode": "0101",
     "Country": "Norway",
-    "Username": "ola.n",
-    "PasswordHash": "$2a$10$abcdefghijklmnopqrstuvwxzy$",
+    "Username": "ola.nordmann",
+    "PasswordHash": "$2a$10$abcdefghijklmnopqrstuvwxzy",
     "CreditCardNumber": "4111111111111111",
     "CVV": "123",
     "ExpirationDate": "2025-12-31",
     "IPAddress": "192.168.1.1",
     "MACAddress": "00:11:22:33:44:55",
     "BankAccountNumber": "1234567890",
-    "IBAN": "NO1412345678901234567890",
-    "BIC": "DNBANO22",
-    "BiometricHash": "$2a$10$zyxwvutsrqponmlkjihgfedcba$",
-    "Notes": "Testkunde.  Vær forsiktig med sensitive data."
+    "IBAN": "NO1212345678901234567890",
+    "BIC": "DNBANOSN",
+    "BiometricHash": "$2a$10$zyxwvutsrqponmlkjihgfedcba",
+    "Notes": "Testperson. Vennligst slett etter bruk."
   }
 ]
