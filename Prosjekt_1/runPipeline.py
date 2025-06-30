@@ -3,6 +3,8 @@ import sys
 import os
 import json
 import time
+import pyodbc
+
 try:
     from tqdm import tqdm
     TQDM_AVAILABLE = True
@@ -11,10 +13,13 @@ except ImportError:
 
 
 def run_pipeline(schema_file: str):
+    python_exec = sys.executable
     steps = [
-        ("🔍 Steg 1: Kjører databaseAnalyser...", ["python", "databaseAnalyser.py", schema_file]),
-        ("🧪 Steg 2: Kjører qualityControl...", ["python", "qualityControl.py", schema_file.replace(".json", "_analyzed.json")]),
-        ("🤖 Steg 3: Kjører aiDataGenerator...", ["python", "aiDataGenerator.py", schema_file.replace(".json", "_analyzed_qualitychecked.json")]),
+        ("🔍 Steg 1: Kjører databaseAnalyser...", [python_exec, "databaseAnalyser.py", schema_file]),
+        ("🧪 Steg 2: Kjører qualityControl...", [python_exec, "qualityControl.py", schema_file.replace(".json", "_analyzed.json")]),
+        ("🤖 Steg 3: Kjører aiDataGenerator...", [python_exec, "aiDataGenerator.py", schema_file.replace(".json", "_analyzed_qualitychecked.json")]),
+        ("🧹 Steg 4: Kjører qualityControl_2 på cleanData.json...", [python_exec, "qualityControl_2.py"]),
+        ("🗄️ Steg 5: Kjører testDatabaseCreator på cleanDataQcChecked.json...", [python_exec, "testDatabaseCreator.py"]),
     ]
     total_start = time.time()
     if TQDM_AVAILABLE:
