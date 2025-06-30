@@ -1,0 +1,205 @@
+{
+  "tables": [
+    {
+      "table_name": "dbo.CustomerData",
+      "columns": [
+        {
+          "name": "CustomerID",
+          "type": "int",
+          "key_type": "PK",
+          "is_pii": false,
+          "pii_reason": null
+        },
+        {
+          "name": "FirstName",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Person's name."
+        },
+        {
+          "name": "LastName",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Person's name."
+        },
+        {
+          "name": "FullName",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Concatenation of person's names."
+        },
+        {
+          "name": "Email",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Contact information; potentially identifying."
+        },
+        {
+          "name": "PhoneNumber",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Contact information; potentially identifying."
+        },
+        {
+          "name": "SSN",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Government-issued ID number."
+        },
+        {
+          "name": "PassportNumber",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Government-issued travel document."
+        },
+        {
+          "name": "NationalID",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "National identification number."
+        },
+        {
+          "name": "BirthDate",
+          "type": "date",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personally identifiable information; can be used to identify a person."
+        },
+        {
+          "name": "AddressLine1",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Physical address."
+        },
+        {
+          "name": "AddressLine2",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Physical address."
+        },
+        {
+          "name": "City",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Part of physical address."
+        },
+        {
+          "name": "State",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Part of physical address."
+        },
+        {
+          "name": "PostalCode",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Part of physical address."
+        },
+        {
+          "name": "Country",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Part of physical address."
+        },
+        {
+          "name": "Username",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "User account identifier; potentially identifying."
+        },
+        {
+          "name": "PasswordHash",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": false,
+          "pii_reason": null
+        },
+        {
+          "name": "CreditCardNumber",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Financial information."
+        },
+        {
+          "name": "CVV",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Financial information; security code."
+        },
+        {
+          "name": "ExpirationDate",
+          "type": "date",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Financial information."
+        },
+        {
+          "name": "IPAddress",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Network identifying information; can be used to track activity."
+        },
+        {
+          "name": "MACAddress",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Hardware identifying information; can be used to track devices."
+        },
+        {
+          "name": "BankAccountNumber",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Financial information."
+        },
+        {
+          "name": "IBAN",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "International bank account number; financial information."
+        },
+        {
+          "name": "BIC",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": false,
+          "pii_reason": null
+        },
+        {
+          "name": "BiometricHash",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Sensitive biometric data."
+        },
+        {
+          "name": "Notes",
+          "type": "text",
+          "key_type": null,
+          "is_pii": false,
+          "pii_reason": null
+        }
+      ]
+    }
+  ]
+}
