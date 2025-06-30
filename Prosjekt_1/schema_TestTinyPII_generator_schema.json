@@ -1,0 +1,205 @@
+{
+  "tables": [
+    {
+      "table_name": "dbo.CustomerData",
+      "columns": [
+        {
+          "name": "CustomerID",
+          "type": "int",
+          "key_type": "PK",
+          "is_pii": false,
+          "pii_reason": null
+        },
+        {
+          "name": "FirstName",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personal identifier - name"
+        },
+        {
+          "name": "LastName",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personal identifier - name"
+        },
+        {
+          "name": "FullName",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Concatenation of personal identifiers (names)"
+        },
+        {
+          "name": "Email",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personal identifier - email address"
+        },
+        {
+          "name": "PhoneNumber",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personal identifier - phone number"
+        },
+        {
+          "name": "SSN",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Government-issued ID (Social Security Number)"
+        },
+        {
+          "name": "PassportNumber",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Government-issued ID (passport number)"
+        },
+        {
+          "name": "NationalID",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Government-issued ID (national identification number)"
+        },
+        {
+          "name": "BirthDate",
+          "type": "date",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personal identifier - birth date"
+        },
+        {
+          "name": "AddressLine1",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personal identifier - address"
+        },
+        {
+          "name": "AddressLine2",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personal identifier - address"
+        },
+        {
+          "name": "City",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personal identifier - part of address"
+        },
+        {
+          "name": "State",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personal identifier - part of address"
+        },
+        {
+          "name": "PostalCode",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personal identifier - part of address"
+        },
+        {
+          "name": "Country",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personal identifier - part of address"
+        },
+        {
+          "name": "Username",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Personal identifier - username"
+        },
+        {
+          "name": "PasswordHash",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": false,
+          "pii_reason": null
+        },
+        {
+          "name": "CreditCardNumber",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Financial information - credit card number"
+        },
+        {
+          "name": "CVV",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Financial information - CVV code"
+        },
+        {
+          "name": "ExpirationDate",
+          "type": "date",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Financial Information - credit card expiration date"
+        },
+        {
+          "name": "IPAddress",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Network identifier - IP address"
+        },
+        {
+          "name": "MACAddress",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Network identifier - MAC address"
+        },
+        {
+          "name": "BankAccountNumber",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Financial information - bank account number"
+        },
+        {
+          "name": "IBAN",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Financial information - IBAN"
+        },
+        {
+          "name": "BIC",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": false,
+          "pii_reason": null
+        },
+        {
+          "name": "BiometricHash",
+          "type": "nvarchar",
+          "key_type": null,
+          "is_pii": true,
+          "pii_reason": "Biometric data - hash"
+        },
+        {
+          "name": "Notes",
+          "type": "text",
+          "key_type": null,
+          "is_pii": false,
+          "pii_reason": null
+        }
+      ]
+    }
+  ]
+}

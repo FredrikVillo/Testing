@@ -1,0 +1,32 @@
+[
+  {
+    "CustomerID": 12345,
+    "FirstName": "Ola",
+    "LastName": "Nordmann",
+    "FullName": "Ola Nordmann",
+    "Email": "ola.nordmann@example.com",
+    "PhoneNumber": "+4798765432",
+    "SSN": "000-00-0000",
+    "PassportNumber": "ABC123XYZ",
+    "NationalID": "12345678901",
+    "BirthDate": "1980-01-15",
+    "AddressLine1": "Storgata 1",
+    "AddressLine2": null,
+    "City": "Oslo",
+    "State": null,
+    "PostalCode": "0101",
+    "Country": "Norge",
+    "Username": "ola.nordmann",
+    "PasswordHash": "$2a$10$abcdefghijklmnopqrstuvwxzy",
+    "CreditCardNumber": "4111111111111111",
+    "CVV": "123",
+    "ExpirationDate": "2025-12-31",
+    "IPAddress": "192.168.1.1",
+    "MACAddress": "00:11:22:33:44:55",
+    "BankAccountNumber": "1234567890",
+    "IBAN": "NO1212345678901234567890",
+    "BIC": "DNBANOKXX",
+    "BiometricHash": "$2a$10$zyxwvutsrqponmlkjihgfedcba",
+    "Notes": "Testkunde. Ikke bruk i produksjon."
+  }
+]
