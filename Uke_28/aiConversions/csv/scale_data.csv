@@ -1,0 +1,23 @@
+ID,SCALETYPE,NAME0,NAME1,NAME2,DESCRIPTION0,DESCRIPTION1,DESCRIPTION2,SORTORDER,DELETED,CREATED,MODIFIED,GUID
+1001,1,Growth Marketing Strategist,Growth Marketing Strategist,Growth Marketing Strategist,Job Title: Growth Marketing Strategist,,,10,0,2024-03-14 09:40:32,2025-07-08 09:40:32,0b9f6bc3-3654-4c24-8c31-a0b6ed9e1b54
+1002,1,Sustainability Program Coordinator,Sustainability Program Coordinator,Sustainability Program Coordinator,Job Title: Sustainability Program Coordinator,,,20,0,2022-11-13 09:40:32,2025-07-08 09:40:32,61846753-2589-43d6-9671-0927ac7af912
+1003,1,Data Visualization Specialist,Data Visualization Specialist,Data Visualization Specialist,Job Title: Data Visualization Specialist,,,30,0,2024-02-25 09:40:32,2025-07-08 09:40:32,dc23d3fa-0394-447a-a2e1-c162a24d57ec
+1004,1,Remote Culture Manager,Remote Culture Manager,Remote Culture Manager,Job Title: Remote Culture Manager,,,40,0,2022-10-20 09:40:32,2025-07-08 09:40:32,b8fbb4a6-0994-4668-a2ec-d8724d33cf17
+1005,1,AI Ethics Consultant,AI Ethics Consultant,AI Ethics Consultant,Job Title: AI Ethics Consultant,,,50,0,2023-09-12 09:40:32,2025-07-08 09:40:32,12325afb-330b-45cf-b433-8ec3e86067ca
+2001,2,Male,Male,Male,Gender: Male,,,60,0,2023-07-18 09:40:32,2025-07-08 09:40:32,d6319282-5cb0-483f-ba10-11528a0e13e4
+2002,2,Female,Female,Female,Gender: Female,,,70,0,2024-08-30 09:40:32,2025-07-08 09:40:32,94ad439b-1c77-4c6f-aa45-ed0e0601db06
+3001,3,Junior,,,Junior level position,,,80,0,2024-05-29 09:40:32,2025-07-08 09:40:32,086615ff-e6d5-4f13-9f1d-936138d16905
+3002,3,Mid-level,,,Mid-level level position,,,90,0,2023-01-10 09:40:32,2025-07-08 09:40:32,4cffbac1-70e2-440c-85e9-48f221e62c18
+3003,3,Senior,,,Senior level position,,,100,0,2024-08-23 09:40:32,2025-07-08 09:40:32,a24a4755-d49f-4945-95c7-f9ec29ab9e0c
+3004,3,Lead,,,Lead level position,,,110,0,2023-02-23 09:40:32,2025-07-08 09:40:32,a62e10e8-37ed-4b8e-81e9-d6f40baa56f9
+4001,4,Permanent,,,Permanent employee,,,120,0,2024-10-29 09:40:32,2025-07-08 09:40:32,37b7869c-a8cc-4973-a5b5-f6ff679b4960
+4002,4,Contractor,,,Contractor employee,,,130,0,2023-05-11 09:40:32,2025-07-08 09:40:32,cb057c0a-9321-44a1-9c3d-cf8cdf12c881
+4003,4,Intern,,,Intern employee,,,140,0,2024-10-17 09:40:32,2025-07-08 09:40:32,fa9e2f33-a7d9-4cb1-b5be-50a5a7094095
+5001,5,Single,,,Single,,,150,0,2023-02-16 09:40:32,2025-07-08 09:40:32,658aa795-380a-4092-9efa-4c05e4230a9f
+5002,5,Married,,,Married,,,160,0,2023-01-04 09:40:32,2025-07-08 09:40:32,cba9b291-7b0a-48da-80c0-0573d89dee21
+6001,6,Norwegian,,,Norwegian,,,170,0,2023-10-02 09:40:32,2025-07-08 09:40:32,afaf984c-83a1-497d-9407-85fa27cc0978
+6002,6,Swedish,,,Swedish,,,180,0,2024-11-22 09:40:32,2025-07-08 09:40:32,12dab090-71ec-498f-9476-e7e4f7c4f79f
+6003,6,Danish,,,Danish,,,190,0,2022-12-15 09:40:32,2025-07-08 09:40:32,34e4a064-2967-4cfc-ab34-9d71093ba876
+7001,7,Norway,,,Norway,,,200,0,2024-08-12 09:40:32,2025-07-08 09:40:32,783e5b33-e863-44b0-9236-37350f888e66
+7002,7,Sweden,,,Sweden,,,210,0,2023-06-01 09:40:32,2025-07-08 09:40:32,84a21d90-ff71-441b-9077-f6096ddbf39e
+7003,7,Denmark,,,Denmark,,,220,0,2023-04-24 09:40:32,2025-07-08 09:40:32,ec14283f-6ff0-4499-aafa-268301f45149

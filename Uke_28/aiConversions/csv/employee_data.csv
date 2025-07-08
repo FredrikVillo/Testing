@@ -1,0 +1,478 @@
+EMPLOYEE,ORGANIZATION,EMPLOYEENO,SURNAME,GIVENNAME,MIDDLENAME,COMMONNAME,MAIL,PRIVATEMAIL,BIRTHDATE,EMPLOYMENTDATE,EMPLOYMENTEND,ADDRESS1,ADDRESS2,ADDRESS3,ADDRESS4,ZIPCODE,NICKNAME,USERID,PASSWORD,BUILDINGNAME,EMPLOYEETYPE,PHOTOURL,TITLE,PROFILE_TITLE,MANAGER,TEMPMANAGER,ONVACATION,LASTLOGON,LASTUSEDOBJECT,LASTUSEDACTIVITY,MODIFIED,MODIFIEDBY,MODIFICATIONNO,SECRETARY,SUPERVISOR,SECONDARYORG,PRIMARYMANAGER,SECONDARYMANAGER,HRMANAGER,DIRECTORYDN,DIRECTORYMODIFIED,PHOTO_ID,JOB_DESCRIPTION,POSITION_LEVEL,GENDER,HOMEADDRESS,DATEOFBIRTH,SOCIALSECURITYNUMBER,NATIONALITY,COUNTRY,MARITALSTATUS,POSITION,MOBILITY,FLIGHT_RISK,CAREER_AMBITIONS,CAREER_PLANNING_TOPICS,DEPARTMENTMANAGER,BASIC_SALARY,POSITION_CODE,MARKET_VALUE,HIRING_DATE,TERMINATION_DATE,WORKING_HOURS,STATUS,TYPE_OF_PAY,WEEKLY_WORK_HOURS,GUID
+1,67,EMP00001,Bowers,Brooke,Sheila,Natalie,valerie37@example.org,hchristensen@example.org,1991-06-09,2021-04-24,,834 Stanley Ville Suite 046,Apt. 774,,,73688,Melissa,user1,m90CZ0&*#z,course,4002,https://dummyimage.com/671x792,1003,Archaeologist,32,,1,2025-07-08 10:05:06,,,2025-07-08 10:05:06,qingram,9,,,,,,,"CN=Michael Smith,OU=People,DC=example,DC=com",2025-07-08 10:05:06,,Outdoor activities/education manager,3004,2001,"PSC 6443, Box 0399
+APO AE 16751",1991-06-09,418-22-2930,6001,7001,5002,3,0,1,3,"""Identifying Growth Opportunities Within Your Current Role""  
+
+This discussion could focus on exploring ways the employee can deepen their expertise, take on new challenges, or expand their responsibilities within their current position. Topics might include developing specific skills, cross-functional collaboration,",,43253,POSUDzA,15705,2021-04-24,,24,1,1,31,fc5700ed-89d4-4933-a212-f9e9f357409a
+2,33,EMP00002,Flores,Penny,Robin,Nancy,burgesskristen@example.com,robinsonmichael@example.net,1985-06-28,2005-11-10,,43815 Christopher Ports Suite 424,Suite 618,,,79014,Elaine,user2,^60TRWcf*5,establish,4003,https://dummyimage.com/694x277,1003,"Programme researcher, broadcasting/film/video",70,,1,2025-07-08 10:05:07,,,2025-07-08 10:05:07,whenderson,9,,,,,,,"CN=Pamela Roberts,OU=People,DC=example,DC=com",2025-07-08 10:05:07,,Air traffic controller,3001,2002,"691 Margaret Groves Apt. 652
+East Alexanderfort, MN 15828",1985-06-28,756-30-0175,6002,7002,5002,4,0,0,1,"A realistic career planning discussion topic for an employee could be:
+
+**""Identifying Growth Opportunities within Your Current Role and Beyond""**
+
+This topic allows the employee and their manager to explore ways to enhance the employee's skills, take on new challenges, and",,55053,POSByGb,93,2005-11-10,,39,1,1,28,c05be163-eebc-4f2f-90da-902e75386de3
+3,69,EMP00003,James,Kristin,Heather,Gregory,michellerodriguez@example.org,bradley04@example.org,1995-08-29,2019-03-16,,881 Mark Forge Apt. 444,Suite 970,,,73699,Darrell,user3,t#39McKduz,author,4001,https://placekitten.com/859/493,1003,Tour manager,85,,0,2025-07-08 10:05:08,,,2025-07-08 10:05:08,fwallace,10,,,,,,,"CN=Sheryl Montgomery DVM,OU=People,DC=example,DC=com",2025-07-08 10:05:08,,"Biochemist, clinical",3002,2001,"394 Pierce Light
+Reginaton, NC 64439",1995-08-29,551-06-8415,6001,7001,5001,5,1,1,1,"""Exploring Growth Opportunities Within Your Current Role and Beyond""  
+
+This discussion can focus on identifying ways the employee can deepen their expertise, take on new challenges, and expand their impact within their current position, while also exploring potential pathways for career advancement.",,14433,POSlDfe,82425,2019-03-16,,25,1,1,26,4118ec0d-a72a-4ee1-b12f-25a31f76fb3b
+4,3,EMP00004,Hill,Ricky,Amanda,Mary,allenmitchell@example.org,yjennings@example.com,1976-03-03,2012-03-13,,26012 Reed Greens Suite 606,Apt. 392,,,55675,Tammy,user4,$K34JVPn(N,resource,4003,https://dummyimage.com/784x228,1002,Make,50,,0,2025-07-08 10:05:09,,,2025-07-08 10:05:09,amychristian,1,,,,,,,"CN=Samuel Smith,OU=People,DC=example,DC=com",2025-07-08 10:05:09,,Archivist,3003,2001,"8660 Phillips Roads
+Collinstown, GU 54661",1976-03-03,053-19-2808,6001,7002,5002,5,1,1,3,"""Identifying and Building Key Skills for Future Career Growth""  
+
+This discussion could focus on helping the employee identify the core skills they need to develop to align with their career aspirations and organizational goals. It could include:  
+- Assessing their current strengths",,55388,POSkJBt,40874,2012-03-13,,23,1,1,38,795215ce-81e7-4040-be8a-4864cc41a882
+5,57,EMP00005,Martin,Cynthia,Gregory,Kristy,scottnicholas@example.com,joelschaefer@example.com,1975-07-31,2018-07-16,,3333 David Shores,Apt. 723,,,03943,Brian,user5,cne#X2Cv%(,social,4002,https://placekitten.com/759/96,1003,Higher education careers adviser,7,,0,2025-07-08 10:05:10,,,2025-07-08 10:05:10,browntina,3,,,,,,,"CN=John Peters,OU=People,DC=example,DC=com",2025-07-08 10:05:10,,"Therapist, horticultural",3002,2002,"2914 Jeremiah Divide
+Smithland, VA 90765",1975-07-31,759-87-4534,6002,7001,5002,5,1,1,1,"""Exploring Growth Opportunities and Skill Development for Career Progression""
+
+This topic focuses on identifying the employee's professional goals, assessing their current skill set, and discussing potential opportunities for growth within the organization. The conversation can include exploring training programs, mentorship opportunities",,86208,POSTRSI,90823,2018-07-16,,24,1,1,34,b2a71632-6cc0-4d1c-87d7-33a7f0811fa5
+6,58,EMP00006,Ryan,Vicki,Vanessa,Michael,gary09@example.net,qjones@example.com,1989-01-25,2009-04-23,,0071 Dunn Spur,Apt. 332,,,21094,Austin,user6,^5_UYSprb9,picture,4003,https://placekitten.com/641/466,1003,Immunologist,74,,0,2025-07-08 10:05:11,,,2025-07-08 10:05:11,dbryan,4,,,,,,,"CN=Paula Ramsey,OU=People,DC=example,DC=com",2025-07-08 10:05:11,,Market researcher,3002,2001,"92540 Anthony Stream
+Hamiltonmouth, PW 89643",1989-01-25,053-28-3585,6002,7001,5002,5,0,0,1,"""Exploring Skill Development Opportunities for Future Roles""  
+
+This topic focuses on identifying the employee's current strengths and areas for growth, aligning these with potential career aspirations within or outside the organization. The discussion can include assessing future industry trends, identifying skills that",,35507,POSQEoi,92983,2009-04-23,,26,1,1,26,51b5be72-53d4-4d3f-90e3-e231a8fbd408
+7,100,EMP00007,Barker,Jeffrey,Michael,Monica,uward@example.org,morrismichelle@example.org,2002-02-23,2023-11-17,,21416 Samuel Circles Apt. 363,Apt. 895,,,85366,Eugene,user7,0DqoW^wg_k,myself,4003,https://picsum.photos/320/86,1003,Hydrologist,40,,1,2025-07-08 10:05:12,,,2025-07-08 10:05:12,fmoore,10,,,,,,,"CN=Kathleen Steele,OU=People,DC=example,DC=com",2025-07-08 10:05:12,,Proofreader,3004,2001,"4717 Ortiz Skyway
+South Amystad, PA 82294",2002-02-23,038-19-8940,6002,7002,5002,2,1,0,1,"""Identifying Growth Opportunities Within Your Current Role""  
+
+This discussion could focus on exploring ways the employee can enhance their skills, take on new responsibilities, or work on challenging projects to grow within their current position. Topics might include identifying areas where they can",,90123,POSNjay,14688,2023-11-17,,29,1,1,22,235cf6a7-3aa3-4ef9-b475-0e83ec001acf
+8,77,EMP00008,Jimenez,Robert,Ashley,Sierra,ogutierrez@example.org,sandra21@example.org,1962-01-01,2017-01-20,,35822 Ryan Shoal Suite 011,Apt. 009,,,78258,Tracey,user8,_8l#p5Pt3s,personal,4002,https://dummyimage.com/39x7,1004,Planning and development surveyor,38,,0,2025-07-08 10:05:14,,,2025-07-08 10:05:14,collinslauren,1,,,,,,,"CN=Karen Smith,OU=People,DC=example,DC=com",2025-07-08 10:05:14,,Retail banker,3001,2001,"0067 Jennifer Islands Suite 832
+Port Natalieland, WA 80206",1962-01-01,336-15-4321,6001,7001,5001,4,0,1,1,"**""Exploring Opportunities for Skill Development and Career Growth""**
+
+This topic allows for a constructive discussion about the employee's current skills, interests, and career aspirations while identifying opportunities for professional development. It can include exploring potential training programs, certifications, mentorship",,84978,POSOYaN,20364,2017-01-20,,28,1,1,24,a426ea2d-401d-4f54-b7f8-5502f1b0292d
+9,54,EMP00009,Cunningham,Valerie,Ann,Cameron,lyonsjohn@example.net,vanessamitchell@example.net,1980-09-15,2001-01-18,,3924 Walker Circle,Suite 843,,,35725,Miranda,user9,xox9#IaW($,population,4002,https://dummyimage.com/747x66,1002,Retail manager,39,,1,2025-07-08 10:05:15,,,2025-07-08 10:05:15,amanda17,7,,,,,,,"CN=Lauren Pratt,OU=People,DC=example,DC=com",2025-07-08 10:05:15,,Video editor,3004,2002,"Unit 9596 Box 7968
+DPO AP 46327",1980-09-15,577-29-6554,6003,7001,5001,5,0,0,1,"""Exploring Growth Opportunities Aligned with Personal Strengths and Organizational Goals""  
+
+This topic encourages the employee to reflect on their unique skills, interests, and areas of expertise while identifying how these align with the company's objectives. The discussion could include:
+
+-",,72142,POSsoKf,37877,2001-01-18,,34,1,1,36,74e486e2-c7ef-4712-8114-9c681cfff1db
+10,85,EMP00010,Collins,Beth,Sheri,Thomas,simmonsangela@example.org,david28@example.com,1962-01-11,2013-04-25,,1616 Kevin Summit Suite 278,Apt. 973,,,52918,Christopher,user10,0SvNCz8+#7,push,4003,https://picsum.photos/685/1017,1004,Mudlogger,23,,1,2025-07-08 10:05:16,,,2025-07-08 10:05:16,qhobbs,9,,,,,,,"CN=Ashley Ross,OU=People,DC=example,DC=com",2025-07-08 10:05:16,,"Pilot, airline",3001,2001,"USS Perez
+FPO AE 58354",1962-01-11,067-20-2959,6002,7001,5001,2,1,0,1,"Certainly! Here's a realistic career planning discussion topic for an employee:
+
+**""Exploring Skills Development for Career Growth"":**
+
+This topic focuses on identifying key skills the employee can develop to enhance their current role, prepare for future opportunities, and align with their",,58556,POSFENt,4635,2013-04-25,,32,1,1,35,f1651250-274c-4091-a7c7-11797bbb57d9
+11,46,EMP00011,Mitchell,Carolyn,Rebecca,Nathan,larryscott@example.org,betty98@example.net,1995-12-05,2015-02-05,,33189 Stewart Island Suite 690,Apt. 389,,,82217,Ashley,user11,XT5SJp1h%a,travel,4002,https://placekitten.com/544/182,1004,Museum/gallery curator,56,,1,2025-07-08 10:05:17,,,2025-07-08 10:05:17,jeffrey21,4,,,,,,,"CN=Corey Saunders,OU=People,DC=example,DC=com",2025-07-08 10:05:17,,Human resources officer,3004,2001,"3760 John Station
+Kevinborough, MI 38979",1995-12-05,564-65-8625,6001,7001,5002,1,1,1,3,"""Identifying Growth Opportunities and Skill Development Goals""  
+
+This discussion can focus on helping the employee assess their current skills and strengths, while exploring areas for improvement or new skills they want to develop. It can also include identifying potential career paths within the organization",,87637,POSrTyH,99445,2015-02-05,,36,1,1,35,d5035c4c-da62-4de0-b565-e408cb534377
+12,67,EMP00012,Castillo,Scott,Steven,Daniel,kyle17@example.org,christopherfox@example.com,1974-10-02,2003-01-21,,224 Stephanie Cliffs Apt. 661,Apt. 092,,,52343,Whitney,user12,Gj4rKkUl&#,shake,4002,https://dummyimage.com/23x219,1001,Consulting civil engineer,85,,1,2025-07-08 10:05:18,,,2025-07-08 10:05:18,bradshawkathryn,5,,,,,,,"CN=Shirley Vega,OU=People,DC=example,DC=com",2025-07-08 10:05:18,,Exercise physiologist,3002,2002,"07908 Krueger Village
+Jasonside, NC 22221",1974-10-02,848-02-3698,6003,7001,5002,2,1,1,1,"""Exploring Growth Opportunities Within the Organization""  
+
+This discussion can focus on identifying the employee's career aspirations, skills, and interests, while also exploring potential roles, projects, or responsibilities within the organization that align with their goals. It can include:",,54086,POSuFcL,76386,2003-01-21,,28,1,1,24,36383eb0-3afa-4a5a-bfa9-e37aa0b03078
+13,12,EMP00013,Herrera,Sandra,Lacey,Jason,brianna58@example.org,evansjessica@example.org,1998-01-10,2019-11-03,,41809 Lauren Ville Suite 867,Suite 429,,,94219,Elaine,user13,*702Tx^6D(,mother,4003,https://placekitten.com/517/372,1005,Film/video editor,59,,0,2025-07-08 10:05:19,,,2025-07-08 10:05:19,tbradley,8,,,,,,,"CN=Michelle Matthews,OU=People,DC=example,DC=com",2025-07-08 10:05:19,,Agricultural engineer,3003,2002,"01457 Daniel Road Apt. 162
+Andreaburgh, SC 24081",1998-01-10,081-01-8555,6001,7002,5002,3,0,1,1,"**""Identifying Growth Opportunities Aligned with Your Strengths and Interests""**
+
+This topic focuses on helping the employee reflect on their unique skills, passions, and professional goals while exploring opportunities for growth within the organization. It encourages a conversation about how their",,51999,POSvuzX,10216,2019-11-03,,36,1,1,21,99feb9c3-e5cf-4623-99f3-7306367d52ba
+14,74,EMP00014,Gibson,Sean,Natasha,Brent,jamessutton@example.com,qlopez@example.com,1993-08-04,2020-05-13,,625 Gill Isle Suite 669,Suite 671,,,54739,Caleb,user14,o4a69BiP#L,statement,4002,https://placekitten.com/155/559,1005,Pensions consultant,85,,0,2025-07-08 10:05:20,,,2025-07-08 10:05:20,ibass,9,,,,,,,"CN=Cassandra Bennett,OU=People,DC=example,DC=com",2025-07-08 10:05:20,,Medical illustrator,3004,2002,"1637 Kent Forges
+Williamsmouth, AR 18647",1993-08-04,784-13-6241,6003,7003,5001,4,0,1,1,"""Identifying Growth Opportunities: Aligning Personal Strengths with Organizational Goals""
+
+This discussion topic focuses on helping the employee identify their core strengths, skills, and interests, and exploring how these align with the organization's current and future needs. The conversation could include",,3146,POSmkwu,87849,2020-05-13,,27,1,1,27,4afbc138-eed1-4c49-8b8a-a1f4bc6e8f38
+15,2,EMP00015,Williams,Rhonda,Pamela,Robert,clarkashley@example.org,denisesmith@example.com,1979-03-22,2016-11-18,,94299 Thomas Mountains,Apt. 753,,,60035,Brandon,user15,S1&3iGPp_@,so,4002,https://dummyimage.com/561x511,1001,"Psychologist, counselling",11,,1,2025-07-08 10:05:21,,,2025-07-08 10:05:21,hwarren,6,,,,,,,"CN=Jeff Johns,OU=People,DC=example,DC=com",2025-07-08 10:05:21,,Training and development officer,3002,2001,"05190 Kimberly Cape
+Paulburgh, WI 45529",1979-03-22,381-38-5738,6001,7003,5002,2,1,0,3,"""Identifying Opportunities for Skill Development to Align with Career Goals""
+
+This topic focuses on understanding the employee's long-term career aspirations and identifying specific skills or experiences they need to develop to achieve those goals. The discussion could include:
+
+- Exploring the employee's",,14605,POSMEch,22891,2016-11-18,,27,1,1,23,92098a6b-6530-4c8f-8d8a-0c4bc7d0b9ba
+16,37,EMP00016,Davis,Megan,Edward,Deanna,edwardparker@example.net,francisco63@example.net,1999-07-12,2024-10-02,,920 Nunez Forks Apt. 839,Apt. 637,,,62701,Brenda,user16,(s&xPN2977,rest,4001,https://picsum.photos/340/598,1004,Television production assistant,89,,0,2025-07-08 10:05:22,,,2025-07-08 10:05:22,paulwood,3,,,,,,,"CN=Kristin Lewis,OU=People,DC=example,DC=com",2025-07-08 10:05:22,,Claims inspector/assessor,3004,2001,"87174 Keith Bypass
+North Danielleville, NJ 67931",1999-07-12,889-78-4278,6001,7003,5001,5,0,0,3,"A realistic career planning discussion topic for an employee could be:  
+
+**""Identifying Skill Gaps and Creating a Development Plan for Future Roles""**  
+
+In this discussion, you can collaboratively explore:  
+- The employee's long-term career goals and",,82230,POSlKiv,91526,2024-10-02,,31,1,1,27,fa641741-9d16-495b-bde4-c5059cddc298
+17,28,EMP00017,Holland,Paul,Jesus,Bryan,kristinsmith@example.org,dmyers@example.net,1999-11-14,2019-10-24,,51310 Joan Park,Suite 677,,,61377,Glenn,user17,*l*MLRf00W,here,4002,https://placekitten.com/391/792,1003,Health physicist,77,,1,2025-07-08 10:05:23,,,2025-07-08 10:05:23,kylemurphy,6,,,,,,,"CN=Kevin Mcdowell,OU=People,DC=example,DC=com",2025-07-08 10:05:23,,Training and development officer,3002,2001,"0441 French Cove
+Lake Dillonburgh, NE 68801",1999-11-14,140-13-8962,6002,7001,5001,2,1,1,3,"""Exploring Growth Opportunities Within the Company: Identifying Skills and Roles for Long-Term Career Development""  
+
+This topic focuses on understanding the employee’s career aspirations, discussing potential growth paths within the organization, and identifying skills or experiences they may need to achieve",,25235,POSRDVY,53883,2019-10-24,,22,1,1,21,4449b50d-3a2e-4ba9-a796-04bf721a7db3
+18,93,EMP00018,Jordan,Kelly,Raven,Robert,greendeborah@example.org,ugarcia@example.org,1977-09-17,1996-11-01,,7468 Scott Mill Apt. 495,Apt. 943,,,88166,Linda,user18,lGA8rSrk*%,administration,4002,https://placekitten.com/850/762,1005,Trade mark attorney,61,,1,2025-07-08 10:05:24,,,2025-07-08 10:05:24,pmurphy,1,,,,,,,"CN=Rachel Rodriguez,OU=People,DC=example,DC=com",2025-07-08 10:05:24,,"Editor, magazine features",3003,2001,"277 Edwards Curve
+South Justinburgh, OR 03467",1977-09-17,826-03-5865,6002,7001,5002,2,0,0,3,"**""Exploring Growth Opportunities Aligned with Your Strengths and Interests""**
+
+This topic encourages an open conversation about the employee's unique skills, passions, and career aspirations, while identifying actionable steps to help them achieve their goals within the organization. It",,29334,POSefBM,11329,1996-11-01,,30,1,1,33,5ae8873b-15bb-4d23-b5c3-6402fa6b256f
+19,8,EMP00019,Hess,Kenneth,Jennifer,Steven,santiagostephanie@example.net,sdawson@example.com,1960-08-14,2021-10-26,,51616 Jane Ville Suite 734,Suite 225,,,68139,Anna,user19,$7fgdW5SaP,development,4001,https://dummyimage.com/900x867,1005,Training and development officer,17,,1,2025-07-08 10:05:25,,,2025-07-08 10:05:25,ericlewis,3,,,,,,,"CN=Amber Garcia,OU=People,DC=example,DC=com",2025-07-08 10:05:25,,"Scientist, marine",3001,2002,"45730 Moore Rest Suite 857
+Johnburgh, VI 09503",1960-08-14,025-23-9697,6002,7001,5001,5,1,1,1,"""Exploring Growth Opportunities Within the Organization: Identifying Skills to Develop for Future Roles""
+
+This topic encourages employees to reflect on their career aspirations within the company, identify potential roles they are interested in, and discuss the skills or experiences they need to acquire",,34005,POScHII,11089,2021-10-26,,22,1,1,31,8616ccde-f259-463e-80a4-276d85360ef9
+20,47,EMP00020,Snyder,Steven,Samuel,Samantha,sharpsarah@example.org,abigailknapp@example.net,1960-08-04,2006-03-31,,062 Jonathon Grove,Apt. 523,,,30641,Ryan,user20,!W1gP!ya!C,civil,4003,https://placekitten.com/787/655,1004,Further education lecturer,17,,0,2025-07-08 10:05:26,,,2025-07-08 10:05:26,mmclaughlin,1,,,,,,,"CN=Larry Durham,OU=People,DC=example,DC=com",2025-07-08 10:05:26,,"Surveyor, land/geomatics",3002,2001,"4007 Smith Gateway Suite 123
+New Andreaport, MI 51685",1960-08-04,058-22-1060,6003,7002,5002,5,1,1,2,"""Identifying Growth Opportunities Aligned with Your Strengths and Long-Term Goals""
+
+This discussion could involve exploring the employee's current strengths, skills they want to develop, and their long-term career aspirations. Together, you can identify potential opportunities for growth within",,7456,POSGzfs,1933,2006-03-31,,31,1,1,33,4e01a392-b668-471a-8955-a4640faaecb7
+21,78,EMP00021,Navarro,Steven,Tara,Christopher,kellyreyes@example.com,crystal61@example.net,1986-01-23,2008-07-04,,6669 Romero Roads Suite 762,Apt. 617,,,71956,David,user21,b*c4ibOgO&,party,4001,https://placekitten.com/641/359,1001,Paramedic,31,,0,2025-07-08 10:05:28,,,2025-07-08 10:05:28,obraun,5,,,,,,,"CN=Jessica Hernandez,OU=People,DC=example,DC=com",2025-07-08 10:05:28,,Trade union research officer,3003,2001,"345 Jamie Trail
+South John, NJ 05897",1986-01-23,674-95-9992,6001,7002,5002,4,1,0,1,"""Identifying Growth Opportunities Within Your Current Role""
+
+This discussion can focus on helping the employee explore ways to deepen their expertise, take on new responsibilities, or develop skills that align with their career goals. Topics could include cross-training, leadership development, mentoring",,20436,POSfkxb,74275,2008-07-04,,33,1,1,21,b1f77b60-9083-455b-90dd-cd95b0c42823
+22,26,EMP00022,Young,Austin,Miranda,Thomas,ucollins@example.org,laceyjohns@example.com,1972-04-17,2009-01-14,,334 Jones Turnpike,Apt. 089,,,11049,Thomas,user22,Z$gGgcya*0,less,4001,https://dummyimage.com/714x748,1004,Management consultant,86,,0,2025-07-08 10:05:29,,,2025-07-08 10:05:29,kellermadison,5,,,,,,,"CN=Karen Perez,OU=People,DC=example,DC=com",2025-07-08 10:05:29,,Financial manager,3002,2002,"89736 Valerie Isle Suite 755
+Phillipburgh, OR 47996",1972-04-17,587-04-9353,6002,7001,5002,4,0,0,1,"""Exploring Skill Development Opportunities for Long-Term Career Growth""  
+
+This topic focuses on identifying the employee's current skill set, discussing areas for improvement, and exploring new skills they can develop to align with their long-term career goals. The conversation can include",,77364,POSKOhS,11086,2009-01-14,,33,1,1,33,cd9cc193-3a85-4606-8cf9-d803f7da1a20
+23,89,EMP00023,Jackson,Pamela,Laura,Kimberly,xhardy@example.net,elizabethjohnson@example.com,1966-04-25,1991-08-19,,896 Bryan Unions Apt. 629,Apt. 983,,,26243,Andrew,user23,#0J5VoWiJ5,whatever,4001,https://dummyimage.com/475x921,1005,"Surveyor, quantity",95,,1,2025-07-08 10:05:30,,,2025-07-08 10:05:30,walshraymond,6,,,,,,,"CN=Brian Young,OU=People,DC=example,DC=com",2025-07-08 10:05:30,,"Teacher, early years/pre",3004,2002,"24602 Nelson Fall Apt. 230
+Acevedoberg, RI 64701",1966-04-25,499-21-1721,6002,7003,5002,2,1,0,1,"Certainly! Here's a realistic career planning discussion topic for an employee:
+
+**""Identifying Skills for Future Growth: Bridging Current Strengths and Long-Term Career Goals""**
+
+This topic focuses on helping the employee assess their current skill set, identify areas for",,78233,POSaWbd,69843,1991-08-19,,25,1,1,25,29795ca8-9367-4c67-95fe-31fc411093ee
+24,98,EMP00024,Butler,Amanda,Hunter,Daniel,olsonleroy@example.net,ashley77@example.net,1965-12-09,1985-09-30,,9727 Bauer Ville,Apt. 795,,,39443,Alexis,user24,e*pr7UFbRz,get,4001,https://dummyimage.com/312x581,1005,Systems analyst,63,,0,2025-07-08 10:05:31,,,2025-07-08 10:05:31,heatherhill,9,,,,,,,"CN=Timothy Cruz,OU=People,DC=example,DC=com",2025-07-08 10:05:31,,Corporate investment banker,3003,2001,"1273 Campbell Plain Suite 208
+East James, MA 68938",1965-12-09,664-93-9172,6003,7002,5001,1,0,1,1,"""Skill Development for Future Roles: Identifying Growth Areas Aligned with Organizational Goals""  
+
+This topic encourages the employee to reflect on their career aspirations and assess the skills they need to develop to advance toward those goals. It also aligns their growth with the",,34435,POSSRBX,43850,1985-09-30,,26,1,1,33,2e73e55d-691a-4cdb-afd3-774ea59b4e57
+25,60,EMP00025,Hunt,Cheryl,Samantha,Christine,williamfernandez@example.net,gary83@example.net,1965-02-06,2005-08-28,,7477 Steven Corners,Apt. 445,,,98386,Heather,user25,)QP3&SiqL7,voice,4001,https://placekitten.com/325/474,1001,Chief Executive Officer,48,,1,2025-07-08 10:05:32,,,2025-07-08 10:05:32,rodriguezmatthew,2,,,,,,,"CN=Marvin Jones,OU=People,DC=example,DC=com",2025-07-08 10:05:32,,Civil Service fast streamer,3002,2002,"60872 Villegas Park Suite 984
+Francestown, PW 11892",1965-02-06,761-15-5401,6002,7001,5001,2,1,1,1,"""Identifying Opportunities for Skill Development and Growth""  
+
+This topic focuses on helping the employee assess their current skill set, identify areas for improvement, and explore opportunities to enhance their expertise. The discussion can include:  
+
+- Evaluating their current role and",,17639,POSjshf,87234,2005-08-28,,25,1,1,21,8706150c-73c8-49b5-b7f0-e23b44d3594f
+26,18,EMP00026,Trevino,Kimberly,Jeffrey,Shawn,pvargas@example.org,idickerson@example.com,2000-10-14,2022-08-24,,4522 Brittany Corner Suite 255,Suite 267,,,76599,Mary,user26,B1FF&Hyx!9,network,4002,https://placekitten.com/33/70,1002,Senior tax professional/tax inspector,91,,1,2025-07-08 10:05:34,,,2025-07-08 10:05:34,laura08,4,,,,,,,"CN=Joe Brennan,OU=People,DC=example,DC=com",2025-07-08 10:05:34,,Press photographer,3004,2001,"733 Moore Street Suite 640
+New Gregorymouth, MI 38468",2000-10-14,493-43-0437,6002,7003,5002,2,1,0,2,"""Identifying and Building Skills for Future Career Growth""  
+
+This discussion could focus on:  
+- Assessing the employee's current strengths and areas for development.  
+- Exploring the skills and competencies required for roles they aspire to in the future.",,44274,POSxBvO,63481,2022-08-24,,26,1,1,26,421245f7-4e48-4d7c-9628-f887ed7c9374
+27,77,EMP00027,Gomez,Amy,Susan,Michael,cookisaiah@example.com,palmerharry@example.org,1987-06-28,2012-11-04,,6550 Quinn Fort,Suite 822,,,36497,Rebecca,user27,*aA*0AL!a^,region,4001,https://picsum.photos/419/971,1005,Commercial/residential surveyor,63,,1,2025-07-08 10:05:35,,,2025-07-08 10:05:35,joshua65,3,,,,,,,"CN=Jonathon Mills,OU=People,DC=example,DC=com",2025-07-08 10:05:35,,"Accountant, chartered certified",3002,2002,"34877 Fisher Street
+Hallhaven, OK 80293",1987-06-28,343-17-1742,6001,7002,5002,5,0,1,2,"Certainly! Here's a realistic career planning discussion topic for an employee:
+
+**""Exploring Growth Opportunities Within the Organization""**
+
+Focus the conversation on identifying potential career paths within the company that align with the employee's skills, interests, and long-term goals.",,5082,POSVSTV,87172,2012-11-04,,28,1,1,25,003fc864-73b5-4ca9-8587-5efb40ee3302
+28,27,EMP00028,Gross,Lisa,Paul,Nathan,jesse35@example.com,jillcruz@example.com,1961-08-02,1979-12-15,,50110 Jennifer Flat,Apt. 424,,,06932,David,user28,&%IQK8Znm7,usually,4001,https://dummyimage.com/239x967,1004,Logistics and distribution manager,23,,0,2025-07-08 10:05:36,,,2025-07-08 10:05:36,smithjames,10,,,,,,,"CN=Chad Andersen,OU=People,DC=example,DC=com",2025-07-08 10:05:36,,Media planner,3002,2002,"7702 Marquez Mountain Suite 584
+Cantrellchester, FM 91187",1961-08-02,786-76-4948,6001,7002,5001,3,1,0,3,"""Exploring Growth Opportunities Within Your Current Role and Beyond""
+
+This discussion could focus on identifying areas where the employee can further develop their skills, take on new challenges, or expand their responsibilities within their current position. It can also touch on potential long-term",,28379,POSBIVX,69992,1979-12-15,,36,1,1,20,b5008047-518c-47b0-ba49-d073896c4145
+29,71,EMP00029,Gutierrez,Maurice,Erin,Kimberly,gdavis@example.org,ann07@example.org,1974-06-13,2008-11-05,,08872 Anthony Neck,Apt. 188,,,11985,Stacey,user29,Q%8F6Cob#E,admit,4002,https://picsum.photos/692/200,1002,Therapeutic radiographer,92,,1,2025-07-08 10:05:37,,,2025-07-08 10:05:37,ychavez,5,,,,,,,"CN=Marissa Smith,OU=People,DC=example,DC=com",2025-07-08 10:05:37,,Industrial/product designer,3001,2001,"0867 Matthew Highway Suite 908
+West Davidside, DC 98526",1974-06-13,324-64-0654,6003,7002,5001,5,1,1,2,"""Exploring Growth Opportunities Within the Organization""
+
+This discussion can focus on identifying the employee's career aspirations and aligning them with potential advancement opportunities within the company. Topics might include skill development, leadership training, cross-functional projects, or transitioning into roles that match",,82484,POSKNFp,43223,2008-11-05,,40,1,1,33,6c9bcf5f-2868-461c-b0bd-d42eed0b7316
+30,97,EMP00030,Bell,Mark,Samuel,Thomas,amandacook@example.org,nicole66@example.net,1981-08-01,2024-10-16,,15925 Hodge Stravenue,Suite 160,,,99012,Lisa,user30,$D3XL+t4js,born,4001,https://dummyimage.com/814x579,1004,Visual merchandiser,35,,0,2025-07-08 10:05:38,,,2025-07-08 10:05:38,georgemichelle,5,,,,,,,"CN=Douglas Russell,OU=People,DC=example,DC=com",2025-07-08 10:05:38,,"Engineer, maintenance",3001,2001,"USNS Brown
+FPO AE 58106",1981-08-01,506-01-8154,6003,7001,5001,4,0,0,1,"Certainly! Here's a realistic career planning discussion topic:
+
+**""Identifying Skills Gaps and Growth Opportunities""**
+
+This topic focuses on assessing the employee's current skill set, identifying areas where they can improve, and exploring opportunities for growth within the organization.",,11779,POSHJZB,46141,2024-10-16,,21,1,1,32,576ce8ca-9a68-4096-9777-fbb59b787c3f
+31,36,EMP00031,Watkins,Karen,Rhonda,Jay,lcombs@example.com,rebekahwest@example.com,1968-02-10,1992-02-15,,315 Jacob Cove Suite 172,Suite 243,,,91047,Victoria,user31,s7tBAwCj#5,start,4002,https://dummyimage.com/458x437,1003,English as a foreign language teacher,84,,1,2025-07-08 10:05:39,,,2025-07-08 10:05:39,alexis93,4,,,,,,,"CN=Christopher Tucker,OU=People,DC=example,DC=com",2025-07-08 10:05:39,,English as a second language teacher,3003,2002,"009 Thompson Wall
+Port Anthony, WA 15669",1968-02-10,516-48-0548,6002,7002,5002,2,1,1,3,"""Exploring Growth Opportunities Within the Company: Identifying Skills and Roles Aligned with Your Career Goals""
+
+This topic allows the employee to reflect on their long-term aspirations while discussing potential career paths within the organization. The conversation can focus on identifying the employee",,18655,POSJfpN,3346,1992-02-15,,31,1,1,21,731cfe22-340c-4d6f-a836-3d09b5bc9a48
+32,17,EMP00032,Ramirez,Shannon,Adrienne,Ryan,cmoore@example.com,jennifercraig@example.net,1990-07-24,2010-10-31,,98166 Candace Walks Apt. 540,Apt. 783,,,64299,Linda,user32,$jb!H8ZmaJ,common,4002,https://placekitten.com/437/1013,1003,"Editor, commissioning",84,,1,2025-07-08 10:05:40,,,2025-07-08 10:05:40,susan89,5,,,,,,,"CN=Loretta Miller,OU=People,DC=example,DC=com",2025-07-08 10:05:40,,Social worker,3002,2001,"6707 Jessica Union
+Port Danielle, NV 50989",1990-07-24,091-08-5503,6001,7002,5002,4,1,1,1,"""Identifying Growth Opportunities: Leveraging Strengths and Addressing Skill Gaps""  
+
+In this discussion, the employee and their manager can collaboratively explore the employee's core strengths and how they align with current and future organizational needs. They can identify skill",,72885,POSHWdi,37567,2010-10-31,,31,1,1,21,c85762f5-632b-4c76-b3df-709732e57355
+33,43,EMP00033,Kim,Tiffany,Michelle,Courtney,wturner@example.net,garymartinez@example.com,1983-03-16,2005-04-05,,5788 Cindy Spur,Apt. 501,,,09484,Gary,user33,wxP4J@ph^6,response,4001,https://picsum.photos/1024/933,1001,Print production planner,83,,1,2025-07-08 10:05:41,,,2025-07-08 10:05:41,kshaw,4,,,,,,,"CN=Kyle Klein,OU=People,DC=example,DC=com",2025-07-08 10:05:41,,Immigration officer,3003,2001,"283 Schwartz Meadows Apt. 142
+North Yeseniastad, ME 12532",1983-03-16,668-17-7256,6002,7001,5001,2,1,0,3,"""Exploring Growth Opportunities: Identifying Skills for Future Roles""  
+
+This discussion topic focuses on helping the employee identify their long-term career aspirations and the skills or experiences needed to achieve them. It allows for a collaborative conversation about potential growth opportunities within the",,36638,POSMVUa,32075,2005-04-05,,23,1,1,25,2b43c342-fb91-4a2c-995e-b79fc46334e2
+34,54,EMP00034,Harvey,Amanda,Aaron,Kaitlin,rhonda16@example.net,gvasquez@example.net,1974-01-16,1996-01-14,,4835 Jacob Row,Suite 474,,,89349,Chad,user34,!7C2YsSaIs,act,4003,https://dummyimage.com/754x542,1005,Television production assistant,69,,0,2025-07-08 10:05:42,,,2025-07-08 10:05:42,natalie96,9,,,,,,,"CN=Brittany Patterson,OU=People,DC=example,DC=com",2025-07-08 10:05:42,,Health and safety adviser,3001,2002,"8288 Ryan Greens
+Lake Jamie, PA 23134",1974-01-16,814-14-3971,6003,7002,5001,4,1,0,1,"A realistic career planning discussion topic for an employee could be:
+
+**""Identifying Growth Opportunities Within Your Current Role and Beyond""**
+
+This topic focuses on exploring how the employee can maximize their potential in their current position while identifying skills, projects, or experiences",,44141,POSfcRs,86184,1996-01-14,,25,1,1,39,40e66a5c-0c7e-4951-ac78-c041b3da299e
+35,95,EMP00035,Lane,Gina,Joseph,James,robert14@example.net,ejohns@example.net,1998-07-21,2022-09-16,,24911 Riley Roads Apt. 648,Apt. 948,,,79973,Martin,user35,OnfPs8CjT_,trade,4002,https://dummyimage.com/854x440,1005,Teaching laboratory technician,4,,1,2025-07-08 10:05:43,,,2025-07-08 10:05:43,dwatson,6,,,,,,,"CN=Theodore Edwards,OU=People,DC=example,DC=com",2025-07-08 10:05:43,,Industrial/product designer,3004,2002,"5919 Harry Forest
+Ricemouth, AL 40386",1998-07-21,477-74-5723,6003,7003,5002,2,0,0,2,"""Exploring Growth Opportunities Within the Company: Identifying Skills to Develop for Future Roles""
+
+This topic focuses on helping the employee understand potential career paths within the organization, identifying skill gaps, and creating a development plan to prepare for future opportunities. It encourages",,15017,POSRnHk,517,2022-09-16,,29,1,1,22,b5a87f7b-9bd4-45b1-915a-4fa56a3c22b5
+36,15,EMP00036,Ball,James,Tyler,Eric,fcook@example.org,egray@example.org,1998-06-04,2022-04-11,,0772 Kathryn Villages,Apt. 593,,,14568,Kenneth,user36,@rJrlzQcs0,business,4003,https://dummyimage.com/5x201,1004,Company secretary,57,,0,2025-07-08 10:05:44,,,2025-07-08 10:05:44,dean08,10,,,,,,,"CN=Marilyn Garcia,OU=People,DC=example,DC=com",2025-07-08 10:05:44,,Special educational needs teacher,3004,2001,"4000 Roberts Orchard
+Bowenshire, MN 34014",1998-06-04,852-26-3919,6003,7002,5002,3,1,1,2,"**Topic: ""Identifying Growth Opportunities Aligned with Personal Strengths and Organizational Goals""**
+
+In this discussion, the conversation would focus on the employee's skills, strengths, and career aspirations while aligning them with the organization’s strategic priorities. Key points",,86380,POSPtTx,3888,2022-04-11,,26,1,1,26,b729328f-14f3-4bd9-85f7-7d07d82d1a78
+37,95,EMP00037,Spencer,Susan,Samantha,Caitlin,stephanie75@example.com,sortiz@example.org,1998-09-18,2022-11-20,,8070 Sanford Prairie,Suite 454,,,72058,Linda,user37,#ZYOiAwuf8,range,4001,https://dummyimage.com/234x996,1001,"Accountant, chartered certified",72,,1,2025-07-08 10:05:45,,,2025-07-08 10:05:45,vanessamorrison,8,,,,,,,"CN=Deborah Michael,OU=People,DC=example,DC=com",2025-07-08 10:05:45,,Warden/ranger,3003,2002,"237 Scott Course
+Saraview, MS 86775",1998-09-18,333-22-7653,6002,7002,5002,3,0,1,3,"A realistic career planning discussion topic for an employee could be: 
+
+**""Identifying Skill Gaps and Mapping a Development Plan for Growth""**
+
+This discussion focuses on assessing the employee's current skills, identifying any gaps relative to their career goals, and",,56893,POSUjfR,87506,2022-11-20,,39,1,1,32,90a4c1af-fc8d-4eee-b9fc-5d2abe968640
+38,18,EMP00038,Burgess,Robert,Lance,Joseph,tbarber@example.com,edwardmoore@example.com,1978-10-19,2013-10-01,,9775 Yang Street Suite 737,Apt. 281,,,03217,Michael,user38,(%QEH5Wh#8,choose,4003,https://picsum.photos/112/114,1001,Ship broker,58,,0,2025-07-08 10:05:46,,,2025-07-08 10:05:46,ramossavannah,5,,,,,,,"CN=Sandra Gonzalez,OU=People,DC=example,DC=com",2025-07-08 10:05:46,,Government social research officer,3003,2002,"15591 Anthony Creek Apt. 271
+East Mary, NY 83297",1978-10-19,009-97-3392,6002,7003,5001,4,1,0,2,"""Exploring Growth Opportunities Aligned with Your Strengths and Interests""  
+
+This discussion can focus on identifying the employee's key strengths, interests, and long-term career aspirations. Together, you can explore potential growth opportunities within the company or industry, such",,12523,POSAhAl,86286,2013-10-01,,21,1,1,39,92f38fb2-67e4-4da8-ac6c-590ffbc7d56d
+39,51,EMP00039,Young,Karla,Dawn,Sean,xaustin@example.com,nhowell@example.com,1993-01-31,2015-03-01,,886 Villegas Square,Apt. 892,,,65160,Kevin,user39,oKT0h!1a&5,very,4002,https://dummyimage.com/245x1007,1004,Banker,75,,1,2025-07-08 10:05:47,,,2025-07-08 10:05:47,dmurray,6,,,,,,,"CN=Ryan Wallace,OU=People,DC=example,DC=com",2025-07-08 10:05:47,,"Therapist, horticultural",3004,2002,"65718 Tyler Trace
+Riceshire, ID 68948",1993-01-31,725-31-6210,6001,7003,5001,5,1,0,2,"""Identifying Growth Opportunities and Skill Development Areas for Career Progression""
+
+This topic allows the employee and manager to collaboratively explore the employee's long-term career aspirations, pinpoint skills or knowledge gaps, and discuss actionable steps for growth. It could involve identifying relevant",,17172,POSAzAF,62034,2015-03-01,,25,1,1,38,476f1895-50ae-439e-a2ef-552a2f88704b
+40,18,EMP00040,Jones,Troy,Randy,William,ggill@example.org,stephanie72@example.com,1974-05-24,2009-07-24,,256 Martin Road,Apt. 941,,,12554,Elizabeth,user40,^1cdU9)jB2,particularly,4003,https://dummyimage.com/928x149,1004,Solicitor,93,,0,2025-07-08 10:05:48,,,2025-07-08 10:05:48,operez,4,,,,,,,"CN=Aaron Christensen,OU=People,DC=example,DC=com",2025-07-08 10:05:48,,Photographer,3002,2002,"018 Johnson Terrace
+South Toddton, PR 01968",1974-05-24,161-36-9204,6001,7002,5001,3,1,1,3,"""Exploring Growth Opportunities Aligned with Your Strengths and Career Goals""
+
+This topic focuses on identifying the employee's key strengths, career aspirations, and areas for growth. The discussion can include mapping out potential internal opportunities, such as skill development, leadership",,92545,POSvzdL,10280,2009-07-24,,26,1,1,38,7af8a92f-87f4-41f2-8c09-c64611243127
+41,40,EMP00041,Novak,Kristin,Shawn,Brian,halltimothy@example.com,john96@example.net,1977-07-05,2013-12-26,,074 Roy Meadows,Apt. 195,,,36195,Barry,user41,@#uDZEkD8j,action,4003,https://picsum.photos/794/720,1001,Quality manager,90,,1,2025-07-08 10:05:49,,,2025-07-08 10:05:49,john72,3,,,,,,,"CN=Jacob Flowers,OU=People,DC=example,DC=com",2025-07-08 10:05:49,,Set designer,3004,2002,"453 Michael Gardens
+Booneport, NM 57030",1977-07-05,123-94-0580,6003,7001,5002,1,0,1,2,"""Exploring Growth Opportunities Aligned with Your Strengths and Goals""
+
+This topic focuses on identifying the employee's unique skills, interests, and long-term career aspirations. The discussion can include potential growth opportunities within the organization, skill development plans, mentorship options",,26280,POShqIz,62007,2013-12-26,,35,1,1,23,b992e343-2349-4491-b71d-b30637726755
+42,45,EMP00042,Bates,Erika,Christopher,Jeffrey,lisabullock@example.org,uporter@example.org,1972-11-22,2012-12-20,,922 Nguyen Land Apt. 986,Suite 413,,,69751,Laura,user42,)+7Is7lIdA,show,4001,https://dummyimage.com/881x976,1005,Minerals surveyor,19,,0,2025-07-08 10:05:50,,,2025-07-08 10:05:50,ryan04,2,,,,,,,"CN=Alisha Murphy,OU=People,DC=example,DC=com",2025-07-08 10:05:50,,"Copywriter, advertising",3002,2001,"09573 Jenkins Row Suite 424
+East Lisaview, OK 47971",1972-11-22,191-84-9754,6002,7001,5001,2,0,0,3,"""Exploring Growth Opportunities: Aligning Personal Strengths with Organizational Goals""
+
+This discussion could focus on identifying the employee's key strengths, interests, and long-term career aspirations while exploring how these align with the company's current and future opportunities. Topics could include",,88743,POSAfpw,43375,2012-12-20,,25,1,1,26,e48b7bf3-e323-471a-a862-45780bbca2cc
+43,4,EMP00043,Wilkinson,Katherine,Sarah,Marissa,toddlance@example.org,hadams@example.net,1974-06-25,1994-04-25,,5279 Ian Wells,Apt. 959,,,30810,Jonathan,user43,4z6Ml8ij+*,certain,4003,https://dummyimage.com/691x86,1003,Exercise physiologist,71,,1,2025-07-08 10:05:51,,,2025-07-08 10:05:51,hailey91,5,,,,,,,"CN=Taylor Taylor,OU=People,DC=example,DC=com",2025-07-08 10:05:51,,"Social research officer, government",3001,2001,"1261 Dylan Brook
+North Lori, MP 84612",1974-06-25,463-76-8776,6001,7003,5002,1,0,0,1,"Certainly! Here's a realistic career planning discussion topic:
+
+**""Identifying Growth Opportunities Within Current Role and Beyond""**
+
+This conversation can focus on exploring how the employee can maximize their potential in their current position while preparing for future roles. Key points to discuss",,63630,POSevPj,8103,1994-04-25,,28,1,1,29,fa587c76-8e68-4177-b9e9-2117e5f0c132
+44,80,EMP00044,Cox,Kenneth,Amber,Joseph,charles69@example.net,jonwilson@example.net,1980-03-30,2004-09-16,,740 Shannon Streets,Apt. 687,,,45602,Christina,user44,)5D&jgoyT8,place,4002,https://picsum.photos/460/654,1004,"Exhibitions officer, museum/gallery",51,,0,2025-07-08 10:05:52,,,2025-07-08 10:05:52,wstout,7,,,,,,,"CN=Timothy Newton,OU=People,DC=example,DC=com",2025-07-08 10:05:52,,Human resources officer,3003,2002,"250 David Route Apt. 852
+New Jason, AZ 82298",1980-03-30,687-29-2244,6002,7001,5001,2,1,0,1,"""Exploring Skill Development Opportunities for Long-Term Growth""  
+
+This topic focuses on identifying areas where the employee can enhance or acquire new skills that align with both their career aspirations and the organization's goals. The discussion could include:  
+
+- Assessing current strengths",,91124,POStXwp,40267,2004-09-16,,25,1,1,32,da98ef52-d013-4d40-94d6-b4c3df99a710
+45,97,EMP00045,White,Cynthia,Steven,Michael,heather73@example.net,welchdylan@example.org,1961-08-01,2016-08-12,,7473 Higgins Grove,Apt. 100,,,79396,Robert,user45,93)HAre#(y,physical,4001,https://picsum.photos/149/192,1001,Camera operator,80,,1,2025-07-08 10:05:53,,,2025-07-08 10:05:53,dallen,8,,,,,,,"CN=Travis Shepard,OU=People,DC=example,DC=com",2025-07-08 10:05:53,,Chiropractor,3004,2001,"74992 Kara Extensions Suite 341
+New Gabrielton, NV 56271",1961-08-01,484-11-2317,6003,7002,5002,3,0,1,1,"""Exploring Growth Opportunities Within the Company""
+
+This topic focuses on identifying areas where the employee can grow their skills, take on new responsibilities, or transition into a new role within the organization. The discussion can include:
+
+- Current strengths and how they align",,27118,POSvcpb,72750,2016-08-12,,33,1,1,29,b230510e-6328-4f28-9c49-f7cb997d9021
+46,18,EMP00046,Hayes,John,Michael,Eugene,bradleywilson@example.net,christopher78@example.net,1993-06-22,2014-07-14,,44849 Kelly Common Apt. 603,Suite 119,,,23291,Mia,user46,&73mZ)3rdl,window,4003,https://placekitten.com/299/957,1004,Oncologist,49,,0,2025-07-08 10:05:54,,,2025-07-08 10:05:54,josephmiller,2,,,,,,,"CN=Cassandra Hopkins,OU=People,DC=example,DC=com",2025-07-08 10:05:54,,Air broker,3004,2002,"1244 King Ville
+South Daniel, WY 17239",1993-06-22,373-15-0355,6003,7002,5002,4,0,1,1,"""Identifying Growth Opportunities: Aligning Personal Strengths with Organizational Goals""
+
+This topic focuses on helping the employee identify their unique strengths, skills, and interests, while exploring how these align with the company's objectives and potential growth opportunities. The discussion can include",,92295,POSSRVp,82512,2014-07-14,,22,1,1,30,4aa5f336-6fb7-469b-9b43-86e013f99d81
+47,83,EMP00047,Martinez,Mary,Brittney,Nicole,leesandra@example.org,ernest83@example.net,1996-06-21,2016-10-20,,0893 Sara Bridge Apt. 840,Suite 776,,,79212,Margaret,user47,$1qleGravk,executive,4002,https://placekitten.com/672/124,1001,Paediatric nurse,45,,0,2025-07-08 10:05:55,,,2025-07-08 10:05:55,lisamunoz,2,,,,,,,"CN=Christopher Patel,OU=People,DC=example,DC=com",2025-07-08 10:05:55,,"Engineer, civil (contracting)",3001,2001,"012 Patricia Corner
+North Michellemouth, SC 64149",1996-06-21,303-63-2621,6003,7003,5002,5,0,0,3,"A realistic and meaningful career planning discussion topic for an employee could be:
+
+**""Exploring Opportunities for Skill Development and Growth within the Organization""**
+
+This topic focuses on identifying areas where the employee can strengthen their skills, take on new challenges, and align",,42693,POSOntZ,61006,2016-10-20,,35,1,1,33,c9136977-30b0-4eae-afb7-7e5c1f59bbda
+48,28,EMP00048,Ochoa,Lisa,Randy,Brittany,emartin@example.net,ycannon@example.org,1961-06-28,2014-10-09,,6454 Howell Freeway,Suite 707,,,52434,Melanie,user48,^8O$w*Fy_b,he,4001,https://dummyimage.com/913x941,1001,"Nurse, learning disability",41,,1,2025-07-08 10:05:56,,,2025-07-08 10:05:56,scottburke,2,,,,,,,"CN=Joseph Wood,OU=People,DC=example,DC=com",2025-07-08 10:05:56,,"Accountant, chartered certified",3003,2001,"USCGC Reeves
+FPO AP 19900",1961-06-28,776-19-8564,6001,7001,5002,1,0,0,2,"""Exploring Skill Development Opportunities for Career Growth""
+
+This discussion can focus on identifying the employee's strengths, areas for improvement, and interests, as well as exploring how they can acquire new skills or deepen existing ones to align with their career aspirations. Topics",,69834,POSEPEL,7124,2014-10-09,,23,1,1,32,fc819015-7b93-49bf-969b-360e094d62e3
+49,34,EMP00049,Myers,Kaitlin,Ryan,Cameron,hannahdeleon@example.net,nicolejackson@example.com,1975-04-14,2014-01-01,,22781 Cardenas Green Apt. 283,Apt. 727,,,44543,Jeffery,user49,3xh@uI61(q,deal,4003,https://placekitten.com/848/614,1001,Broadcast journalist,21,,1,2025-07-08 10:05:57,,,2025-07-08 10:05:57,cwarner,7,,,,,,,"CN=Karen Mendez,OU=People,DC=example,DC=com",2025-07-08 10:05:57,,Systems analyst,3004,2001,"PSC 8281, Box 9417
+APO AP 95200",1975-04-14,683-30-0367,6001,7001,5002,2,0,1,2,"A realistic and constructive career planning discussion topic for an employee could be:
+
+**""Identifying Skills for Long-Term Career Growth: Bridging Current Strengths and Future Opportunities""**
+
+This topic involves exploring the employee's existing strengths, skills, and interests,",,72653,POSKDzI,69307,2014-01-01,,38,1,1,38,9d58da18-14b8-4896-8f89-57a88b8f2f95
+50,6,EMP00050,Little,Joshua,Donna,Scott,gonzalezwayne@example.com,martineznicholas@example.net,1999-08-26,2019-04-21,,72103 Bell Gardens Suite 531,Apt. 582,,,12718,Timothy,user50,(4WHlszie&,everyone,4001,https://placekitten.com/208/1001,1004,Catering manager,36,,0,2025-07-08 10:05:58,,,2025-07-08 10:05:58,matthew41,2,,,,,,,"CN=Benjamin Russo,OU=People,DC=example,DC=com",2025-07-08 10:05:58,,"Editor, magazine features",3004,2001,"84774 Gallegos Union
+Annaview, MH 70857",1999-08-26,545-95-7599,6001,7003,5002,2,1,0,2,"""Identifying Growth Opportunities and Skill Development Areas for Long-Term Career Goals""  
+
+This topic encourages the employee to reflect on their career aspirations, identify areas where they want to grow, and explore how their current role aligns with their long-term goals. The",,4363,POSPIeP,10772,2019-04-21,,34,1,1,20,a04b2c79-ab1b-4aeb-8312-ff7a009f9cac
+51,34,EMP00051,Burch,David,Andrew,Craig,david62@example.org,evan03@example.org,1989-06-02,2019-03-18,,4255 Ray Skyway,Apt. 389,,,55286,Donald,user51,SJ+8fYafc&,structure,4001,https://placekitten.com/530/980,1005,Retail merchandiser,34,,0,2025-07-08 10:06:00,,,2025-07-08 10:06:00,hoodtyler,5,,,,,,,"CN=Kelly Cooke,OU=People,DC=example,DC=com",2025-07-08 10:06:00,,Dance movement psychotherapist,3004,2002,"8294 Harris Pike
+Popeburgh, MN 68387",1989-06-02,780-94-7380,6001,7001,5001,5,1,0,3,"""Exploring Growth Opportunities Within Your Current Role and Beyond""  
+
+This topic focuses on identifying ways the employee can grow professionally, both within their current position and in preparation for future roles. The discussion can include:  
+
+- Reviewing their current strengths and accomplishments",,49382,POSekmA,7508,2019-03-18,,24,1,1,26,9550785f-775d-4e8b-af6d-c1412bf649e0
+52,95,EMP00052,Brown,Mary,Courtney,Travis,andrewwest@example.com,dharris@example.com,1991-11-06,2012-07-06,,693 Thomas Greens Apt. 882,Apt. 845,,,91508,Mark,user52,pQ&0^Z4y*#,nothing,4001,https://picsum.photos/535/555,1001,"Doctor, general practice",91,,1,2025-07-08 10:06:01,,,2025-07-08 10:06:01,wendyharrison,10,,,,,,,"CN=William Miller,OU=People,DC=example,DC=com",2025-07-08 10:06:01,,Paramedic,3003,2001,"8700 Fox Prairie
+Eriktown, CT 85890",1991-11-06,376-92-5800,6003,7002,5001,4,1,1,2,"""Identifying Skills for Future Growth: Exploring Opportunities for Development in Alignment with Organizational Goals""
+
+This topic focuses on helping the employee assess their current skill set, identify areas for growth, and align their development with both their career aspirations and the company's strategic direction",,43621,POSVXmo,60757,2012-07-06,,39,1,1,27,dcbd324f-bf7d-44f2-928a-8e4b6074e6b4
+53,35,EMP00053,Mitchell,Jennifer,Timothy,Lawrence,tbryant@example.com,phansen@example.com,1995-12-01,2022-05-31,,3787 Phillip Squares,Apt. 613,,,18374,Rose,user53,q$DU8(KesD,magazine,4001,https://dummyimage.com/358x312,1001,Advertising art director,41,,1,2025-07-08 10:06:02,,,2025-07-08 10:06:02,christopherbryan,5,,,,,,,"CN=Andrea Thomas,OU=People,DC=example,DC=com",2025-07-08 10:06:02,,Insurance claims handler,3004,2001,"35730 Dougherty Creek Suite 802
+Henryland, CA 27247",1995-12-01,617-88-2329,6002,7001,5001,1,0,1,2,"""Exploring Growth Opportunities Aligned with Your Strengths and Interests""  
+
+This topic encourages the employee to reflect on their unique skills, passions, and long-term career aspirations. During the discussion, you can explore potential opportunities for growth within the organization,",,21292,POSLeEr,64237,2022-05-31,,35,1,1,29,7d6e807f-bda6-4c8a-af64-b3ded12fdb3c
+54,8,EMP00054,Thompson,Leah,Renee,Ryan,randymunoz@example.com,bstanley@example.com,1996-01-27,2025-03-31,,7770 Cassandra Center Apt. 661,Apt. 274,,,22690,Paul,user54,mn!)4^Wr4e,response,4003,https://picsum.photos/313/600,1003,"Engineer, maintenance (IT)",66,,0,2025-07-08 10:06:03,,,2025-07-08 10:06:03,waltersmary,4,,,,,,,"CN=Parker Lewis,OU=People,DC=example,DC=com",2025-07-08 10:06:03,,Field trials officer,3004,2001,"94908 Hernandez Ford
+Port Cynthia, VA 32119",1996-01-27,671-57-2837,6001,7002,5002,3,1,1,1,"**Topic: ""Exploring Growth Opportunities Within the Company""**
+
+This discussion topic focuses on identifying ways the employee can grow professionally within the organization. It encourages a collaborative conversation about their skills, interests, and long-term career aspirations, while aligning these with",,25271,POSdROn,88993,2025-03-31,,35,1,1,31,e4a42f93-ad26-47c3-bcdc-3b9a6a8e55ae
+55,28,EMP00055,Mcneil,Christine,Brett,Hannah,phelpstaylor@example.net,omyers@example.net,1973-02-18,2005-06-02,,4083 Austin Mills,Suite 251,,,81372,Heather,user55,hU3TD5Tu_m,help,4001,https://dummyimage.com/836x877,1003,Print production planner,94,,0,2025-07-08 10:06:04,,,2025-07-08 10:06:04,kmarquez,10,,,,,,,"CN=Audrey Simpson,OU=People,DC=example,DC=com",2025-07-08 10:06:04,,"Accountant, chartered certified",3004,2002,"05099 Joseph Mill Apt. 649
+New Michellebury, MP 32268",1973-02-18,385-35-2345,6002,7002,5002,2,0,1,1,"A realistic and meaningful career planning discussion topic for an employee could be:
+
+**""Identifying Skill Gaps and Building a Development Plan for Future Roles""**
+
+This topic allows the employee and their manager to collaboratively evaluate the employee's current skills, identify areas",,19112,POSxFFO,73325,2005-06-02,,29,1,1,32,bf77b179-09a0-4847-ac92-c1af3319f6d1
+56,23,EMP00056,Stevens,Alison,Kevin,Kim,riveralori@example.net,estradamelissa@example.com,1993-04-13,2020-08-06,,2945 Dylan Freeway,Apt. 009,,,31820,Martin,user56,#9AMTiXCj1,safe,4002,https://picsum.photos/526/505,1002,Purchasing manager,78,,0,2025-07-08 10:06:05,,,2025-07-08 10:06:05,aprilrobertson,6,,,,,,,"CN=Cameron Chang,OU=People,DC=example,DC=com",2025-07-08 10:06:05,,"Designer, fashion/clothing",3004,2002,"USNV Sherman
+FPO AA 76548",1993-04-13,109-54-5227,6003,7002,5002,3,0,0,2,"**""Identifying Growth Opportunities Within Your Current Role and Beyond""**
+
+This topic focuses on helping the employee explore ways to maximize their potential in their current position while also identifying pathways for future career progression. The discussion could include:
+
+- How their current skills",,73597,POSPzhd,92691,2020-08-06,,37,1,1,21,e3267ef9-6fb7-4c20-b0ab-210b41859858
+57,23,EMP00057,Mcintosh,Debra,Kevin,Kimberly,bondmelinda@example.org,jessica75@example.org,1960-08-23,2010-05-29,,037 Scott Ford Apt. 704,Apt. 560,,,14360,Kevin,user57,+!3GAs1flN,act,4001,https://dummyimage.com/783x152,1003,Sports administrator,67,,1,2025-07-08 10:06:06,,,2025-07-08 10:06:06,kellichoi,6,,,,,,,"CN=Jennifer Brewer,OU=People,DC=example,DC=com",2025-07-08 10:06:06,,Lobbyist,3004,2002,"804 Andrews Causeway Suite 947
+Hardinland, VI 61913",1960-08-23,137-82-4148,6003,7002,5001,2,0,1,2,"""Identifying and Building Skills for Future Career Growth""  
+
+This topic focuses on helping the employee assess their current skill set, identify gaps, and explore opportunities to develop new competencies aligned with their career aspirations and organizational needs. The discussion can include:",,63824,POSnnlT,65821,2010-05-29,,31,1,1,36,6239a33b-4568-48e0-baa3-4e8cde6bc15a
+58,66,EMP00058,Garcia,Doris,Jennifer,Brian,shelley85@example.org,kleinwilliam@example.net,1986-08-20,2008-02-01,,0535 Abbott Island,Suite 096,,,15375,Ruth,user58,#0visN9v6a,you,4003,https://dummyimage.com/900x899,1002,"Development worker, community",71,,1,2025-07-08 10:06:07,,,2025-07-08 10:06:07,sherryvelasquez,4,,,,,,,"CN=Thomas Smith,OU=People,DC=example,DC=com",2025-07-08 10:06:07,,"Nurse, adult",3001,2002,"59668 Michael Grove
+Hannahshire, PR 52870",1986-08-20,217-92-9565,6003,7001,5001,1,1,1,3,"""Identifying Growth Opportunities: Aligning Personal Goals with Organizational Objectives""
+
+This discussion topic focuses on exploring the employee's career aspirations, identifying skill gaps, and aligning their professional development with the company's long-term goals. It encourages the employee to share their ambitions",,77097,POShodH,29956,2008-02-01,,26,1,1,24,054d9d5a-881e-45d7-b6f7-f3ae0b17eed8
+59,91,EMP00059,Myers,Courtney,Aaron,Chelsea,kellyreynolds@example.org,charlottecruz@example.com,1974-08-08,2007-01-16,,607 Kyle Avenue Apt. 088,Apt. 586,,,10636,Cody,user59,(mh)AZ!wG3,hundred,4003,https://placekitten.com/16/220,1001,"Accountant, chartered management",49,,1,2025-07-08 10:06:08,,,2025-07-08 10:06:08,amymiller,4,,,,,,,"CN=Kathy Mitchell,OU=People,DC=example,DC=com",2025-07-08 10:06:08,,"Buyer, retail",3004,2001,"41673 Davis Fork
+New Grantside, CO 19719",1974-08-08,189-71-6245,6003,7001,5001,2,0,0,3,"""Identifying and Bridging Skill Gaps for Future Growth""  
+
+In this discussion, the employee and manager can collaboratively assess the employee's current skill set in relation to their career goals and the organization's needs. The conversation could include:  
+
+- Ident",,97656,POSeQPm,77895,2007-01-16,,22,1,1,30,5dab2ac3-c7e0-4ed4-a04e-8ba3741840af
+60,13,EMP00060,Torres,Bailey,Catherine,Greg,shawn35@example.net,laurahamilton@example.net,1962-06-30,2018-02-11,,01916 Gomez Island Apt. 294,Apt. 897,,,94885,William,user60,w4_7Tco2Ke,feeling,4001,https://picsum.photos/929/841,1003,Materials engineer,95,,1,2025-07-08 10:06:09,,,2025-07-08 10:06:09,curtis36,4,,,,,,,"CN=Kimberly Morgan,OU=People,DC=example,DC=com",2025-07-08 10:06:09,,IT consultant,3002,2002,"421 Roberts Crest
+West Tina, ME 98145",1962-06-30,030-02-5794,6001,7001,5001,3,0,1,2,"""Exploring Growth Opportunities Within Your Current Role: Identifying Skills to Develop for Future Advancement""  
+
+This topic allows the employee to reflect on their current position, consider areas where they can grow, and align their career aspirations with organizational goals. It also",,44117,POSCeam,73541,2018-02-11,,27,1,1,20,d115d146-6e1a-4f78-8e95-98aa644fabf0
+61,47,EMP00061,Gray,Aaron,Susan,Jermaine,cbrown@example.org,hayeskatie@example.org,1964-08-01,2002-11-04,,55368 Robinson Crest,Apt. 920,,,77028,Brian,user61,FbnT5Xw&*m,whole,4002,https://placekitten.com/497/489,1002,Chief of Staff,42,,1,2025-07-08 10:06:10,,,2025-07-08 10:06:10,matthew07,7,,,,,,,"CN=John Jordan,OU=People,DC=example,DC=com",2025-07-08 10:06:10,,Adult nurse,3002,2002,"704 Emily Lights Apt. 396
+Jessicaland, VA 45902",1964-08-01,433-44-0300,6001,7003,5002,2,1,0,1,"""Identifying Growth Opportunities: Aligning Personal Strengths with Organizational Goals""  
+
+This topic encourages the employee to reflect on their strengths, skills, and interests while exploring how these align with the organization's goals and future needs. The discussion can focus on identifying",,54375,POSCjod,23304,2002-11-04,,33,1,1,20,0d9a5138-b7c6-4e95-8d7a-1ceea3d4eeca
+62,37,EMP00062,Tanner,Martin,Brian,Alicia,roy56@example.com,johnsondiane@example.org,1982-06-23,2012-09-10,,7695 Peters Shoal Suite 806,Suite 878,,,59922,Kristin,user62,+1yod4KOrh,mouth,4002,https://picsum.photos/111/12,1004,Psychiatric nurse,87,,0,2025-07-08 10:06:11,,,2025-07-08 10:06:11,gjohnson,10,,,,,,,"CN=Daniel Morales,OU=People,DC=example,DC=com",2025-07-08 10:06:11,,Telecommunications researcher,3003,2002,"3807 Jacob Landing Apt. 773
+Matthewmouth, NE 54466",1982-06-23,581-86-5068,6002,7003,5002,4,0,1,1,"""Identifying and Developing Key Skills for Future Growth""  
+
+This topic allows the employee to reflect on their current skill set, identify areas for improvement, and explore new skills that align with their career aspirations and the company’s goals. The discussion can focus",,20758,POSVdoi,50933,2012-09-10,,31,1,1,21,d839dc2b-d24e-467c-8c26-c859f13d9ab0
+63,38,EMP00063,Miller,John,Drew,Jill,kalexander@example.com,mmoore@example.org,1962-02-17,2014-07-12,,9920 Jonathan Summit,Suite 083,,,36384,Carolyn,user63,2IusORVp+X,billion,4002,https://placekitten.com/211/252,1001,"Surveyor, insurance",37,,0,2025-07-08 10:06:12,,,2025-07-08 10:06:12,adam52,6,,,,,,,"CN=David Stewart,OU=People,DC=example,DC=com",2025-07-08 10:06:12,,"Buyer, industrial",3002,2002,"818 Harrison Lane
+Deannaborough, GU 16866",1962-02-17,053-98-4463,6002,7002,5001,3,1,1,2,"A realistic career planning discussion topic for an employee could be:
+
+**""Identifying Skill Gaps and Growth Opportunities for Career Progression""**
+
+This topic focuses on assessing the employee's current skills in relation to their career goals and identifying areas for development.",,7341,POSyuwv,27362,2014-07-12,,24,1,1,31,4ff3cde3-6369-4df8-82eb-44f31b3d8951
+64,2,EMP00064,Lopez,Matthew,Heather,Michelle,katrina85@example.com,kevincarey@example.org,1992-03-11,2018-06-15,,12029 Dalton Island Suite 857,Suite 288,,,99024,Tanya,user64,@1KKhgn!xc,relationship,4003,https://dummyimage.com/121x484,1002,Stage manager,83,,0,2025-07-08 10:06:13,,,2025-07-08 10:06:13,williamsonrichard,6,,,,,,,"CN=Ashley Hickman,OU=People,DC=example,DC=com",2025-07-08 10:06:13,,Illustrator,3002,2001,"5573 Colon Burgs Suite 568
+Port Jessica, NY 78649",1992-03-11,161-54-5526,6002,7002,5001,5,0,1,2,"""Identifying Growth Opportunities Within Your Current Role""  
+
+This discussion topic focuses on helping the employee explore ways to expand their skills, take on new challenges, and grow within their current position. It encourages reflection on what aspects of their role they find most",,67067,POSgYBJ,17024,2018-06-15,,39,1,1,23,89e0d259-b60f-443d-a30d-24481bf3fab4
+65,4,EMP00065,Miller,Danielle,Heather,Dylan,amanda95@example.org,derekmolina@example.com,1989-03-19,2011-11-24,,55740 Mark Estates,Suite 870,,,53445,Nathaniel,user65,)83OFSMtU$,contain,4001,https://placekitten.com/371/806,1004,Proofreader,64,,0,2025-07-08 10:06:14,,,2025-07-08 10:06:14,vmurray,8,,,,,,,"CN=Heather Mccormick,OU=People,DC=example,DC=com",2025-07-08 10:06:14,,"Therapist, music",3001,2001,"0371 Shelly Green
+New Elizabethmouth, SD 98743",1989-03-19,213-43-4137,6001,7001,5001,4,0,1,2,"""Exploring Skill Development for Future Roles: Identifying Growth Opportunities and Career Goals""
+
+This discussion topic invites the employee to reflect on their long-term career aspirations and current skill set. Together, you can identify areas where they can develop new skills, enhance",,62617,POSofSr,85018,2011-11-24,,20,1,1,24,ee298806-b1ba-4f64-854d-77fdb92912b1
+66,68,EMP00066,Velasquez,Holly,Teresa,Mario,jodi67@example.net,csmith@example.com,1985-06-09,2011-11-16,,3239 Scott Overpass,Suite 286,,,73541,David,user66,y0pByMy3%t,security,4003,https://picsum.photos/544/683,1001,Chemical engineer,34,,1,2025-07-08 10:06:15,,,2025-07-08 10:06:15,melissa93,2,,,,,,,"CN=Christian Bennett,OU=People,DC=example,DC=com",2025-07-08 10:06:15,,Interpreter,3004,2001,"9774 Melissa Keys
+West Dannyland, OH 70895",1985-06-09,269-32-8120,6002,7001,5002,4,1,1,2,"A realistic career planning discussion topic for an employee could be: 
+
+**""Identifying Skill Gaps and Creating a Development Roadmap""**
+
+This topic focuses on assessing the employee's current strengths and areas for growth in relation to their career goals. The",,54421,POSsSNL,11914,2011-11-16,,25,1,1,34,5070ecc2-67e3-4c38-ae27-296fafd9fc19
+67,77,EMP00067,Nguyen,Ashley,Justin,Dale,walterspaula@example.com,mariapatel@example.com,1993-07-23,2023-10-14,,06867 Jones Lodge,Suite 684,,,17278,Wendy,user67,ysE6dYtF)4,strong,4001,https://picsum.photos/817/998,1005,Tree surgeon,52,,0,2025-07-08 10:06:16,,,2025-07-08 10:06:16,erinjefferson,10,,,,,,,"CN=Mark Horne,OU=People,DC=example,DC=com",2025-07-08 10:06:16,,"Designer, textile",3001,2002,"40103 Day Corners
+Lake Anthony, AK 41255",1993-07-23,066-96-4080,6001,7002,5002,1,1,0,3,"""Exploring Growth Opportunities Aligned with Your Strengths and Interests""  
+
+This discussion can focus on identifying the employee's key strengths, professional interests, and long-term goals. It can include exploring potential new responsibilities, upskilling opportunities, internal mobility",,65141,POSHEzm,67014,2023-10-14,,21,1,1,31,4c7a97d8-908f-4cb3-9b20-214d503a96a3
+68,17,EMP00068,Perry,Brian,Joseph,Sara,grantwilliam@example.com,grossalexa@example.com,1969-08-12,2001-03-06,,703 Stacy Valley Suite 529,Suite 312,,,51218,Robert,user68,RlM6Z9SsJ^,still,4002,https://picsum.photos/191/493,1002,Ophthalmologist,88,,0,2025-07-08 10:06:17,,,2025-07-08 10:06:17,bryan26,2,,,,,,,"CN=Gina Wise,OU=People,DC=example,DC=com",2025-07-08 10:06:17,,"Surveyor, mining",3004,2001,"595 Bryant Wells
+New George, WA 73006",1969-08-12,805-96-3625,6003,7002,5002,3,1,1,2,"A realistic career planning discussion topic for an employee could be:
+
+**""Identifying Skills Gaps and Creating a Development Plan for Future Roles""**
+
+This discussion could focus on the employee's long-term career goals, the skills and experiences required to reach those",,14636,POSdgFv,39193,2001-03-06,,33,1,1,36,8e088c44-60ed-491e-b49a-f90fa14270d5
+69,17,EMP00069,Jackson,Amber,Jamie,John,whitelisa@example.net,nbanks@example.org,1997-11-23,2024-02-16,,81651 Eric Cliffs Suite 588,Suite 532,,,69012,Jennifer,user69,2&V6QP+Ddl,research,4002,https://picsum.photos/673/620,1004,Orthoptist,4,,0,2025-07-08 10:06:17,,,2025-07-08 10:06:17,halltara,2,,,,,,,"CN=James Johnson,OU=People,DC=example,DC=com",2025-07-08 10:06:17,,"Engineer, drilling",3002,2002,"PSC 6353, Box 4122
+APO AA 46353",1997-11-23,836-88-8910,6003,7003,5001,5,0,0,2,"A realistic career planning discussion topic for an employee could be:
+
+**""Identifying Opportunities for Skill Development and Growth Within the Organization""**
+
+This topic focuses on helping the employee explore areas where they can enhance their current skill set and align their professional growth with",,24441,POSgIlc,44492,2024-02-16,,22,1,1,28,5a0780ca-a694-4576-9fb1-730a4608aee5
+70,86,EMP00070,Williams,Mark,Brianna,Alexander,qblankenship@example.org,ywu@example.org,1969-03-12,1990-08-04,,6565 Anderson Lane Suite 179,Apt. 275,,,89581,Patrick,user70,4lK*%geX^S,discuss,4002,https://placekitten.com/800/598,1005,Quantity surveyor,15,,0,2025-07-08 10:06:18,,,2025-07-08 10:06:18,perezjoseph,10,,,,,,,"CN=Taylor Rhodes DVM,OU=People,DC=example,DC=com",2025-07-08 10:06:18,,Archivist,3002,2001,"49015 Andrea Plaza Apt. 412
+New Travis, AS 30742",1969-03-12,060-21-3571,6002,7003,5001,1,0,1,1,"""Exploring Skill Development Opportunities Aligned with Career Goals""  
+
+This topic encourages a meaningful discussion about the employee's long-term career aspirations and identifies specific skills or competencies they need to develop to achieve those goals. The conversation can focus on:
+
+- Their",,52676,POSdlKv,12717,1990-08-04,,23,1,1,24,0d234a0d-90c5-4637-9a51-4d36030930f9
+71,91,EMP00071,Fisher,Kellie,Steven,David,janecrane@example.com,morgan39@example.org,1993-07-16,2024-12-28,,8518 Tiffany Hills,Suite 922,,,07797,Rachael,user71,Zv@P6KCf0w,heart,4002,https://dummyimage.com/918x811,1002,Advice worker,52,,1,2025-07-08 10:06:19,,,2025-07-08 10:06:19,joneskimberly,10,,,,,,,"CN=Taylor James,OU=People,DC=example,DC=com",2025-07-08 10:06:19,,"Presenter, broadcasting",3001,2001,"5933 Victoria Port Suite 587
+Caldwellport, PR 45999",1993-07-16,575-74-8739,6001,7003,5002,3,0,1,1,"""Exploring Opportunities for Skill Development and Career Growth Within the Organization""
+
+This discussion topic focuses on identifying areas where the employee can enhance their current skill set, take on new challenges, and align their professional growth with the organization's goals. It creates an actionable",,97117,POSMLCs,29932,2024-12-28,,22,1,1,20,0daed619-d1e2-4d92-b080-61ffb95b4f70
+72,48,EMP00072,Pope,Amber,Scott,Gabriel,matthewthompson@example.net,mitchellfisher@example.org,1992-03-20,2024-02-19,,479 Carter Mount Apt. 850,Suite 213,,,26460,William,user72,wNUG3JPbQ^,receive,4001,https://picsum.photos/467/700,1002,Chief Strategy Officer,96,,0,2025-07-08 10:06:20,,,2025-07-08 10:06:20,robert32,1,,,,,,,"CN=Heather Williams,OU=People,DC=example,DC=com",2025-07-08 10:06:20,,Archivist,3003,2001,"44156 Knox Lane
+New Todd, VT 22582",1992-03-20,536-04-9597,6001,7003,5002,5,0,1,3,"""Exploring Growth Opportunities Within Your Current Role and Beyond""  
+
+This topic encourages employees to reflect on their skills, interests, and career aspirations, while also identifying ways to grow within their current position and prepare for future roles. The discussion can include:",,45352,POStqTT,75051,2024-02-19,,37,1,1,33,24a6a232-d6d6-4a05-82f7-9ac9b5364ec9
+73,53,EMP00073,Ford,Jennifer,Ryan,Brianna,emarshall@example.org,wardabigail@example.net,1961-09-26,1988-12-15,,6918 Juan View,Apt. 998,,,58623,Cody,user73,R%cI8&MdYD,whether,4003,https://picsum.photos/980/35,1002,Phytotherapist,25,,1,2025-07-08 10:06:21,,,2025-07-08 10:06:21,kennethchan,6,,,,,,,"CN=Emily Campbell,OU=People,DC=example,DC=com",2025-07-08 10:06:21,,Interior and spatial designer,3002,2001,"27481 Nelson Island
+East Andrew, HI 92744",1961-09-26,134-34-3671,6003,7001,5001,5,0,1,1,"Certainly! Here’s a realistic and meaningful career planning discussion topic:
+
+**""Exploring Growth Opportunities Within Your Current Role and Beyond""**
+
+This topic focuses on identifying opportunities for skill development, leadership growth, and new challenges within the employee’s current role while",,48368,POSyENT,38934,1988-12-15,,32,1,1,23,0b2c4877-0558-4c40-a5c0-124dfe38989c
+74,85,EMP00074,King,Mary,Kaitlyn,Matthew,hawkinsalexander@example.net,scott41@example.net,1995-07-14,2018-08-06,,270 Sullivan Dale,Apt. 203,,,55191,Jasmine,user74,)355Pzj@zJ,meet,4002,https://dummyimage.com/488x81,1001,Graphic designer,95,,0,2025-07-08 10:06:22,,,2025-07-08 10:06:22,brussell,3,,,,,,,"CN=Linda Wise,OU=People,DC=example,DC=com",2025-07-08 10:06:22,,"Psychologist, clinical",3002,2001,"1669 Smith Divide Apt. 971
+Williamshaven, MH 28890",1995-07-14,514-57-0036,6003,7003,5001,2,0,1,3,"""Exploring Growth Opportunities Within the Company""  
+
+This topic focuses on identifying potential career paths available within the organization. During the discussion, the employee and manager could explore the employee's current skills, long-term career goals, and areas of interest. Together",,48751,POSHXqA,55772,2018-08-06,,29,1,1,25,06447099-dd9e-4309-8a9f-8a660932521b
+75,39,EMP00075,Cox,Raymond,Scott,Ashley,fgray@example.org,johnnguyen@example.net,1988-11-21,2012-02-19,,06403 Jordan Islands,Apt. 811,,,35281,Adam,user75,r)CU1OgeC_,agent,4001,https://dummyimage.com/716x962,1003,Network engineer,39,,1,2025-07-08 10:06:23,,,2025-07-08 10:06:23,anelson,8,,,,,,,"CN=Beth Wang,OU=People,DC=example,DC=com",2025-07-08 10:06:23,,Corporate treasurer,3001,2001,"08295 Gary Row Suite 017
+Romeroborough, MD 02191",1988-11-21,071-22-1304,6001,7001,5001,2,0,1,1,"""Identifying Opportunities for Skill Development Aligned with Career Goals""  
+
+This discussion can focus on understanding the employee's long-term career aspirations and identifying the specific skills or experiences they need to achieve those goals. Topics might include exploring relevant training programs, cross",,37937,POSOWJk,46046,2012-02-19,,25,1,1,34,12aab1b4-83fd-440e-ae89-95261c8bcce1
+76,100,EMP00076,Rowe,Daniel,Gloria,Nancy,julie61@example.com,justincruz@example.com,1972-10-27,2010-09-12,,7611 Tiffany Drive,Apt. 303,,,40171,William,user76,eD&SF$Jd!9,pick,4002,https://placekitten.com/150/354,1003,Architect,61,,0,2025-07-08 10:06:24,,,2025-07-08 10:06:24,cynthiapeck,1,,,,,,,"CN=Gregory Romero,OU=People,DC=example,DC=com",2025-07-08 10:06:24,,Careers information officer,3003,2001,"215 Rowe Parkway
+Dustinside, FM 34315",1972-10-27,532-54-8470,6001,7001,5001,2,0,1,3,"Here’s a realistic and constructive career planning discussion topic:
+
+**""Exploring Skill Development and Career Growth Opportunities""**
+
+Focus the discussion on identifying the employee's current strengths, areas for improvement, and future aspirations. Collaboratively explore opportunities for skill development through",,27836,POSoKnE,85712,2010-09-12,,37,1,1,25,974f19eb-069a-4f6b-8cda-46f69f9993b1
+77,18,EMP00077,Stone,Jonathan,Sabrina,William,changtracey@example.com,makayla34@example.com,1971-04-02,2015-11-28,,412 Cowan Walk Suite 088,Apt. 876,,,73050,Joyce,user77,YMD6C3!kJ^,piece,4001,https://dummyimage.com/513x308,1004,Market researcher,98,,0,2025-07-08 10:06:25,,,2025-07-08 10:06:25,leebenjamin,7,,,,,,,"CN=Donna Johnson,OU=People,DC=example,DC=com",2025-07-08 10:06:25,,"Scientist, forensic",3003,2001,"00302 Christy Walk
+Graystad, MA 27700",1971-04-02,518-47-5162,6002,7002,5002,1,1,1,2,"**""Identifying Growth Opportunities and Building Skills for Future Roles""**
+
+This discussion could focus on helping the employee assess their current strengths, areas for development, and long-term career aspirations. Together, you can identify potential growth opportunities within the organization, such",,57801,POSCrZE,11068,2015-11-28,,36,1,1,20,0241fe38-c4cf-4033-bd97-3388358be516
+78,55,EMP00078,Kemp,Angela,Amy,Vickie,walterronald@example.com,davidmcdonald@example.org,1976-07-16,2021-11-02,,19210 Suzanne Pine,Suite 846,,,80027,Brianna,user78,+3&5$Shi#X,alone,4003,https://dummyimage.com/236x928,1005,Nature conservation officer,46,,1,2025-07-08 10:06:26,,,2025-07-08 10:06:26,george06,5,,,,,,,"CN=Justin Rivera,OU=People,DC=example,DC=com",2025-07-08 10:06:26,,Chartered public finance accountant,3001,2002,"USCGC Hill
+FPO AP 59172",1976-07-16,560-53-9792,6002,7003,5002,4,0,0,3,"Certainly! Here's a realistic career planning discussion topic:
+
+**""Exploring Skill Development and Growth Opportunities Within the Organization""**
+
+This topic allows the employee to reflect on their current skill set and identify areas for growth that align with both their career aspirations and the",,63625,POSMlOe,29095,2021-11-02,,38,1,1,28,66c2cbd0-97ce-4686-be71-96b474625100
+79,9,EMP00079,Adams,Morgan,Brooke,Jennifer,rachel62@example.com,middletonnathan@example.net,1989-08-09,2015-04-25,,813 Kemp Fork,Apt. 736,,,25973,Christopher,user79,gf8E&^n@l$,late,4003,https://placekitten.com/662/979,1005,Chartered loss adjuster,29,,1,2025-07-08 10:06:27,,,2025-07-08 10:06:27,torresjames,7,,,,,,,"CN=Lindsay Turner,OU=People,DC=example,DC=com",2025-07-08 10:06:27,,Building control surveyor,3001,2002,"329 Cox Centers Suite 646
+Reillyville, VA 88985",1989-08-09,653-09-4378,6001,7002,5001,3,1,0,1,"""Exploring Growth Opportunities Within the Organization""
+
+This discussion can focus on identifying the employee's strengths, interests, and long-term career goals, as well as understanding the available opportunities within the organization that align with their aspirations. Topics could include potential lateral moves",,92961,POSkkuQ,49996,2015-04-25,,26,1,1,34,2021b73d-81f9-4709-a6db-99c3525dc161
+80,21,EMP00080,Cooper,Timothy,Angel,Joshua,tanya95@example.com,ustephens@example.net,1986-01-18,2008-02-03,,772 Cole Centers Suite 984,Suite 024,,,01508,Laurie,user80,%3Ys_mrdQa,exactly,4001,https://dummyimage.com/687x450,1002,IT sales professional,63,,1,2025-07-08 10:06:28,,,2025-07-08 10:06:28,jacobcox,4,,,,,,,"CN=Zachary Jacobson,OU=People,DC=example,DC=com",2025-07-08 10:06:28,,"Teacher, primary school",3004,2001,"00853 Grimes Point Apt. 392
+North Marcus, MT 54097",1986-01-18,274-50-0979,6003,7002,5002,4,1,0,3,"""Identifying and Building Key Skills for Future Growth""  
+
+This topic focuses on helping the employee assess their current skill set, identify gaps or areas for improvement, and align their development with the organization's goals and their career aspirations. The discussion can include:",,38362,POSIdOt,18001,2008-02-03,,31,1,1,25,3a7fcd91-8c5d-4241-8ec3-4f0dfec90ab5
+81,5,EMP00081,Whitaker,Nicole,Rebecca,Darren,floresdylan@example.com,cwall@example.com,1988-07-13,2007-02-25,,44627 Brian Extension Apt. 320,Suite 695,,,89785,Peter,user81,^1eEE_e!n$,single,4003,https://placekitten.com/101/67,1004,Trade union research officer,52,,0,2025-07-08 10:06:29,,,2025-07-08 10:06:29,joshua62,2,,,,,,,"CN=James Gilmore,OU=People,DC=example,DC=com",2025-07-08 10:06:29,,"Clinical scientist, histocompatibility and immunogenetics",3002,2001,"595 Beverly Gateway
+Wallburgh, NE 76590",1988-07-13,353-26-7458,6001,7002,5002,4,1,0,3,"Certainly! Here's a realistic career planning discussion topic for an employee:
+
+**""Skill Development and Growth Opportunities: Identifying Areas for Improvement and Advancement""**
+
+This topic allows the employee and manager to collaboratively explore the employee's current skill set, identify areas where",,41610,POSSDcK,37555,2007-02-25,,37,1,1,29,a972150e-6ea3-431d-80f8-a9bb4689210a
+82,1,EMP00082,Foster,Stephanie,Julie,Christine,uschroeder@example.com,jerry63@example.net,1998-02-23,2024-07-22,,864 Ana Cliffs Apt. 062,Apt. 529,,,99181,Joseph,user82,#g9JOSxv7i,organization,4002,https://picsum.photos/968/144,1003,Insurance claims handler,92,,0,2025-07-08 10:06:30,,,2025-07-08 10:06:30,adamfranklin,2,,,,,,,"CN=John Lloyd,OU=People,DC=example,DC=com",2025-07-08 10:06:30,,Chartered loss adjuster,3002,2002,"699 Jesse Ranch Suite 388
+Christinefurt, AL 20690",1998-02-23,342-70-8224,6002,7003,5002,4,0,1,3,"A realistic career planning discussion topic for an employee could be:
+
+**""Exploring Growth Opportunities Within Your Current Role and Beyond""**
+
+This topic focuses on identifying ways the employee can deepen their expertise, take on new challenges, and expand their impact in their",,41601,POSWwUP,69638,2024-07-22,,34,1,1,38,4ce7840f-b080-4dc3-af39-58b9e865a208
+83,53,EMP00083,Ayala,Nicole,Dawn,Daniel,karendominguez@example.net,rmorris@example.com,2003-02-20,2022-08-29,,097 Patty Overpass,Suite 529,,,74584,James,user83,2XEs^4(yn@,economic,4003,https://dummyimage.com/134x988,1004,Forest/woodland manager,98,,1,2025-07-08 10:06:31,,,2025-07-08 10:06:31,anna73,8,,,,,,,"CN=Paula Avery,OU=People,DC=example,DC=com",2025-07-08 10:06:31,,Osteopath,3003,2002,"37214 Curtis Trafficway Apt. 447
+South Kayla, MA 30872",2003-02-20,522-05-1720,6001,7003,5001,2,1,0,3,"""Exploring Skill Development Opportunities for Career Growth""
+
+This topic focuses on identifying the employee's current skill set, exploring areas where they can enhance their expertise, and aligning their development with both their career aspirations and organizational goals. The discussion can include identifying training",,47072,POSgYEp,1399,2022-08-29,,20,1,1,37,df3ae149-6609-4d4a-b820-896713e00cbe
+84,68,EMP00084,Dodson,Krista,Joshua,Abigail,bcampbell@example.com,albert88@example.net,1964-07-27,2019-04-18,,610 Lozano Turnpike,Suite 546,,,86550,Troy,user84,jz*X1T&fMf,city,4001,https://dummyimage.com/168x979,1003,Tree surgeon,95,,1,2025-07-08 10:06:32,,,2025-07-08 10:06:32,sallen,1,,,,,,,"CN=Scott Patton,OU=People,DC=example,DC=com",2025-07-08 10:06:32,,Archaeologist,3004,2002,"540 Meghan Fort
+North Paulfurt, NV 84835",1964-07-27,480-69-6516,6002,7002,5002,1,0,0,2,"A realistic career planning discussion topic for an employee could be:
+
+**""Identifying Skill Gaps and Creating a Development Plan for Career Growth""**
+
+This discussion would involve evaluating the employee's current skill set in relation to their career goals and identifying any areas",,87641,POSxShm,72912,2019-04-18,,34,1,1,30,95fef07d-3552-4292-a018-f8c994dbe43b
+85,62,EMP00085,Campbell,Gina,Richard,Krystal,juansmith@example.org,steven22@example.org,1995-11-29,2015-06-15,,2919 Cortez Rue,Suite 877,,,04036,Levi,user85,!ip1EtEQv@,civil,4001,https://placekitten.com/980/550,1004,"Engineer, water",68,,0,2025-07-08 10:06:33,,,2025-07-08 10:06:33,smithtara,4,,,,,,,"CN=Raymond Cox,OU=People,DC=example,DC=com",2025-07-08 10:06:33,,Armed forces operational officer,3001,2002,"51048 Martinez Mill
+Lake Connie, TX 85464",1995-11-29,130-66-1615,6001,7002,5002,2,0,1,3,"""Identifying Growth Opportunities Aligned with Your Strengths and Interests""  
+
+This discussion can focus on helping the employee assess their current skills, interests, and career aspirations. The conversation could explore potential growth opportunities within the organization, such as skill development,",,30329,POSajly,54852,2015-06-15,,24,1,1,36,f6b4fba4-1e41-4ee9-bf50-3199461a793f
+86,68,EMP00086,Morgan,Cheryl,Helen,Bonnie,kevin95@example.com,luistaylor@example.com,1964-07-21,2001-01-02,,74629 Sheri Court Apt. 278,Suite 672,,,16612,John,user86,OlK3pFz6$M,soon,4003,https://dummyimage.com/188x201,1004,Dramatherapist,5,,0,2025-07-08 10:06:34,,,2025-07-08 10:06:34,danielsnicholas,9,,,,,,,"CN=Shawn Gardner,OU=People,DC=example,DC=com",2025-07-08 10:06:34,,Sales executive,3003,2002,"116 Adams Cliff Suite 094
+Rodriguezborough, TN 29552",1964-07-21,093-23-5223,6001,7003,5001,3,0,1,3,"Certainly! Here's a realistic career planning discussion topic for an employee:
+
+**""Identifying Skills Gaps and Creating a Development Plan for Future Growth""**
+
+In this discussion, the focus would be on helping the employee assess their current skill set in relation to",,107,POSjjzZ,8939,2001-01-02,,29,1,1,24,d7af6dd9-93d5-4bc7-b5e1-1ea4422f9a3a
+87,25,EMP00087,Jenkins,Anthony,David,Emily,jeannepeters@example.com,tanya22@example.net,1976-10-06,2024-10-22,,549 Mark Place,Apt. 850,,,23921,Kyle,user87,6$)9L*ToYZ,after,4003,https://placekitten.com/115/41,1002,Personnel officer,26,,0,2025-07-08 10:06:35,,,2025-07-08 10:06:35,ipeck,9,,,,,,,"CN=Brent Hopkins,OU=People,DC=example,DC=com",2025-07-08 10:06:35,,Exhibition designer,3001,2001,"9941 William Freeway
+Sharonmouth, GU 07263",1976-10-06,814-88-0670,6002,7001,5001,1,0,1,2,"A realistic career planning discussion topic for an employee could be:
+
+**""Exploring Skills Development for Future Career Growth""**
+
+This topic focuses on identifying the employee’s current strengths, areas for growth, and the skills they need to develop to achieve their short",,9770,POSCvut,19558,2024-10-22,,33,1,1,33,6ea5deea-70b7-47e8-ad40-99c2962e31bb
+88,53,EMP00088,Mckenzie,Michael,Michaela,John,danny43@example.net,ricardomorales@example.com,1978-06-20,2015-02-15,,107 Mueller Pine Apt. 845,Suite 170,,,23374,Diana,user88,b!6Y0T0oyZ,on,4002,https://picsum.photos/764/867,1005,"Producer, radio",43,,1,2025-07-08 10:06:37,,,2025-07-08 10:06:37,quinnkathryn,1,,,,,,,"CN=Dylan Hill,OU=People,DC=example,DC=com",2025-07-08 10:06:37,,Archivist,3004,2002,"8772 Brian Fort
+South Vincent, WI 01753",1978-06-20,840-95-6071,6001,7003,5002,5,1,1,1,"""Exploring Growth Opportunities Within the Company: Identifying Skills and Roles for Long-Term Development""  
+
+This topic encourages the employee to reflect on their career aspirations while aligning them with the organization's strategic goals. The discussion can focus on identifying areas where the employee",,22613,POSsVva,61357,2015-02-15,,33,1,1,28,eef71858-4236-4a90-b6c6-23fb66c37deb
+89,14,EMP00089,Mcmahon,Melissa,Curtis,Kevin,pauldunn@example.org,nicholas43@example.org,1991-04-25,2017-09-03,,16370 Bell Throughway,Suite 464,,,02424,Lynn,user89,1#P3XtDv)#,smile,4001,https://picsum.photos/945/322,1003,Maintenance engineer,98,,0,2025-07-08 10:06:38,,,2025-07-08 10:06:38,sarah33,3,,,,,,,"CN=Curtis White,OU=People,DC=example,DC=com",2025-07-08 10:06:38,,Travel agency manager,3004,2001,"016 Brown Parks Suite 286
+South Joshua, MT 79426",1991-04-25,375-85-0835,6001,7001,5001,1,0,1,1,"""Identifying Growth Opportunities: Skills Development and Long-Term Career Goals""
+
+This topic focuses on exploring the employee's career aspirations and aligning them with both their current role and future opportunities within the organization. It can include discussions on identifying key skills they want to",,23868,POSizzB,47622,2017-09-03,,22,1,1,37,4f2c15a7-7e49-43a6-b839-f3e197410994
+90,41,EMP00090,Rangel,Janet,Amber,Thomas,ashleykent@example.net,ngiles@example.org,2003-04-25,2025-04-26,,07667 Strong Roads,Suite 134,,,59157,Jeremy,user90,AM)o9ROeaY,space,4002,https://picsum.photos/109/141,1004,"Producer, television/film/video",24,,0,2025-07-08 10:06:39,,,2025-07-08 10:06:39,adam41,9,,,,,,,"CN=Christopher Davis,OU=People,DC=example,DC=com",2025-07-08 10:06:39,,International aid/development worker,3004,2001,"7570 Jones River
+Bassmouth, WY 81949",2003-04-25,075-48-9727,6001,7003,5001,4,1,1,3,"""Identifying and Developing Skills for Future Career Growth""  
+
+In this discussion, the focus could be on assessing the employee's current skill set, identifying gaps or areas for improvement, and exploring opportunities to develop skills that align with their career goals and the",,41494,POSfZEO,2980,2025-04-26,,34,1,1,20,e1c322e8-1595-4279-bb8e-6f3b1d994418
+91,55,EMP00091,Johnson,Lawrence,Lawrence,Dennis,daltonmullen@example.com,olsonamy@example.net,1994-07-07,2014-04-14,,3055 Roberts Ports,Apt. 365,,,97080,Rita,user91,)xkfo9YnNZ,other,4003,https://picsum.photos/630/664,1001,Games developer,61,,1,2025-07-08 10:06:40,,,2025-07-08 10:06:40,rbenton,8,,,,,,,"CN=Virginia Fields,OU=People,DC=example,DC=com",2025-07-08 10:06:40,,Catering manager,3003,2001,"356 Carlson Land Suite 144
+New Benjamin, NV 93813",1994-07-07,624-86-6205,6003,7003,5001,4,1,0,2,"""Exploring Growth Opportunities Within the Organization""  
+
+This discussion can focus on identifying the employee's current strengths, interests, and long-term career goals, as well as exploring potential roles or projects within the company that align with those aspirations. The conversation can",,99489,POSxfUM,91472,2014-04-14,,31,1,1,26,d34566a8-2284-470a-a7c1-cb8ae987fdd6
+92,52,EMP00092,Wilson,Lindsay,David,William,william01@example.org,shawnferguson@example.net,1972-06-02,2016-07-22,,0970 Dawn Rapid Suite 988,Apt. 527,,,56236,Jake,user92,VGo1zs7aN%,scientist,4001,https://picsum.photos/150/483,1005,Medical sales representative,80,,0,2025-07-08 10:06:41,,,2025-07-08 10:06:41,carterjohn,2,,,,,,,"CN=Thomas Tran,OU=People,DC=example,DC=com",2025-07-08 10:06:41,,Planning and development surveyor,3004,2001,"35814 Johnson Gardens
+Philipfort, MA 56720",1972-06-02,881-31-7739,6001,7001,5002,3,0,1,1,"""Identifying Skill Gaps and Development Opportunities for Career Growth""  
+
+This topic focuses on helping the employee evaluate their current skill set in relation to their long-term career goals. The discussion can include:  
+- An assessment of the employee's existing strengths",,17050,POSLlbD,5197,2016-07-22,,29,1,1,27,57ebe188-472e-4e9b-8fd0-2f35cf03bc36
+93,44,EMP00093,Wade,Brooke,Kimberly,Nicole,erin14@example.net,jennifer38@example.com,1960-06-23,1980-05-22,,3869 Danielle Shoal,Apt. 910,,,14607,Cheryl,user93,vh)7vwLnKU,within,4001,https://picsum.photos/842/476,1001,Licensed conveyancer,95,,0,2025-07-08 10:06:42,,,2025-07-08 10:06:42,desireestone,2,,,,,,,"CN=Jacob Morris,OU=People,DC=example,DC=com",2025-07-08 10:06:42,,Toxicologist,3003,2002,"73845 Ruth Via
+Lawsonview, AZ 23199",1960-06-23,048-98-2943,6003,7002,5001,5,0,1,3,"""Exploring Opportunities for Skill Development and Career Growth""
+
+This topic allows the employee and manager to discuss the employee's current skills, areas where they can improve, and potential opportunities for growth within the organization. It can include conversations about training programs, mentorship",,10519,POSdfjq,40466,1980-05-22,,36,1,1,23,5231c320-424b-42a4-9f83-f5a57e2c0027
+94,56,EMP00094,Thomas,Jared,Hannah,Norman,jennifer98@example.net,justin97@example.com,1962-08-26,2010-11-10,,900 Samantha Causeway,Apt. 399,,,61982,Kelli,user94,^3bJHeGxyv,Mr,4003,https://placekitten.com/175/190,1003,Travel agency manager,89,,1,2025-07-08 10:06:43,,,2025-07-08 10:06:43,gdecker,1,,,,,,,"CN=Joseph Ruiz,OU=People,DC=example,DC=com",2025-07-08 10:06:43,,IT sales professional,3001,2001,"5016 Colleen Gateway Apt. 387
+Rogersfort, ID 56221",1962-08-26,177-75-5848,6002,7003,5001,4,0,0,1,"""Exploring Skills Development Aligned with Career Goals""
+
+This topic focuses on identifying the employee's long-term career aspirations and mapping out the skills, experiences, and resources they need to achieve those goals. The discussion could include:
+
+- Understanding their current strengths",,16421,POSZILl,79165,2010-11-10,,27,1,1,35,ce2da918-6f53-49ab-b8fe-0b1c6fbee673
+95,82,EMP00095,Rodriguez,Daniel,Ryan,Daniel,nicholasraymond@example.net,mary43@example.net,1990-08-03,2013-04-29,,761 Crawford Freeway Apt. 402,Suite 301,,,77560,Maurice,user95,OD00n+slD%,indeed,4003,https://dummyimage.com/75x942,1003,Special educational needs teacher,38,,0,2025-07-08 10:06:44,,,2025-07-08 10:06:44,rodriguezlisa,6,,,,,,,"CN=Jeremiah Robinson,OU=People,DC=example,DC=com",2025-07-08 10:06:44,,Airline pilot,3001,2002,"32256 Eric Fords Apt. 824
+Jessicaside, OH 85911",1990-08-03,340-25-0222,6003,7002,5001,1,0,1,3,"Certainly! Here's a realistic career planning discussion topic:
+
+**""Identifying Skills for Growth and Career Progression""**
+
+Focus on discussing the employee's current skill set and areas for development that align with both their career aspirations and the organization's needs. This includes",,85540,POSsiDx,87185,2013-04-29,,26,1,1,34,5c169025-9362-4ea0-880a-d2efc34b9b8e
+96,3,EMP00096,Thomas,Valerie,Walter,Aaron,michaelortega@example.org,vincent60@example.org,1970-09-15,2015-09-20,,091 Murphy Fork,Apt. 210,,,07791,Christopher,user96,Wy(z6XXs%i,speak,4001,https://dummyimage.com/634x675,1005,Armed forces training and education officer,10,,1,2025-07-08 10:06:45,,,2025-07-08 10:06:45,bcampbell,4,,,,,,,"CN=Mercedes Nunez,OU=People,DC=example,DC=com",2025-07-08 10:06:45,,Pharmacologist,3001,2002,"PSC 1865, Box 7372
+APO AP 29000",1970-09-15,446-37-6394,6001,7003,5002,5,0,1,3,"""Exploring Opportunities for Skill Development and Career Growth Within the Organization""
+
+This topic would focus on identifying the employee's short- and long-term career goals, assessing their current skill set, and exploring opportunities for growth within the company. The discussion could include",,73441,POSzLPd,40640,2015-09-20,,36,1,1,26,b4d0830e-e784-4bab-9ca7-1d9631898cd8
+97,65,EMP00097,Smith,Todd,Mary,Katherine,david15@example.com,amanning@example.org,1979-01-30,2020-04-21,,474 Collins Haven Suite 030,Suite 044,,,22354,Alisha,user97,%agU+J)1U6,poor,4003,https://picsum.photos/311/605,1005,Local government officer,27,,1,2025-07-08 10:06:46,,,2025-07-08 10:06:46,kanecharles,1,,,,,,,"CN=Jason Sanders,OU=People,DC=example,DC=com",2025-07-08 10:06:46,,Operations geologist,3002,2002,"510 Lamb Way
+Port Jonathan, FL 53808",1979-01-30,137-96-1684,6001,7001,5002,4,1,0,2,"A realistic and meaningful career planning discussion topic for an employee could be:
+
+**""Identifying Skills for Future Growth and Development""**
+
+This topic focuses on helping the employee assess their current skill set, identify areas for improvement, and explore new skills that align",,36116,POSAIVc,41560,2020-04-21,,36,1,1,20,088566c5-a0c7-4fd7-ad5e-10da8d7547cc
+98,11,EMP00098,Reeves,Kyle,Michael,Christopher,dakotaerickson@example.com,jessica72@example.com,1968-02-14,2024-08-18,,7790 Yesenia Centers Suite 119,Apt. 972,,,47028,Jessica,user98,4S(2SmfB)H,language,4001,https://dummyimage.com/768x305,1005,Futures trader,7,,1,2025-07-08 10:06:47,,,2025-07-08 10:06:47,mathisthomas,10,,,,,,,"CN=Brian Jackson,OU=People,DC=example,DC=com",2025-07-08 10:06:47,,Management consultant,3001,2001,"7461 Melissa Row
+Hawkinsbury, TN 33663",1968-02-14,139-62-7952,6002,7002,5001,4,1,1,2,"""Exploring Growth Opportunities Aligned with Your Strengths and Interests""  
+
+This topic encourages a meaningful conversation about the employee's skills, passions, and long-term goals. It provides an opportunity to discuss how their current role aligns with these factors, identify",,25334,POSJooU,87709,2024-08-18,,20,1,1,21,18e0188e-fe8c-4b30-ae5c-214e196ac7b5
+99,65,EMP00099,Valencia,Jerry,Joy,Christina,josebrooks@example.net,raycatherine@example.net,1983-07-06,2019-05-30,,2672 Leah Ranch,Suite 751,,,84395,Marilyn,user99,)j1Abo6l5+,mention,4002,https://dummyimage.com/315x97,1001,Publishing copy,8,,0,2025-07-08 10:06:48,,,2025-07-08 10:06:48,nicolemontoya,4,,,,,,,"CN=Wendy Wright,OU=People,DC=example,DC=com",2025-07-08 10:06:48,,Television camera operator,3001,2001,"425 Short Inlet
+Sheilamouth, DE 81216",1983-07-06,013-09-5200,6001,7001,5001,4,1,0,2,"""Exploring Skill Development Opportunities for Long-Term Career Growth""
+
+This topic encourages the employee to reflect on their current skill set, identify areas for growth, and align their development with both their career aspirations and the organization's goals. The discussion can include identifying training",,50764,POShOov,67450,2019-05-30,,22,1,1,25,53edf95a-9883-4cc6-8f11-943861fe451d
+100,47,EMP00100,Davis,Nicole,Danielle,Robert,smartinez@example.net,johnstonsteven@example.org,1974-05-03,2022-05-13,,080 Matthews Spring Apt. 218,Suite 491,,,38196,Michael,user100,4i)VeMdw_9,worker,4002,https://placekitten.com/1003/1011,1005,Commercial horticulturist,3,,1,2025-07-08 10:06:49,,,2025-07-08 10:06:49,obrienmarc,3,,,,,,,"CN=Ryan Castro,OU=People,DC=example,DC=com",2025-07-08 10:06:49,,Land/geomatics surveyor,3001,2002,"7963 Cruz Port Apt. 767
+Lesliefurt, NJ 90913",1974-05-03,305-10-9640,6001,7001,5002,3,0,1,1,"""Exploring Growth Opportunities and Skill Development for Career Progression""
+
+This topic encourages the employee to reflect on their long-term career goals, identify areas where they would like to grow, and discuss how their current role can align with those aspirations. It also",,46144,POSvPct,13978,2022-05-13,,33,1,1,39,77b8bf63-bbd5-4c7d-8075-d381f6cc4eed
