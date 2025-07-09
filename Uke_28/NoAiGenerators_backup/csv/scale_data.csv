@@ -1,8 +1,0 @@
-ID,SCALETYPE,NAME0,NAME1,NAME2,DESCRIPTION0,SORTORDER,DELETED,CREATED,MODIFIED,GUID
-1001,1,Software Engineer,Software Engineer,Software Engineer,Technical role,10,0,2022-12-03 12:14:49,2025-07-07 12:14:49,fbf64623-6bd6-4c61-b54a-01d1fd88591e
-1002,1,Project Manager,Project Manager,Project Manager,Manages projects,20,0,2023-03-25 12:14:49,2025-07-07 12:14:49,54ab4804-5598-4107-bc5a-480ec7e4b4c7
-1003,1,HR Specialist,HR Specialist,HR Specialist,Human Resources,30,0,2024-02-28 12:14:49,2025-07-07 12:14:49,4bc4395a-169e-4935-8f22-d0be5619c785
-1004,1,Marketing Lead,Marketing Lead,Marketing Lead,Marketing role,40,0,2024-04-17 12:14:49,2025-07-07 12:14:49,f8be50aa-3a83-430a-a6b7-7f58d2ec3169
-1005,1,Data Analyst,Data Analyst,Data Analyst,Analytics role,50,0,2023-11-19 12:14:49,2025-07-07 12:14:49,ad8a45c0-613a-4a88-b056-174dc3b8994f
-2001,2,Male,Male,Male,Gender: Male,60,0,2024-04-01 12:14:49,2025-07-07 12:14:49,5c3054c6-e80e-4043-8da7-9e0a39d47d95
-2002,2,Female,Female,Female,Gender: Female,70,0,2024-01-23 12:14:49,2025-07-07 12:14:49,719d51a9-c522-40dd-b84e-9bd1970e3351
