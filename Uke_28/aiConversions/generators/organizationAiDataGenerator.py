@@ -152,7 +152,7 @@ os.makedirs(output_dir, exist_ok=True)
 output_path = os.path.join(output_dir, "organization_data_with_gpt.json")
 org_data = generate_organization_table(100)
 
-with open(output_path, "w", encoding="utf-8") as f:
+with open(os.path.join(output_dir, "organization_data_with_gpt.json"), "w", encoding="utf-8") as f:
     json.dump(org_data, f, indent=2)
 
 print(f"✅ Organization data generated and saved to '{output_path}'")

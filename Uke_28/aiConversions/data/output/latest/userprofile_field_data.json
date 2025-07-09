@@ -1,0 +1,26 @@
+[
+  {
+    "FIELDNAME": "Skill",
+    "FIELDTYPE": "Text",
+    "DESCRIPTION": "Employee skills (technical or soft)",
+    "ISACTIVE": 1
+  },
+  {
+    "FIELDNAME": "Language",
+    "FIELDTYPE": "Text",
+    "DESCRIPTION": "Languages spoken by the employee",
+    "ISACTIVE": 1
+  },
+  {
+    "FIELDNAME": "Hobby",
+    "FIELDTYPE": "Text",
+    "DESCRIPTION": "Personal hobbies or interests",
+    "ISACTIVE": 1
+  },
+  {
+    "FIELDNAME": "Certification",
+    "FIELDTYPE": "Text",
+    "DESCRIPTION": "Professional certifications held by the employee",
+    "ISACTIVE": 1
+  }
+]

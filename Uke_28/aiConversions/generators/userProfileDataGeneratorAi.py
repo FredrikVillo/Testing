@@ -15,11 +15,29 @@ userprofile_fields = {
     4: ["PMP", "AWS Certified", "Scrum Master"]           # Certification
 }
 
-def generate_userprofiles(employees, max_profiles_per_employee=3):
+# Always resolve paths relative to this script's directory
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '..'))
+
+def rel_path(*parts):
+    return os.path.join(PROJECT_ROOT, *parts)
+
+def load_valid_accesscatalyst_ids():
+    accesscatalyst_path = rel_path('data', 'output', 'latest', 'accesscatalyst_data.json')
+    if not os.path.exists(accesscatalyst_path):
+        print(f"❌ accesscatalyst_data.json not found at {accesscatalyst_path}")
+        return set()
+    with open(accesscatalyst_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        return set(entry["ACCESSCATALYST"] for entry in data if "ACCESSCATALYST" in entry)
+
+def generate_userprofiles(employees, valid_accesscatalyst_ids, max_profiles_per_employee=3):
     userprofiles = []
 
     for emp in employees:
-        accesscatalyst_id = emp.get("ACCESSCATALYST")  # This must exist in ACCESSCATALYST table
+        accesscatalyst_id = emp.get("ACCESSCATALYST")
+        if accesscatalyst_id not in valid_accesscatalyst_ids:
+            continue  # skip if not a valid FK
         num_profiles = random.randint(1, max_profiles_per_employee)
         chosen_fields = random.sample(list(userprofile_fields.keys()), num_profiles)
 
@@ -42,22 +60,35 @@ def is_dry_run():
 def get_output_dir():
     for arg in sys.argv[1:]:
         if not arg.startswith("-"):
-            return arg
-    return "."
+            # If absolute, return as is; else, resolve relative to project root
+            return arg if os.path.isabs(arg) else rel_path(arg)
+    return rel_path('data', 'output', 'latest')
 
 # Load combined EMPLOYEE + ACCESSCATALYST data from CSV
 employee_data = []
-with open("csv/employee_data_with_accesscatalyst.csv", mode="r", encoding="utf-8-sig") as csv_file:  # Handle BOM
+employee_csv_path = rel_path('data', 'input', 'csv', 'employee_data_with_accesscatalyst.csv')
+with open(employee_csv_path, mode="r", encoding="utf-8-sig") as csv_file:  # Handle BOM
     csv_reader = csv.reader(csv_file)
     for row in csv_reader:
         employee_data.append({"EMPLOYEE": int(row[0]), "ACCESSCATALYST": int(row[1])})
 
+# Load valid ACCESSCATALYST IDs from latest output
+valid_accesscatalyst_ids = load_valid_accesscatalyst_ids()
+if not valid_accesscatalyst_ids:
+    print("❌ No valid ACCESSCATALYST IDs found in accesscatalyst_data.json. Aborting.")
+    sys.exit(1)
+
 # Generate USERPROFILE entries
-userprofile_data = generate_userprofiles(employee_data)
+userprofile_data = generate_userprofiles(employee_data, valid_accesscatalyst_ids)
 
 # Use faker for any AI fields if is_dry_run()
 if is_dry_run():
-    userprofile_data = [{"USERFIELD": fake.word(), "ACCESSCATALYST": fake.random_int(), "FIELD_VALUE": fake.word()} for _ in range(len(userprofile_data))]
+    # Only use valid ACCESSCATALYST IDs from accesscatalyst_data.json
+    userprofile_data = [{
+        "USERFIELD": fake.random_int(min=1, max=4),  # always int 1-4
+        "ACCESSCATALYST": random.choice(list(valid_accesscatalyst_ids)),
+        "FIELD_VALUE": fake.word()
+    } for _ in range(len(userprofile_data))]
 
 output_dir = get_output_dir()
 os.makedirs(output_dir, exist_ok=True)

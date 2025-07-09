@@ -2,77 +2,77 @@
   {
     "ID": 1001,
     "SCALETYPE": 1,
-    "NAME0": "Visual merchandiser",
-    "NAME1": "Visual merchandiser",
-    "NAME2": "Visual merchandiser",
-    "DESCRIPTION0": "Job Title: Visual merchandiser",
+    "NAME0": "Growth Marketing Strategist",
+    "NAME1": "Growth Marketing Strategist",
+    "NAME2": "Growth Marketing Strategist",
+    "DESCRIPTION0": "Job Title: Growth Marketing Strategist",
     "DESCRIPTION1": null,
     "DESCRIPTION2": null,
     "SORTORDER": 10,
     "DELETED": 0,
-    "CREATED": "2023-03-01 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "1eae7d58-a380-49d6-99f1-ec5e4bfaed07"
+    "CREATED": "2022-11-28 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "e04e83be-216f-48c1-8e0d-5a898d98feed"
   },
   {
     "ID": 1002,
     "SCALETYPE": 1,
-    "NAME0": "Curator",
-    "NAME1": "Curator",
-    "NAME2": "Curator",
-    "DESCRIPTION0": "Job Title: Curator",
+    "NAME0": "Sustainability Program Manager",
+    "NAME1": "Sustainability Program Manager",
+    "NAME2": "Sustainability Program Manager",
+    "DESCRIPTION0": "Job Title: Sustainability Program Manager",
     "DESCRIPTION1": null,
     "DESCRIPTION2": null,
     "SORTORDER": 20,
     "DELETED": 0,
-    "CREATED": "2023-10-19 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "0b89c22a-1a0c-495e-b387-ff54dddac833"
+    "CREATED": "2023-01-24 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "55e3e9cd-2061-4e95-a488-ae7e43b9d4f3"
   },
   {
     "ID": 1003,
     "SCALETYPE": 1,
-    "NAME0": "Tax inspector",
-    "NAME1": "Tax inspector",
-    "NAME2": "Tax inspector",
-    "DESCRIPTION0": "Job Title: Tax inspector",
+    "NAME0": "User Experience Researcher",
+    "NAME1": "User Experience Researcher",
+    "NAME2": "User Experience Researcher",
+    "DESCRIPTION0": "Job Title: User Experience Researcher",
     "DESCRIPTION1": null,
     "DESCRIPTION2": null,
     "SORTORDER": 30,
     "DELETED": 0,
-    "CREATED": "2023-01-21 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "7d4255ec-5059-4c9a-b0d0-8b982fdabc44"
+    "CREATED": "2023-10-09 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "34145a12-3983-48c1-a87e-4fea9a8b2169"
   },
   {
     "ID": 1004,
     "SCALETYPE": 1,
-    "NAME0": "Forensic scientist",
-    "NAME1": "Forensic scientist",
-    "NAME2": "Forensic scientist",
-    "DESCRIPTION0": "Job Title: Forensic scientist",
+    "NAME0": "Data Privacy Analyst",
+    "NAME1": "Data Privacy Analyst",
+    "NAME2": "Data Privacy Analyst",
+    "DESCRIPTION0": "Job Title: Data Privacy Analyst",
     "DESCRIPTION1": null,
     "DESCRIPTION2": null,
     "SORTORDER": 40,
     "DELETED": 0,
-    "CREATED": "2023-10-04 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "bd6207bf-7003-483a-98e2-bb4525a0e95d"
+    "CREATED": "2023-07-01 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "5ae2ff64-f1b5-4f11-83ee-12931518b8bb"
   },
   {
     "ID": 1005,
     "SCALETYPE": 1,
-    "NAME0": "Petroleum engineer",
-    "NAME1": "Petroleum engineer",
-    "NAME2": "Petroleum engineer",
-    "DESCRIPTION0": "Job Title: Petroleum engineer",
+    "NAME0": "Agile Operations Coordinator",
+    "NAME1": "Agile Operations Coordinator",
+    "NAME2": "Agile Operations Coordinator",
+    "DESCRIPTION0": "Job Title: Agile Operations Coordinator",
     "DESCRIPTION1": null,
     "DESCRIPTION2": null,
     "SORTORDER": 50,
     "DELETED": 0,
-    "CREATED": "2022-12-07 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "beee7b2d-85e2-409d-9e57-ae0013401aa8"
+    "CREATED": "2024-03-15 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "434063d1-4683-4eef-bcbe-d2809176dc4c"
   },
   {
     "ID": 2001,
@@ -85,9 +85,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 60,
     "DELETED": 0,
-    "CREATED": "2022-11-29 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "429ad26e-9548-4242-b42c-c36a396315cd"
+    "CREATED": "2023-07-18 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "b1179d7d-c47c-4db2-86db-b41c47e48552"
   },
   {
     "ID": 2002,
@@ -100,9 +100,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 70,
     "DELETED": 0,
-    "CREATED": "2024-11-03 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "edf4f8c1-636b-43a6-8f18-22483427dd3c"
+    "CREATED": "2024-04-06 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "482f79ce-2f4b-4999-9cc7-985498617c88"
   },
   {
     "ID": 3001,
@@ -115,9 +115,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 80,
     "DELETED": 0,
-    "CREATED": "2023-03-27 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "cb5a6cd5-424f-46a0-927b-d07a0b90a0d4"
+    "CREATED": "2022-12-06 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "0d4f7bda-c8c1-49af-b953-0209085f6715"
   },
   {
     "ID": 3002,
@@ -130,9 +130,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 90,
     "DELETED": 0,
-    "CREATED": "2024-10-12 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "f81af28f-82a0-4ab5-83b5-4ab6eae03c96"
+    "CREATED": "2024-12-02 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "e5aab01b-654c-4bd3-a134-59432b38e312"
   },
   {
     "ID": 3003,
@@ -145,9 +145,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 100,
     "DELETED": 0,
-    "CREATED": "2022-12-17 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "c56ca1c9-a199-4963-8bbf-3da6a2b6d29b"
+    "CREATED": "2023-11-12 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "d5f4155a-2570-45a6-984d-0b14b16a7f14"
   },
   {
     "ID": 3004,
@@ -160,9 +160,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 110,
     "DELETED": 0,
-    "CREATED": "2023-01-05 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "03102117-0d65-42e8-8df6-448ce0263d29"
+    "CREATED": "2024-12-16 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "bcf737a9-3df6-4bd6-ae60-176dd4bd7d40"
   },
   {
     "ID": 4001,
@@ -175,9 +175,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 120,
     "DELETED": 0,
-    "CREATED": "2023-07-08 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "de8684a8-049e-4899-a573-ed485c9bda48"
+    "CREATED": "2023-09-19 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "6d55359c-433a-4901-a711-72428b3140ec"
   },
   {
     "ID": 4002,
@@ -190,9 +190,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 130,
     "DELETED": 0,
-    "CREATED": "2024-04-11 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "381e8341-06d1-4e05-900f-dece1fda9c4f"
+    "CREATED": "2024-11-30 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "c9f6735f-21cd-464b-932c-100f19bc70f2"
   },
   {
     "ID": 4003,
@@ -205,9 +205,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 140,
     "DELETED": 0,
-    "CREATED": "2024-09-18 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "de281644-18c7-4961-84f9-cffdeb974ec0"
+    "CREATED": "2024-04-13 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "905ae08b-63ef-4c6f-b565-4981969f332f"
   },
   {
     "ID": 5001,
@@ -220,9 +220,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 150,
     "DELETED": 0,
-    "CREATED": "2023-05-13 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "92a27541-955a-47e5-b84e-2440752e994a"
+    "CREATED": "2024-01-08 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "41bbdf5d-c9c6-42fb-8a1a-6802bbbead31"
   },
   {
     "ID": 5002,
@@ -235,9 +235,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 160,
     "DELETED": 0,
-    "CREATED": "2024-04-23 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "eb6e9d09-4d12-4d50-8a04-e6553953e2e0"
+    "CREATED": "2023-11-19 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "a105f00f-a88f-4a2d-83db-695d6883eda2"
   },
   {
     "ID": 6001,
@@ -250,9 +250,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 170,
     "DELETED": 0,
-    "CREATED": "2023-11-20 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "a93472fc-caf4-4837-b344-f539df17a646"
+    "CREATED": "2024-01-03 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "b3be4f56-6667-4513-9097-e99060e9c5b9"
   },
   {
     "ID": 6002,
@@ -265,9 +265,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 180,
     "DELETED": 0,
-    "CREATED": "2024-01-17 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "338cf02f-f63f-47e4-b966-2a3a2eac73e8"
+    "CREATED": "2023-07-19 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "f1f175f7-112e-4203-997a-7162e4aefa33"
   },
   {
     "ID": 6003,
@@ -280,9 +280,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 190,
     "DELETED": 0,
-    "CREATED": "2024-03-27 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "cc9f1f54-8cb6-4976-be76-e454beefba93"
+    "CREATED": "2024-09-22 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "681fcc54-984e-4677-9574-67e2ea8904f6"
   },
   {
     "ID": 7001,
@@ -295,9 +295,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 200,
     "DELETED": 0,
-    "CREATED": "2023-08-22 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "f40b4c1a-7f4c-47bd-aeea-d06e4f270a32"
+    "CREATED": "2023-12-31 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "94064d9e-c269-4149-8cda-754ce61348ff"
   },
   {
     "ID": 7002,
@@ -310,9 +310,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 210,
     "DELETED": 0,
-    "CREATED": "2023-08-03 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "546d0ae8-1872-4e69-a3d4-cbadf846eae7"
+    "CREATED": "2022-11-09 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "9d009cc9-9804-470a-92d7-3e9e47574e1e"
   },
   {
     "ID": 7003,
@@ -325,8 +325,8 @@
     "DESCRIPTION2": null,
     "SORTORDER": 220,
     "DELETED": 0,
-    "CREATED": "2024-10-07 08:04:58",
-    "MODIFIED": "2025-07-09 08:04:58",
-    "GUID": "872dd517-e6b4-4fec-b65b-9b1f444d749f"
+    "CREATED": "2024-02-25 11:44:02",
+    "MODIFIED": "2025-07-09 11:44:02",
+    "GUID": "bb8bbec2-85bd-4ca9-91a2-b9f923db084e"
   }
 ]

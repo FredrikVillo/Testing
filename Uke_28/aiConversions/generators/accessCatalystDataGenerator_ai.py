@@ -90,7 +90,7 @@ def get_output_dir():
     return "."
 
 # Load employees
-with open("json/employee_data_full.json", "r") as f:
+with open(os.path.join('data', 'output', 'latest', 'employee_data_full.json'), "r") as f:
     employee_data = json.load(f)
 
 accesscatalyst_data = generate_accesscatalyst_for_employees(employee_data)

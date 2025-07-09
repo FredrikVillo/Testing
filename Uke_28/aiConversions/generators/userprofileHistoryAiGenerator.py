@@ -10,7 +10,7 @@ import os
 fake = Faker()
 
 # Load USERPROFILE_IDs and ACCESSCATALYST from CSV
-user_profiles_df = pd.read_csv("csv/userprofile_id.csv", header=None, names=["USERPROFILE_ID", "ACCESSCATALYST"])
+user_profiles_df = pd.read_csv(os.path.join('data', 'input', 'csv', 'userprofile_id.csv'), header=None, names=["USERPROFILE_ID", "ACCESSCATALYST"])
 user_profiles = user_profiles_df.to_dict(orient="records")
 
 # Azure OpenAI setup

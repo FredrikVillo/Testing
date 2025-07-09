@@ -176,7 +176,7 @@ def generate_employee_table(num_employees=100, organizations=None):
     return employees
 
 # Load organizations
-with open("json/organization_data_with_gpt.json", "r") as f:
+with open(os.path.join('data', 'output', 'latest', 'organization_data_with_gpt.json'), "r") as f:
     organization_data = json.load(f)
 
 # Generate and save

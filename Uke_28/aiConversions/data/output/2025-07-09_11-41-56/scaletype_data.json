@@ -1,0 +1,51 @@
+[
+  {
+    "ID": 1,
+    "NAME": "Title",
+    "DESCRIPTION": "Job Titles such as Software Engineer, Manager",
+    "ISACTIVE": 1,
+    "GUID": "8B51C8CF-00A3-4CAE-BBED-142917111BE1"
+  },
+  {
+    "ID": 2,
+    "NAME": "Gender",
+    "DESCRIPTION": "Gender values: Male, Female",
+    "ISACTIVE": 1,
+    "GUID": "4E5660D4-4F1A-492D-BD85-5D365F0DA9A2"
+  },
+  {
+    "ID": 3,
+    "NAME": "PositionLevel",
+    "DESCRIPTION": "Job levels: Junior, Senior, Lead",
+    "ISACTIVE": 1,
+    "GUID": "7A025D3E-42E6-4CDC-A42C-8D5E29D2374B"
+  },
+  {
+    "ID": 4,
+    "NAME": "EmployeeType",
+    "DESCRIPTION": "Employment types: Permanent, Contract",
+    "ISACTIVE": 1,
+    "GUID": "323943D8-0B10-4BE0-8CAE-8B658C5508FB"
+  },
+  {
+    "ID": 5,
+    "NAME": "MaritalStatus",
+    "DESCRIPTION": "Marital status categories",
+    "ISACTIVE": 1,
+    "GUID": "B58334AC-5725-452D-B166-51BD5A5F11ED"
+  },
+  {
+    "ID": 6,
+    "NAME": "Nationality",
+    "DESCRIPTION": "Employee nationality categories",
+    "ISACTIVE": 1,
+    "GUID": "A28CCE1A-419D-4D3C-9881-E0AA39D22DA9"
+  },
+  {
+    "ID": 7,
+    "NAME": "Country",
+    "DESCRIPTION": "Country list",
+    "ISACTIVE": 1,
+    "GUID": "E842A224-E843-4490-B147-45B4C9442DD2"
+  }
+]

@@ -6,26 +6,29 @@ import os
 import json
 import datetime
 import shutil
-from token_logger import update_pipeline_status, reset_pipeline_status, extract_token_usage
+sys.path.append(os.path.join(os.path.dirname(__file__), 'utils'))
+from utils.token_logger import update_pipeline_status, reset_pipeline_status, extract_token_usage
 
 # List of generator scripts in order
 GENERATOR_SCRIPTS = [
+    "generators/scaletypeGenerator.py",
     "generators/organizationAiDataGenerator.py",
     "generators/employeeAiDataGenerator.py",
     "generators/scaleAiDataGenerator.py",
     "generators/accessCatalystDataGenerator_ai.py",
     "generators/userProfileDataGeneratorAi.py",
+    "generators/userprofileFieldGenerator.py",
     "generators/userprofileHistoryAiGenerator.py"
 ]
 
 PYTHON = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".venv", "Scripts", "python.exe")
-STATUS_PATH = "pipeline_status.json"
+STATUS_PATH = "data/output/pipeline_status.json"
 
 
 def get_output_dirs(dry_run=False):
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     base_dir = os.path.abspath(os.path.dirname(__file__))
-    output_root = os.path.join(base_dir, "output")
+    output_root = os.path.join(base_dir, "data", "output")
     if dry_run:
         timestamp_dir = os.path.join(output_root, "dryRun")
     else:
