@@ -68,7 +68,7 @@ def main():
         return
 
     use_openai = True
-    openai_***REMOVED*** = "***REMOVED***"
+    openai_***REMOVED*** = API_KEY
 
     all_results = {}
     for table_name, expected_fields in table_fields.items():
