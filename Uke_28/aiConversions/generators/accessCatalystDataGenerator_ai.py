@@ -3,6 +3,8 @@ import json
 import uuid
 from faker import Faker
 from datetime import datetime, timedelta
+import sys
+import os
 
 fake = Faker()
 
@@ -78,11 +80,23 @@ def generate_accesscatalyst_for_employees(employees):
 
     return access_entries
 
+def is_dry_run():
+    return "--dry-run" in sys.argv
+
+def get_output_dir():
+    for arg in sys.argv[1:]:
+        if not arg.startswith("-"):
+            return arg
+    return "."
+
 # Load employees
 with open("json/employee_data_full.json", "r") as f:
     employee_data = json.load(f)
 
 accesscatalyst_data = generate_accesscatalyst_for_employees(employee_data)
 
-with open("json/accesscatalyst_data.json", "w") as f:
+output_dir = get_output_dir()
+os.makedirs(output_dir, exist_ok=True)
+with open(os.path.join(output_dir, "accesscatalyst_data.json"), "w") as f:
     json.dump(accesscatalyst_data, f, indent=2)
+print(f"✅ Generated {len(accesscatalyst_data)} ACCESSCATALYST entries and saved to '{os.path.join(output_dir, 'accesscatalyst_data.json')}'")

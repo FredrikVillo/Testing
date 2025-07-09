@@ -3,6 +3,8 @@ import json
 from faker import Faker
 from datetime import datetime, timedelta
 from openai import AzureOpenAI
+import sys
+import os
 
 fake = Faker()
 
@@ -28,6 +30,9 @@ country_ids = [7001, 7002, 7003]  # Correct SCALE IDs
 
 # Function to optionally enrich fields using AI
 def generate_career_topic():
+    if is_dry_run():
+        return fake.job()
+    
     prompt = "Suggest a realistic career planning discussion topic for an employee."
     response = client.chat.completions.create(
         model="gpt-4o",
@@ -36,6 +41,15 @@ def generate_career_topic():
         temperature=0.7
     )
     return response.choices[0].message.content.strip()
+
+def is_dry_run():
+    return "--dry-run" in sys.argv
+
+def get_output_dir():
+    for arg in sys.argv[1:]:
+        if not arg.startswith("-"):
+            return arg
+    return "."
 
 # Generate employee records
 def generate_employee_table(num_employees=100, organizations=None):
@@ -128,6 +142,35 @@ def generate_employee_table(num_employees=100, organizations=None):
             "GUID": str(fake.uuid4())
         }
 
+        # Use faker for fields if dry run
+        if is_dry_run():
+            employee["EMPLOYEENO"] = fake.lexify(text='EMP????')
+            employee["SURNAME"] = fake.last_name()
+            employee["GIVENNAME"] = fake.first_name()
+            employee["MIDDLENAME"] = fake.first_name()
+            employee["COMMONNAME"] = fake.first_name()
+            employee["MAIL"] = fake.email()
+            employee["PRIVATEMAIL"] = fake.email()
+            employee["ADDRESS1"] = fake.street_address()
+            employee["ADDRESS2"] = fake.secondary_address()
+            employee["ZIPCODE"] = fake.postcode()
+            employee["NICKNAME"] = fake.first_name()
+            employee["USERID"] = f"user{emp_id}"
+            employee["PASSWORD"] = fake.password()
+            employee["BUILDINGNAME"] = fake.word()
+            employee["PHOTOURL"] = fake.image_url()
+            employee["PROFILE_TITLE"] = fake.job()
+            employee["LASTLOGON"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            employee["MODIFIED"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            employee["MODIFIEDBY"] = fake.user_name()
+            employee["DIRECTORYDN"] = f"CN={fake.name()},OU=People,DC=example,DC=com"
+            employee["DIRECTORYMODIFIED"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            employee["JOB_DESCRIPTION"] = fake.job()
+            employee["HOMEADDRESS"] = fake.address()
+            employee["DATEOFBIRTH"] = birth_date_str
+            employee["SOCIALSECURITYNUMBER"] = fake.ssn()
+            employee["GUID"] = str(fake.uuid4())
+
         employees.append(employee)
 
     return employees
@@ -139,7 +182,9 @@ with open("json/organization_data_with_gpt.json", "r") as f:
 # Generate and save
 employee_data = generate_employee_table(num_employees=100, organizations=organization_data)
 
-with open("json/employee_data_full.json", "w") as f:
+output_dir = get_output_dir()
+os.makedirs(output_dir, exist_ok=True)
+with open(os.path.join(output_dir, "employee_data_full.json"), "w") as f:
     json.dump(employee_data, f, indent=2)
 
-print(f"✅ Generated {len(employee_data)} EMPLOYEE records and saved to 'employee_data_full.json'")
+print(f"✅ Generated {len(employee_data)} EMPLOYEE records and saved to '{os.path.join(output_dir, 'employee_data_full.json')}'")

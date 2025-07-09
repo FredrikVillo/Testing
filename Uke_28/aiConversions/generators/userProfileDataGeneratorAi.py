@@ -1,6 +1,8 @@
 import random
 import csv
 import json
+import os
+import sys
 from faker import Faker
 
 fake = Faker()
@@ -34,6 +36,15 @@ def generate_userprofiles(employees, max_profiles_per_employee=3):
 
     return userprofiles
 
+def is_dry_run():
+    return "--dry-run" in sys.argv
+
+def get_output_dir():
+    for arg in sys.argv[1:]:
+        if not arg.startswith("-"):
+            return arg
+    return "."
+
 # Load combined EMPLOYEE + ACCESSCATALYST data from CSV
 employee_data = []
 with open("csv/employee_data_with_accesscatalyst.csv", mode="r", encoding="utf-8-sig") as csv_file:  # Handle BOM
@@ -44,6 +55,12 @@ with open("csv/employee_data_with_accesscatalyst.csv", mode="r", encoding="utf-8
 # Generate USERPROFILE entries
 userprofile_data = generate_userprofiles(employee_data)
 
-# Save result to JSON
-with open("json/userprofile_data.json", "w") as f:
+# Use faker for any AI fields if is_dry_run()
+if is_dry_run():
+    userprofile_data = [{"USERFIELD": fake.word(), "ACCESSCATALYST": fake.random_int(), "FIELD_VALUE": fake.word()} for _ in range(len(userprofile_data))]
+
+output_dir = get_output_dir()
+os.makedirs(output_dir, exist_ok=True)
+with open(os.path.join(output_dir, "userprofile_data.json"), "w") as f:
     json.dump(userprofile_data, f, indent=2)
+print(f"✅ Generated {len(userprofile_data)} USERPROFILE entries and saved to '{os.path.join(output_dir, 'userprofile_data.json')}'")

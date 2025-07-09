@@ -3,6 +3,9 @@ import uuid
 from datetime import datetime, timedelta
 import random
 from openai import AzureOpenAI
+import sys
+from faker import Faker
+import os
 
 # Azure OpenAI client setup
 ***REMOVED***_path = "C:/Users/FredrikVillo/repos/TestDataGeneration/***REMOVED***.txt"
@@ -15,8 +18,13 @@ client = AzureOpenAI(
     azure_endpoint="https://azureopenai-sin-dev.openai.azure.com"
 )
 
+fake = Faker()
+
 # Function to call GPT to generate diverse job titles
 def generate_titles(n=10):
+    if is_dry_run():
+        return [fake.job() for _ in range(n)]
+    
     prompt = (
         f"Generate {n} unique, realistic job titles for a modern company. List them separated by commas without numbering or explanations."
     )
@@ -28,6 +36,15 @@ def generate_titles(n=10):
     )
     titles = [title.strip() for title in response.choices[0].message.content.split(',') if title.strip()]
     return titles[:n]
+
+def is_dry_run():
+    return "--dry-run" in sys.argv
+
+def get_output_dir():
+    for arg in sys.argv[1:]:
+        if not arg.startswith("-"):
+            return arg
+    return "."
 
 # Generate title entries using GPT
 title_names = generate_titles(5)
@@ -170,7 +187,9 @@ for idx, country in enumerate(countries, start=1):
     })
 
 # Save to JSON
-with open("json/scale_data_full.json", "w") as f:
+output_dir = get_output_dir()
+os.makedirs(output_dir, exist_ok=True)
+with open(os.path.join(output_dir, "scale_data_full.json"), "w") as f:
     json.dump(scale_entries, f, indent=2)
 
-print(f"✅ Generated {len(scale_entries)} SCALE entries and saved to 'scale_data_full.json'")
+print(f"✅ Generated {len(scale_entries)} SCALE entries and saved to '{os.path.join(output_dir, 'scale_data_full.json')}'")

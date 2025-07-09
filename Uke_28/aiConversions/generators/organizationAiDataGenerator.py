@@ -2,6 +2,7 @@ import os
 import random
 import json
 import uuid
+import sys
 from faker import Faker
 from datetime import datetime, timedelta
 from openai import AzureOpenAI
@@ -32,6 +33,9 @@ IMPORT_MODIFIED_CHOICES = [
 
 # Function to call Azure OpenAI API
 def call_openai(prompt, model="gpt-4o", max_tokens=100, temperature=0.7):
+    if is_dry_run():
+        # Use faker for dry run
+        return fake.sentence(nb_words=8)
     try:
         response = client.chat.completions.create(
             model=model,
@@ -50,8 +54,19 @@ def clean_response(text):
         return text.replace('`', '').replace('*', '').replace('"', '').strip()
     return text
 
+def is_dry_run():
+    return "--dry-run" in sys.argv
+
+def get_output_dir():
+    for arg in sys.argv[1:]:
+        if not arg.startswith("-"):
+            return arg
+    return "."
+
 # Batch generate department names with country suffix
 def generate_department_names_batch(n=10):
+    if is_dry_run():
+        return [fake.company() for _ in range(n)]
     countries = ["Norway", "Sweden", "UK", "India"]
     prompt = (
         f"Generate exactly {n} unique, creative, and professional names for corporate departments in a mid-sized company. "
@@ -132,7 +147,9 @@ def generate_organization_table(num_orgs=10):
     return organizations
 
 # Generate and save to JSON
-output_path = "json/organization_data_with_gpt.json"
+output_dir = get_output_dir()
+os.makedirs(output_dir, exist_ok=True)
+output_path = os.path.join(output_dir, "organization_data_with_gpt.json")
 org_data = generate_organization_table(100)
 
 with open(output_path, "w", encoding="utf-8") as f:

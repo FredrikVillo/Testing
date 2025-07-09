@@ -4,23 +4,37 @@ from faker import Faker
 from datetime import datetime, timedelta
 import pandas as pd
 from openai import AzureOpenAI
+import sys
+import os
 
 fake = Faker()
 
 # Load USERPROFILE_IDs and ACCESSCATALYST from CSV
-user_profiles_df = pd.read_csv("userprofile_id.csv", header=None, names=["USERPROFILE_ID", "ACCESSCATALYST"])
+user_profiles_df = pd.read_csv("csv/userprofile_id.csv", header=None, names=["USERPROFILE_ID", "ACCESSCATALYST"])
 user_profiles = user_profiles_df.to_dict(orient="records")
 
 # Azure OpenAI setup
-***REMOVED***_path = "C:/Users/FredrikVillo/repos/TestDataGeneration/***REMOVED***.txt"
-with open(***REMOVED***_path, "r") as f:
-    ***REMOVED*** = f.read().strip()
+def is_dry_run():
+    return "--dry-run" in sys.argv
 
-client = AzureOpenAI(
-    ***REMOVED***=***REMOVED***,
-    api_version="2025-01-01-preview",
-    azure_endpoint="https://azureopenai-sin-dev.openai.azure.com"
-)
+def get_output_dir():
+    # Default to current folder if not provided
+    for arg in sys.argv[1:]:
+        if not arg.startswith("-"):
+            return arg
+    return "."
+
+if not is_dry_run():
+    ***REMOVED***_path = "C:/Users/FredrikVillo/repos/TestDataGeneration/***REMOVED***.txt"
+    with open(***REMOVED***_path, "r") as f:
+        ***REMOVED*** = f.read().strip()
+    client = AzureOpenAI(
+        ***REMOVED***=***REMOVED***,
+        api_version="2025-01-01-preview",
+        azure_endpoint="https://azureopenai-sin-dev.openai.azure.com"
+    )
+else:
+    client = None
 
 # Predefined value pools by type
 value_pool_by_field = {
@@ -31,6 +45,9 @@ value_pool_by_field = {
 
 # Function to call AI for reason
 def generate_reason(old_value, new_value):
+    if is_dry_run() or client is None:
+        # Use faker for dry run
+        return fake.sentence(nb_words=8)
     prompt = (
         f"An employee's profile value changed from '{old_value}' to '{new_value}'. "
         "Provide a concise and realistic reason for this change in an HR system. "
@@ -104,7 +121,9 @@ for profile in user_profiles:
         history_id += 1
 
 # Save to JSON
-with open("json/userprofile_history_data.json", "w") as f:
+output_dir = get_output_dir()
+os.makedirs(output_dir, exist_ok=True)
+with open(os.path.join(output_dir, "userprofile_history_data.json"), "w") as f:
     json.dump(history_data, f, indent=2)
 
 print(f"✅ Generated {len(history_data)} USERPROFILE_HISTORY entries with AI-enhanced reasons.")
