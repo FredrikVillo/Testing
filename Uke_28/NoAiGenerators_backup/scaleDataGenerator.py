@@ -24,5 +24,5 @@ for idx, entry in enumerate(scale_entries):
     entry["MODIFIED"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     entry["GUID"] = str(uuid.uuid4())
 
-with open("scale_data_full.json", "w") as f:
+with open("json/scale_data_full.json", "w") as f:
     json.dump(scale_entries, f, indent=2)

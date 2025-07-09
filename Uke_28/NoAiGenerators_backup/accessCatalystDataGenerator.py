@@ -79,10 +79,10 @@ def generate_accesscatalyst_for_employees(employees):
     return access_entries
 
 # Load employees
-with open("employee_data.json", "r") as f:
+with open("json/employee_data.json", "r") as f:
     employee_data = json.load(f)
 
 accesscatalyst_data = generate_accesscatalyst_for_employees(employee_data)
 
-with open("accesscatalyst_data.json", "w") as f:
+with open("json/accesscatalyst_data.json", "w") as f:
     json.dump(accesscatalyst_data, f, indent=2)

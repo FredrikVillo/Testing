@@ -50,5 +50,5 @@ def generate_organization_table(num_orgs=10):
 # Generate and save
 org_data = generate_organization_table(10)
 
-with open("organization_data.json", "w") as f:
+with open("json/organization_data.json", "w") as f:
     json.dump(org_data, f, indent=2)

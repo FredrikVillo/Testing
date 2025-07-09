@@ -2,8 +2,8 @@ import json
 import csv
 
 # Input and output file paths
-INPUT_FILEPATH = "accesscatalyst_data.json"
-OUTPUT_FILEPATH = "accesscatalyst_data.csv"
+INPUT_FILEPATH = "json/accesscatalyst_data.json"
+OUTPUT_FILEPATH = "csv/accesscatalyst_data.csv"
 
 # Load JSON data
 with open(INPUT_FILEPATH, 'r', encoding='utf-8') as f:

@@ -7,7 +7,7 @@ import pandas as pd
 fake = Faker()
 
 # Load USERPROFILE_IDs and ACCESSCATALYST from CSV
-user_profiles_df = pd.read_csv("userprofile_id.csv", header=None, names=["USERPROFILE_ID", "ACCESSCATALYST"])
+user_profiles_df = pd.read_csv("csv/userprofile_id.csv", header=None, names=["USERPROFILE_ID", "ACCESSCATALYST"])
 user_profiles = user_profiles_df.to_dict(orient="records")
 
 # Predefined value pools and reasons
@@ -65,7 +65,7 @@ for profile in user_profiles:
         history_id += 1
 
 # Save to JSON
-with open("userprofile_history_data.json", "w") as f:
+with open("json/userprofile_history_data.json", "w") as f:
     json.dump(history_data, f, indent=2)
 
 print(f"Generated {len(history_data)} USERPROFILE_HISTORY entries.")

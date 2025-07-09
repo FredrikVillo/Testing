@@ -2,10 +2,10 @@ import json
 from datetime import datetime
 
 # Load data
-with open("organization_data.json", "r") as f:
+with open("json/organization_data.json", "r") as f:
     organizations = json.load(f)
 
-with open("employee_data.json", "r") as f:
+with open("json/employee_data.json", "r") as f:
     employees = json.load(f)
 
 # Build a set of valid ORGANIZATION IDs

@@ -102,11 +102,11 @@ def generate_employee_table(num_employees=50, organizations=None):
     return employees
 
 # Load organizations
-with open("organization_data.json", "r") as f:
+with open("json/organization_data.json", "r") as f:
     organization_data = json.load(f)
 
 # Generate and save
 employee_data = generate_employee_table(num_employees=50, organizations=organization_data)
 
-with open("employee_data_full.json", "w") as f:
+with open("json/employee_data_full.json", "w") as f:
     json.dump(employee_data, f, indent=2)

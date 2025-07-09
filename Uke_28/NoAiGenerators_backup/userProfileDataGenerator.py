@@ -34,12 +34,12 @@ def generate_userprofiles(employees, max_profiles_per_employee=3):
     return userprofiles
 
 # Load combined EMPLOYEE + ACCESSCATALYST data (must include ACCESSCATALYST IDs)
-with open("employee_data_with_accesscatalyst.json", "r") as f:
+with open("json/employee_data_with_accesscatalyst.json", "r") as f:
     employee_data = json.load(f)
 
 # Generate USERPROFILE entries
 userprofile_data = generate_userprofiles(employee_data)
 
 # Save result to JSON
-with open("userprofile_data.json", "w") as f:
+with open("json/userprofile_data.json", "w") as f:
     json.dump(userprofile_data, f, indent=2)
