@@ -1,0 +1,117 @@
+[
+  {
+    "table_name": "dbo.Employee",
+    "records": [
+      {
+        "EmployeeID": 1,
+        "FirstName": "John",
+        "LastName": "Doe",
+        "DepartmentID": 101,
+        "ManagerID": 5,
+        "HireDate": "2020-01-15",
+        "Email": "john.doe@example.com",
+        "PhoneNumber": "+1234567890"
+      },
+      {
+        "EmployeeID": 2,
+        "FirstName": "Jane",
+        "LastName": "Smith",
+        "DepartmentID": 102,
+        "ManagerID": 6,
+        "HireDate": "2019-03-22",
+        "Email": "jane.smith@example.com",
+        "PhoneNumber": "+1987654321"
+      },
+      {
+        "EmployeeID": 3,
+        "FirstName": "Alice",
+        "LastName": "Johnson",
+        "DepartmentID": 103,
+        "ManagerID": 5,
+        "HireDate": "2018-07-11",
+        "Email": "alice.johnson@example.com",
+        "PhoneNumber": "+1123456789"
+      },
+      {
+        "EmployeeID": 4,
+        "FirstName": "Bob",
+        "LastName": "Brown",
+        "DepartmentID": 104,
+        "ManagerID": 7,
+        "HireDate": "2021-05-30",
+        "Email": "bob.brown@example.com",
+        "PhoneNumber": "+1098765432"
+      }
+    ]
+  },
+  {
+    "table_name": "dbo.Department",
+    "records": [
+      {
+        "DepartmentID": 1,
+        "Name": "Human Resources",
+        "Location": "Oslo"
+      },
+      {
+        "DepartmentID": 2,
+        "Name": "Finance",
+        "Location": "Bergen"
+      },
+      {
+        "DepartmentID": 3,
+        "Name": "IT Support",
+        "Location": "Stavanger"
+      },
+      {
+        "DepartmentID": 4,
+        "Name": "Marketing",
+        "Location": "Trondheim"
+      },
+      {
+        "DepartmentID": 5,
+        "Name": "Research and Development",
+        "Location": "Tromsø"
+      }
+    ]
+  },
+  {
+    "table_name": "dbo.ProjectAssignment",
+    "records": [
+      {
+        "AssignmentID": 1,
+        "EmployeeID": 101,
+        "ProjectName": "Project Alpha",
+        "StartDate": "2023-01-15",
+        "EndDate": "2023-05-30"
+      },
+      {
+        "AssignmentID": 2,
+        "EmployeeID": 102,
+        "ProjectName": "Project Beta",
+        "StartDate": "2023-02-01",
+        "EndDate": "2023-06-15"
+      },
+      {
+        "AssignmentID": 3,
+        "EmployeeID": 103,
+        "ProjectName": "Project Gamma",
+        "StartDate": "2023-03-10",
+        "EndDate": "2023-07-20"
+      },
+      {
+        "AssignmentID": 4,
+        "EmployeeID": 104,
+        "ProjectName": "Project Delta",
+        "StartDate": "2023-04-05",
+        "EndDate": "2023-08-25"
+      },
+      {
+        "AssignmentID": 5,
+        "EmployeeID": 105,
+        "ProjectName": "Project Epsilon",
+        "StartDate": "2023-05-20",
+        "EndDate": "2023-09-30"
+      }
+    ]
+  }
+]
