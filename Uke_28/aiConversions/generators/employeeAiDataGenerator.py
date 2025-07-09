@@ -6,15 +6,20 @@ from openai import AzureOpenAI
 import sys
 import os
 
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass  # Ignore if not supported
+
 fake = Faker()
 
 # Optional: AI client for richer fields
-***REMOVED***_path = "C:/Users/FredrikVillo/repos/TestDataGeneration/***REMOVED***.txt"
-with open(***REMOVED***_path, "r") as f:
-    ***REMOVED*** = f.read().strip()
+api_key_path = "C:/Users/FredrikVillo/repos/TestDataGeneration/api_key.txt"
+with open(api_key_path, "r") as f:
+    api_key = f.read().strip()
 
 client = AzureOpenAI(
-    ***REMOVED***=***REMOVED***,
+    api_key=api_key,
     api_version="2025-01-01-preview",
     azure_endpoint="https://azureopenai-sin-dev.openai.azure.com"
 )

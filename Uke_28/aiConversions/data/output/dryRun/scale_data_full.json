@@ -2,77 +2,77 @@
   {
     "ID": 1001,
     "SCALETYPE": 1,
-    "NAME0": "Engineer, civil (contracting)",
-    "NAME1": "Engineer, civil (contracting)",
-    "NAME2": "Engineer, civil (contracting)",
-    "DESCRIPTION0": "Job Title: Engineer, civil (contracting)",
+    "NAME0": "Development worker, community",
+    "NAME1": "Development worker, community",
+    "NAME2": "Development worker, community",
+    "DESCRIPTION0": "Job Title: Development worker, community",
     "DESCRIPTION1": null,
     "DESCRIPTION2": null,
     "SORTORDER": 10,
     "DELETED": 0,
-    "CREATED": "2024-07-01 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "65003f90-35a7-4b96-9d36-ac1068502722"
+    "CREATED": "2024-06-25 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "cf0dff45-c2a9-412b-ac94-057d08f7b8ab"
   },
   {
     "ID": 1002,
     "SCALETYPE": 1,
-    "NAME0": "Sports therapist",
-    "NAME1": "Sports therapist",
-    "NAME2": "Sports therapist",
-    "DESCRIPTION0": "Job Title: Sports therapist",
+    "NAME0": "Public affairs consultant",
+    "NAME1": "Public affairs consultant",
+    "NAME2": "Public affairs consultant",
+    "DESCRIPTION0": "Job Title: Public affairs consultant",
     "DESCRIPTION1": null,
     "DESCRIPTION2": null,
     "SORTORDER": 20,
     "DELETED": 0,
-    "CREATED": "2023-08-21 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "80659925-e6f9-477c-9b82-51baaf8e1667"
+    "CREATED": "2023-12-20 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "b93e0f1a-4a41-4346-8f62-c8457990360a"
   },
   {
     "ID": 1003,
     "SCALETYPE": 1,
-    "NAME0": "Applications developer",
-    "NAME1": "Applications developer",
-    "NAME2": "Applications developer",
-    "DESCRIPTION0": "Job Title: Applications developer",
+    "NAME0": "Horticultural therapist",
+    "NAME1": "Horticultural therapist",
+    "NAME2": "Horticultural therapist",
+    "DESCRIPTION0": "Job Title: Horticultural therapist",
     "DESCRIPTION1": null,
     "DESCRIPTION2": null,
     "SORTORDER": 30,
     "DELETED": 0,
-    "CREATED": "2023-03-07 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "685a8622-8519-4dda-9cea-e21331f38763"
+    "CREATED": "2023-05-01 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "1fb7b784-f455-4972-aca8-5d0acb5acd01"
   },
   {
     "ID": 1004,
     "SCALETYPE": 1,
-    "NAME0": "Technical brewer",
-    "NAME1": "Technical brewer",
-    "NAME2": "Technical brewer",
-    "DESCRIPTION0": "Job Title: Technical brewer",
+    "NAME0": "Clothing/textile technologist",
+    "NAME1": "Clothing/textile technologist",
+    "NAME2": "Clothing/textile technologist",
+    "DESCRIPTION0": "Job Title: Clothing/textile technologist",
     "DESCRIPTION1": null,
     "DESCRIPTION2": null,
     "SORTORDER": 40,
     "DELETED": 0,
-    "CREATED": "2024-03-28 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "2409d381-69c2-4dfc-a9d1-339d58e737d5"
+    "CREATED": "2024-02-02 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "8bf67465-d50c-4d3a-93ff-000e72c8e066"
   },
   {
     "ID": 1005,
     "SCALETYPE": 1,
-    "NAME0": "Product manager",
-    "NAME1": "Product manager",
-    "NAME2": "Product manager",
-    "DESCRIPTION0": "Job Title: Product manager",
+    "NAME0": "Nutritional therapist",
+    "NAME1": "Nutritional therapist",
+    "NAME2": "Nutritional therapist",
+    "DESCRIPTION0": "Job Title: Nutritional therapist",
     "DESCRIPTION1": null,
     "DESCRIPTION2": null,
     "SORTORDER": 50,
     "DELETED": 0,
-    "CREATED": "2024-06-27 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "e81fe0a1-612d-4cb9-9b70-9a70d804f56c"
+    "CREATED": "2024-08-02 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "75bbd30a-d8f8-4b59-9ff6-5b4eecc9ba1a"
   },
   {
     "ID": 2001,
@@ -85,9 +85,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 60,
     "DELETED": 0,
-    "CREATED": "2023-11-11 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "005b89e7-ee6a-4c33-86fe-e447d96ee88d"
+    "CREATED": "2024-05-23 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "27aad586-287f-4aeb-955f-196bb19cc81b"
   },
   {
     "ID": 2002,
@@ -100,9 +100,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 70,
     "DELETED": 0,
-    "CREATED": "2022-11-11 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "ec30e737-a69a-455a-b69a-097876c78a3c"
+    "CREATED": "2024-08-16 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "e9cfddc4-9d1a-46ec-b9c0-546d867ac174"
   },
   {
     "ID": 3001,
@@ -115,9 +115,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 80,
     "DELETED": 0,
-    "CREATED": "2023-01-11 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "aecf22d1-5cb8-463d-9a9a-5d8f26eb20dc"
+    "CREATED": "2022-11-30 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "9e529721-5fd5-4527-be63-15fbcf8b83d1"
   },
   {
     "ID": 3002,
@@ -130,9 +130,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 90,
     "DELETED": 0,
-    "CREATED": "2023-09-09 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "60de8d06-6340-4cdc-9221-b4a8ef8ddd4e"
+    "CREATED": "2024-05-22 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "39672d91-4220-46b5-bba6-180578e906a9"
   },
   {
     "ID": 3003,
@@ -145,9 +145,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 100,
     "DELETED": 0,
-    "CREATED": "2023-12-26 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "86bc666d-fcd9-48d4-9daa-50c5a636d1c4"
+    "CREATED": "2024-05-25 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "102fcca7-e75d-4713-8073-9fafded96826"
   },
   {
     "ID": 3004,
@@ -160,9 +160,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 110,
     "DELETED": 0,
-    "CREATED": "2023-10-14 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "23be0f17-3865-4407-8976-0999bc513998"
+    "CREATED": "2023-05-28 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "5fe02e57-0df2-447a-9a6c-a5ac57d21a3d"
   },
   {
     "ID": 4001,
@@ -175,9 +175,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 120,
     "DELETED": 0,
-    "CREATED": "2024-04-29 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "20f563da-cac5-4ed8-9aee-06fd7563e56d"
+    "CREATED": "2023-02-18 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "eb5c9746-6110-4bb2-b1e2-68e0afda978a"
   },
   {
     "ID": 4002,
@@ -190,9 +190,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 130,
     "DELETED": 0,
-    "CREATED": "2024-09-28 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "fcbd4cda-a126-4746-ac2a-80e576106989"
+    "CREATED": "2023-03-25 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "5f32358f-8210-49b0-931b-2166c5b75766"
   },
   {
     "ID": 4003,
@@ -205,9 +205,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 140,
     "DELETED": 0,
-    "CREATED": "2024-02-21 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "704e80c6-14e9-4f5c-a02e-88c5b6c5e575"
+    "CREATED": "2023-10-12 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "57b9aa21-68fd-4289-9d68-12279332b0b0"
   },
   {
     "ID": 5001,
@@ -220,9 +220,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 150,
     "DELETED": 0,
-    "CREATED": "2024-09-08 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "3f29acf1-e2ef-49e3-bf34-c397e8a9052b"
+    "CREATED": "2023-02-18 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "61becb1c-02d7-45fd-b242-2b3145f21fa9"
   },
   {
     "ID": 5002,
@@ -235,9 +235,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 160,
     "DELETED": 0,
-    "CREATED": "2022-10-16 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "2898d5a2-d23c-463a-9124-ec0b3a3cb00f"
+    "CREATED": "2023-09-16 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "f7df28e1-48b4-48a4-bd35-2b38be9b33e9"
   },
   {
     "ID": 6001,
@@ -250,9 +250,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 170,
     "DELETED": 0,
-    "CREATED": "2023-11-19 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "ac951952-d39f-48c1-9619-4d8dd5d9616c"
+    "CREATED": "2024-10-15 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "26a7c582-b60b-4fe8-b2e3-1538861dc526"
   },
   {
     "ID": 6002,
@@ -265,9 +265,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 180,
     "DELETED": 0,
-    "CREATED": "2023-03-01 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "63090fe2-388b-4ce7-8468-3a150f3eb127"
+    "CREATED": "2023-11-15 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "cd2192cd-88cb-4d0a-a81b-20aab9f358d7"
   },
   {
     "ID": 6003,
@@ -280,9 +280,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 190,
     "DELETED": 0,
-    "CREATED": "2023-08-26 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "404172d0-53cc-41c7-b8b5-ad20c025ea24"
+    "CREATED": "2024-10-18 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "13904df4-6f65-4fed-b3ab-10b164e8543b"
   },
   {
     "ID": 7001,
@@ -295,9 +295,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 200,
     "DELETED": 0,
-    "CREATED": "2023-09-05 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "1138a0a5-78e7-4a9d-a52a-ad88e5ff4616"
+    "CREATED": "2023-07-09 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "5781ca6b-5a95-4cf7-8b27-c8048eaba38e"
   },
   {
     "ID": 7002,
@@ -310,9 +310,9 @@
     "DESCRIPTION2": null,
     "SORTORDER": 210,
     "DELETED": 0,
-    "CREATED": "2022-11-19 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "3e1e1dc2-ffeb-42f2-8c4c-6163439df199"
+    "CREATED": "2023-06-29 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "641ca398-4264-4a9d-b68a-2f24236446ff"
   },
   {
     "ID": 7003,
@@ -325,8 +325,8 @@
     "DESCRIPTION2": null,
     "SORTORDER": 220,
     "DELETED": 0,
-    "CREATED": "2023-07-15 11:41:13",
-    "MODIFIED": "2025-07-09 11:41:13",
-    "GUID": "fb8d348a-5b2f-41e5-b20c-777ea49e8ddc"
+    "CREATED": "2024-10-20 13:37:34",
+    "MODIFIED": "2025-07-09 13:37:34",
+    "GUID": "1ff69728-75c1-4e69-bcae-580666833ea5"
   }
 ]

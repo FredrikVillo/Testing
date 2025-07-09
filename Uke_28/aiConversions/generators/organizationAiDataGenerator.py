@@ -1,20 +1,25 @@
+import sys
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass  # Ignore if not supported
+
 import os
 import random
 import json
 import uuid
-import sys
 from faker import Faker
 from datetime import datetime, timedelta
 from openai import AzureOpenAI
 
 # Load API key from external file
-***REMOVED***_path = "C:/Users/FredrikVillo/repos/TestDataGeneration/***REMOVED***.txt"
-with open(***REMOVED***_path, "r") as f:
-    ***REMOVED*** = f.read().strip()
+api_key_path = "C:/Users/FredrikVillo/repos/TestDataGeneration/api_key.txt"
+with open(api_key_path, "r") as f:
+    api_key = f.read().strip()
 
 # Azure OpenAI client setup
 client = AzureOpenAI(
-    ***REMOVED***=***REMOVED***,
+    api_key=api_key,
     api_version="2025-01-01-preview",
     azure_endpoint="https://azureopenai-sin-dev.openai.azure.com"
 )
@@ -156,3 +161,6 @@ with open(os.path.join(output_dir, "organization_data_with_gpt.json"), "w", enco
     json.dump(org_data, f, indent=2)
 
 print(f"✅ Organization data generated and saved to '{output_path}'")
+
+if __name__ == "__main__":
+    pass

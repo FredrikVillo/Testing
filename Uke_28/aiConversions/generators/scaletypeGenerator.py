@@ -2,6 +2,10 @@ import csv
 import json
 import sys
 import os
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass  # Ignore if not supported
 
 # Usage: python scaletypeGenerator.py <output_dir>
 def main():
@@ -28,7 +32,8 @@ def main():
 
     with open(json_out, 'w', encoding='utf-8') as f:
         json.dump(scaletypes, f, indent=2)
-    print(f"✅ Wrote {len(scaletypes)} SCALETYPE rows to {json_out}")
+    # Replace Unicode checkmark with ASCII
+    print(f"\u2705 Wrote {len(scaletypes)} SCALETYPE rows to {json_out}")
 
 if __name__ == "__main__":
     main()

@@ -3,6 +3,11 @@ import json
 import sys
 import os
 
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass  # Ignore if not supported
+
 # Usage: python userprofileFieldGenerator.py <output_dir>
 def main():
     if len(sys.argv) < 2:

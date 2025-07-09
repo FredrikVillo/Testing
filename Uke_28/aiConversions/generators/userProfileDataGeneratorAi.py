@@ -1,8 +1,13 @@
+import sys
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass  # Ignore if not supported
+
 import random
 import csv
 import json
 import os
-import sys
 from faker import Faker
 
 fake = Faker()

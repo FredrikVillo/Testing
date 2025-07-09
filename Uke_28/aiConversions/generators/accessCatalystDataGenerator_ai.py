@@ -1,9 +1,14 @@
+import sys
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass  # Ignore if not supported
+
 import random
 import json
 import uuid
 from faker import Faker
 from datetime import datetime, timedelta
-import sys
 import os
 
 fake = Faker()

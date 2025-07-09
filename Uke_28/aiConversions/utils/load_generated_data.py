@@ -2,6 +2,7 @@ import pyodbc
 import json
 import os
 import re
+import sys
 
 # Always resolve paths relative to the project root
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -10,9 +11,20 @@ PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '..', '..'))
 def rel_path(*parts):
     return os.path.join(PROJECT_ROOT, *parts)
 
+# Add dry run argument
+dry_run = '--dry-run' in sys.argv
+
+# Set canonical output directory for loader
+if dry_run:
+    DATA_DIR = rel_path('aiConversions', 'data', 'output', 'dryRun')
+    print("[INFO] Dry run mode: loading data from 'dryRun' folder.")
+else:
+    DATA_DIR = rel_path('aiConversions', 'data', 'output', 'latest')
+    print("[INFO] Loading data from 'latest' folder.")
+
 # Koble til SQL Server med sa-login
 conn = pyodbc.connect(
-    "DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-R9S4CFK;DATABASE=automated_test;UID=sa;PWD=(catalystone123);"
+    "DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-R9S4CFK;DATABASE=dry_run_test;UID=sa;PWD=(catalystone123);"
 )
 cursor = conn.cursor()
 
@@ -48,9 +60,6 @@ def clean_database(cursor):
             print(f"[WARNING] Could not reseed identity for {table}: {e}")
     cursor.connection.commit()
     print('Database cleaned and identity reseeded.')
-
-# Set canonical output directory for loader
-DATA_DIR = rel_path('aiConversions', 'data', 'output', 'latest')
 
 # Hjelpefunksjon for å laste JSON
 def load_json(filename):
@@ -174,7 +183,15 @@ conn.commit()
 print('Inserting ACCESSCATALYST...')
 access = load_json('accesscatalyst_data.json')
 access_cols = [col for col in table_columns_dict['ACCESSCATALYST'] if col.upper() != 'ACCESSCATALYST']  # ekskluder identity
-for row in access:
+access_seen = set()
+access_skipped = 0
+for idx, row in enumerate(access):
+    # Deduplication: use tuple of all non-identity columns as key
+    key = tuple(row.get(col) for col in access_cols)
+    if key in access_seen:
+        access_skipped += 1
+        continue
+    access_seen.add(key)
     values = [row.get(col) for col in access_cols]
     placeholders = ', '.join(['?'] * len(access_cols))
     col_list = ', '.join(access_cols)
@@ -183,6 +200,8 @@ for row in access:
         values
     )
 conn.commit()
+if access_skipped:
+    print(f"[WARNING] Skipped {access_skipped} duplicate ACCESSCATALYST rows.")
 
 # 6. USERPROFILE_FIELD
 print('Inserting USERPROFILE_FIELD...')
@@ -191,12 +210,18 @@ userprofile_field_cols = [col for col in table_columns_dict['USERPROFILE_FIELD']
 required_fields = [col for col in userprofile_field_cols if col.upper() == 'FIELDNAME']
 skipped_rows = []
 inserted_count = 0
+field_seen = set()
 for idx, row in enumerate(fields):
     # Validation: FIELDNAME must not be None or empty
     fieldname_val = row.get('FIELDNAME')
     if fieldname_val is None or (isinstance(fieldname_val, str) and not fieldname_val.strip()):
         skipped_rows.append({'index': idx, 'row': row})
         continue
+    # Deduplication: use tuple of all non-identity columns as key
+    key = tuple(row.get(col) for col in userprofile_field_cols)
+    if key in field_seen:
+        continue
+    field_seen.add(key)
     values = [row.get(col) for col in userprofile_field_cols]
     placeholders = ', '.join(['?'] * len(userprofile_field_cols))
     col_list = ', '.join(userprofile_field_cols)
@@ -221,6 +246,7 @@ userprofile_cols = table_columns_dict['USERPROFILE']
 access_rows = load_json('accesscatalyst_data.json')
 valid_accesscatalyst_ids = set(row['ACCESSCATALYST'] for row in access_rows)
 skipped_profiles = []
+profile_seen = set()
 for idx, row in enumerate(profiles):
     ac_val = row.get('ACCESSCATALYST')
     # Stricter validation: must be int (not bool/float/str), not None, and in valid set
@@ -231,6 +257,11 @@ for idx, row in enumerate(profiles):
             print("[ERROR] ... (more skipped rows, see summary below)")
         skipped_profiles.append({'index': idx, 'row': row})
         continue
+    # Deduplication: use only the primary key columns as key
+    pk_key = (row.get('USERFIELD'), row.get('ACCESSCATALYST'))
+    if pk_key in profile_seen:
+        continue
+    profile_seen.add(pk_key)
     values = [row.get(col) for col in userprofile_cols]
     placeholders = ', '.join(['?'] * len(userprofile_cols))
     col_list = ', '.join(userprofile_cols)
@@ -247,9 +278,9 @@ for idx, row in enumerate(profiles):
         skipped_profiles.append({'index': idx, 'row': row, 'error': str(e)})
 conn.commit()
 if skipped_profiles:
-    print(f"[WARNING] Skipped {len(skipped_profiles)} USERPROFILE rows due to invalid ACCESSCATALYST or insert errors. Showing first 5 only.")
+    print(f"[WARNING] Skipped {len(skipped_profiles)} USERPROFILE rows due to invalid ACCESSCATALYST, duplicates, or insert errors. Showing first 5 only.")
 else:
-    print(f"Inserted {len(profiles)} USERPROFILE rows.")
+    print(f"Inserted {len(profile_seen)} USERPROFILE rows.")
 
 # 8. USERPROFILE_HISTORY
 print('Inserting USERPROFILE_HISTORY...')

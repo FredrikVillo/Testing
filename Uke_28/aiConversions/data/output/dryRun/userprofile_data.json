@@ -1,1047 +1,1047 @@
 [
   {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 93,
-    "FIELD_VALUE": "course"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 34,
-    "FIELD_VALUE": "science"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 31,
-    "FIELD_VALUE": "collection"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 28,
-    "FIELD_VALUE": "happy"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 79,
-    "FIELD_VALUE": "wrong"
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 18,
+    "FIELD_VALUE": "similar"
   },
   {
     "USERFIELD": 1,
-    "ACCESSCATALYST": 45,
-    "FIELD_VALUE": "machine"
+    "ACCESSCATALYST": 81,
+    "FIELD_VALUE": "political"
   },
   {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 40,
-    "FIELD_VALUE": "tell"
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 44,
+    "FIELD_VALUE": "detail"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 48,
+    "FIELD_VALUE": "production"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 91,
+    "FIELD_VALUE": "news"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 19,
+    "FIELD_VALUE": "reality"
   },
   {
     "USERFIELD": 4,
     "ACCESSCATALYST": 65,
-    "FIELD_VALUE": "financial"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 61,
-    "FIELD_VALUE": "bed"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 7,
-    "FIELD_VALUE": "stay"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 11,
-    "FIELD_VALUE": "candidate"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 80,
-    "FIELD_VALUE": "result"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 24,
-    "FIELD_VALUE": "bill"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 9,
-    "FIELD_VALUE": "sea"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 42,
-    "FIELD_VALUE": "water"
+    "FIELD_VALUE": "receive"
   },
   {
     "USERFIELD": 2,
-    "ACCESSCATALYST": 86,
-    "FIELD_VALUE": "next"
+    "ACCESSCATALYST": 16,
+    "FIELD_VALUE": "person"
   },
   {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 54,
-    "FIELD_VALUE": "whose"
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 9,
+    "FIELD_VALUE": "this"
   },
   {
     "USERFIELD": 1,
-    "ACCESSCATALYST": 33,
-    "FIELD_VALUE": "growth"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 27,
-    "FIELD_VALUE": "indeed"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 46,
-    "FIELD_VALUE": "lawyer"
+    "ACCESSCATALYST": 43,
+    "FIELD_VALUE": "yeah"
   },
   {
     "USERFIELD": 3,
-    "ACCESSCATALYST": 23,
-    "FIELD_VALUE": "responsibility"
+    "ACCESSCATALYST": 61,
+    "FIELD_VALUE": "south"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 26,
+    "FIELD_VALUE": "develop"
   },
   {
     "USERFIELD": 1,
     "ACCESSCATALYST": 58,
-    "FIELD_VALUE": "nothing"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 27,
-    "FIELD_VALUE": "family"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 70,
-    "FIELD_VALUE": "woman"
+    "FIELD_VALUE": "but"
   },
   {
     "USERFIELD": 1,
-    "ACCESSCATALYST": 13,
-    "FIELD_VALUE": "think"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 64,
-    "FIELD_VALUE": "so"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 5,
-    "FIELD_VALUE": "listen"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 94,
-    "FIELD_VALUE": "bag"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 80,
-    "FIELD_VALUE": "ten"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 32,
-    "FIELD_VALUE": "total"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 5,
-    "FIELD_VALUE": "line"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 44,
-    "FIELD_VALUE": "one"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 27,
-    "FIELD_VALUE": "time"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 29,
-    "FIELD_VALUE": "particular"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 75,
-    "FIELD_VALUE": "perform"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 81,
-    "FIELD_VALUE": "leg"
-  },
-  {
-    "USERFIELD": 4,
     "ACCESSCATALYST": 20,
-    "FIELD_VALUE": "door"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 94,
-    "FIELD_VALUE": "have"
+    "FIELD_VALUE": "rather"
   },
   {
     "USERFIELD": 3,
-    "ACCESSCATALYST": 67,
-    "FIELD_VALUE": "traditional"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 64,
-    "FIELD_VALUE": "trade"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 46,
-    "FIELD_VALUE": "better"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 41,
-    "FIELD_VALUE": "occur"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 9,
-    "FIELD_VALUE": "hotel"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 27,
-    "FIELD_VALUE": "school"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 1,
-    "FIELD_VALUE": "teacher"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 28,
-    "FIELD_VALUE": "better"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 97,
-    "FIELD_VALUE": "TV"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 99,
-    "FIELD_VALUE": "ago"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 71,
-    "FIELD_VALUE": "material"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 83,
-    "FIELD_VALUE": "find"
+    "ACCESSCATALYST": 26,
+    "FIELD_VALUE": "same"
   },
   {
     "USERFIELD": 2,
-    "ACCESSCATALYST": 13,
-    "FIELD_VALUE": "way"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 69,
-    "FIELD_VALUE": "some"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 44,
-    "FIELD_VALUE": "walk"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 49,
-    "FIELD_VALUE": "push"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 25,
-    "FIELD_VALUE": "language"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 100,
-    "FIELD_VALUE": "across"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 28,
-    "FIELD_VALUE": "clearly"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 93,
-    "FIELD_VALUE": "such"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 52,
-    "FIELD_VALUE": "network"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 38,
-    "FIELD_VALUE": "size"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 37,
-    "FIELD_VALUE": "size"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 33,
-    "FIELD_VALUE": "old"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 63,
-    "FIELD_VALUE": "reality"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 21,
-    "FIELD_VALUE": "three"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 45,
-    "FIELD_VALUE": "manage"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 31,
-    "FIELD_VALUE": "common"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 80,
-    "FIELD_VALUE": "ask"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 77,
-    "FIELD_VALUE": "choice"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 72,
-    "FIELD_VALUE": "finally"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 47,
-    "FIELD_VALUE": "effect"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 34,
-    "FIELD_VALUE": "now"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 91,
-    "FIELD_VALUE": "truth"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 56,
-    "FIELD_VALUE": "need"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 22,
-    "FIELD_VALUE": "tend"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 94,
-    "FIELD_VALUE": "place"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 60,
-    "FIELD_VALUE": "among"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 40,
-    "FIELD_VALUE": "other"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 83,
-    "FIELD_VALUE": "radio"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 56,
-    "FIELD_VALUE": "history"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 1,
-    "FIELD_VALUE": "paper"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 12,
-    "FIELD_VALUE": "real"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 37,
-    "FIELD_VALUE": "majority"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 6,
-    "FIELD_VALUE": "off"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 71,
-    "FIELD_VALUE": "central"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 77,
-    "FIELD_VALUE": "law"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 8,
-    "FIELD_VALUE": "interest"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 89,
-    "FIELD_VALUE": "increase"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 7,
-    "FIELD_VALUE": "person"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 20,
-    "FIELD_VALUE": "though"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 18,
-    "FIELD_VALUE": "individual"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 43,
-    "FIELD_VALUE": "main"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 47,
-    "FIELD_VALUE": "house"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 88,
-    "FIELD_VALUE": "bar"
+    "ACCESSCATALYST": 79,
+    "FIELD_VALUE": "too"
   },
   {
     "USERFIELD": 4,
     "ACCESSCATALYST": 10,
-    "FIELD_VALUE": "experience"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 17,
-    "FIELD_VALUE": "place"
+    "FIELD_VALUE": "enough"
   },
   {
     "USERFIELD": 1,
-    "ACCESSCATALYST": 30,
-    "FIELD_VALUE": "teacher"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 90,
-    "FIELD_VALUE": "find"
+    "ACCESSCATALYST": 95,
+    "FIELD_VALUE": "for"
   },
   {
     "USERFIELD": 4,
-    "ACCESSCATALYST": 100,
-    "FIELD_VALUE": "rule"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 62,
-    "FIELD_VALUE": "son"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 43,
-    "FIELD_VALUE": "property"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 68,
-    "FIELD_VALUE": "college"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 28,
-    "FIELD_VALUE": "billion"
+    "ACCESSCATALYST": 47,
+    "FIELD_VALUE": "one"
   },
   {
     "USERFIELD": 2,
     "ACCESSCATALYST": 91,
-    "FIELD_VALUE": "third"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 13,
-    "FIELD_VALUE": "others"
+    "FIELD_VALUE": "either"
   },
   {
     "USERFIELD": 3,
-    "ACCESSCATALYST": 28,
-    "FIELD_VALUE": "among"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 46,
-    "FIELD_VALUE": "available"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 60,
-    "FIELD_VALUE": "them"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 81,
-    "FIELD_VALUE": "law"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 3,
-    "FIELD_VALUE": "news"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 23,
-    "FIELD_VALUE": "news"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 45,
-    "FIELD_VALUE": "company"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 77,
-    "FIELD_VALUE": "city"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 46,
-    "FIELD_VALUE": "plan"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 36,
-    "FIELD_VALUE": "modern"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 58,
-    "FIELD_VALUE": "trial"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 47,
-    "FIELD_VALUE": "give"
+    "ACCESSCATALYST": 92,
+    "FIELD_VALUE": "wear"
   },
   {
     "USERFIELD": 2,
-    "ACCESSCATALYST": 37,
-    "FIELD_VALUE": "myself"
+    "ACCESSCATALYST": 35,
+    "FIELD_VALUE": "control"
   },
   {
     "USERFIELD": 3,
-    "ACCESSCATALYST": 73,
-    "FIELD_VALUE": "building"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 71,
-    "FIELD_VALUE": "which"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 44,
-    "FIELD_VALUE": "anything"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 72,
-    "FIELD_VALUE": "up"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 48,
-    "FIELD_VALUE": "guess"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 45,
-    "FIELD_VALUE": "apply"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 50,
-    "FIELD_VALUE": "after"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 63,
-    "FIELD_VALUE": "itself"
+    "ACCESSCATALYST": 95,
+    "FIELD_VALUE": "nation"
   },
   {
     "USERFIELD": 2,
     "ACCESSCATALYST": 49,
-    "FIELD_VALUE": "someone"
+    "FIELD_VALUE": "human"
   },
   {
     "USERFIELD": 2,
-    "ACCESSCATALYST": 58,
-    "FIELD_VALUE": "hundred"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 18,
-    "FIELD_VALUE": "easy"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 60,
-    "FIELD_VALUE": "tend"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 28,
-    "FIELD_VALUE": "pick"
+    "ACCESSCATALYST": 41,
+    "FIELD_VALUE": "difference"
   },
   {
     "USERFIELD": 1,
-    "ACCESSCATALYST": 58,
-    "FIELD_VALUE": "account"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 97,
-    "FIELD_VALUE": "number"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 43,
-    "FIELD_VALUE": "feel"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 97,
-    "FIELD_VALUE": "trade"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 76,
-    "FIELD_VALUE": "true"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 36,
-    "FIELD_VALUE": "blue"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 25,
-    "FIELD_VALUE": "doctor"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 17,
-    "FIELD_VALUE": "buy"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 19,
-    "FIELD_VALUE": "image"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 64,
-    "FIELD_VALUE": "yourself"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 95,
-    "FIELD_VALUE": "bag"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 47,
-    "FIELD_VALUE": "us"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 95,
-    "FIELD_VALUE": "true"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 63,
-    "FIELD_VALUE": "resource"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 75,
-    "FIELD_VALUE": "maintain"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 59,
-    "FIELD_VALUE": "must"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 19,
-    "FIELD_VALUE": "international"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 32,
-    "FIELD_VALUE": "anything"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 26,
-    "FIELD_VALUE": "station"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 86,
-    "FIELD_VALUE": "again"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 15,
-    "FIELD_VALUE": "question"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 37,
-    "FIELD_VALUE": "relate"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 11,
-    "FIELD_VALUE": "might"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 100,
-    "FIELD_VALUE": "country"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 4,
-    "FIELD_VALUE": "position"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 82,
-    "FIELD_VALUE": "choose"
-  },
-  {
-    "USERFIELD": 4,
     "ACCESSCATALYST": 46,
-    "FIELD_VALUE": "often"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 2,
-    "FIELD_VALUE": "success"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 5,
-    "FIELD_VALUE": "box"
+    "FIELD_VALUE": "evening"
   },
   {
     "USERFIELD": 2,
-    "ACCESSCATALYST": 76,
-    "FIELD_VALUE": "wear"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 30,
-    "FIELD_VALUE": "team"
+    "ACCESSCATALYST": 66,
+    "FIELD_VALUE": "business"
   },
   {
     "USERFIELD": 2,
-    "ACCESSCATALYST": 14,
-    "FIELD_VALUE": "happy"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 51,
-    "FIELD_VALUE": "mind"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 45,
-    "FIELD_VALUE": "seven"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 31,
-    "FIELD_VALUE": "attention"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 37,
-    "FIELD_VALUE": "ground"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 96,
-    "FIELD_VALUE": "American"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 25,
-    "FIELD_VALUE": "artist"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 57,
-    "FIELD_VALUE": "although"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 93,
-    "FIELD_VALUE": "television"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 43,
-    "FIELD_VALUE": "that"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 23,
-    "FIELD_VALUE": "fear"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 42,
-    "FIELD_VALUE": "per"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 55,
-    "FIELD_VALUE": "heart"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 15,
-    "FIELD_VALUE": "just"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 86,
-    "FIELD_VALUE": "condition"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 48,
-    "FIELD_VALUE": "quality"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 74,
-    "FIELD_VALUE": "or"
-  },
-  {
-    "USERFIELD": 3,
     "ACCESSCATALYST": 60,
-    "FIELD_VALUE": "we"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 54,
-    "FIELD_VALUE": "party"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 45,
-    "FIELD_VALUE": "pretty"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 97,
-    "FIELD_VALUE": "others"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 16,
-    "FIELD_VALUE": "material"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 14,
-    "FIELD_VALUE": "speech"
+    "FIELD_VALUE": "final"
   },
   {
     "USERFIELD": 2,
-    "ACCESSCATALYST": 14,
-    "FIELD_VALUE": "responsibility"
-  },
-  {
-    "USERFIELD": 1,
-    "ACCESSCATALYST": 32,
-    "FIELD_VALUE": "certainly"
+    "ACCESSCATALYST": 96,
+    "FIELD_VALUE": "step"
   },
   {
     "USERFIELD": 4,
-    "ACCESSCATALYST": 56,
-    "FIELD_VALUE": "movement"
+    "ACCESSCATALYST": 47,
+    "FIELD_VALUE": "technology"
   },
   {
     "USERFIELD": 4,
-    "ACCESSCATALYST": 94,
-    "FIELD_VALUE": "cup"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 72,
-    "FIELD_VALUE": "reason"
+    "ACCESSCATALYST": 66,
+    "FIELD_VALUE": "adult"
   },
   {
     "USERFIELD": 3,
-    "ACCESSCATALYST": 35,
+    "ACCESSCATALYST": 90,
     "FIELD_VALUE": "respond"
   },
   {
     "USERFIELD": 3,
-    "ACCESSCATALYST": 26,
-    "FIELD_VALUE": "guy"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 36,
-    "FIELD_VALUE": "pull"
-  },
-  {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 31,
-    "FIELD_VALUE": "never"
-  },
-  {
-    "USERFIELD": 2,
-    "ACCESSCATALYST": 60,
-    "FIELD_VALUE": "myself"
-  },
-  {
-    "USERFIELD": 2,
     "ACCESSCATALYST": 92,
-    "FIELD_VALUE": "national"
+    "FIELD_VALUE": "program"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 73,
+    "FIELD_VALUE": "they"
   },
   {
     "USERFIELD": 3,
     "ACCESSCATALYST": 50,
-    "FIELD_VALUE": "tree"
+    "FIELD_VALUE": "effect"
   },
   {
     "USERFIELD": 2,
-    "ACCESSCATALYST": 31,
-    "FIELD_VALUE": "study"
+    "ACCESSCATALYST": 47,
+    "FIELD_VALUE": "the"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 2,
+    "FIELD_VALUE": "need"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 51,
+    "FIELD_VALUE": "spring"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 48,
+    "FIELD_VALUE": "fall"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 38,
+    "FIELD_VALUE": "read"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 5,
+    "FIELD_VALUE": "population"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 81,
+    "FIELD_VALUE": "kid"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 87,
+    "FIELD_VALUE": "writer"
   },
   {
     "USERFIELD": 4,
     "ACCESSCATALYST": 23,
-    "FIELD_VALUE": "past"
+    "FIELD_VALUE": "image"
   },
   {
     "USERFIELD": 1,
-    "ACCESSCATALYST": 55,
-    "FIELD_VALUE": "next"
+    "ACCESSCATALYST": 60,
+    "FIELD_VALUE": "room"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 21,
+    "FIELD_VALUE": "service"
   },
   {
     "USERFIELD": 1,
-    "ACCESSCATALYST": 55,
-    "FIELD_VALUE": "soon"
+    "ACCESSCATALYST": 98,
+    "FIELD_VALUE": "teacher"
   },
   {
     "USERFIELD": 3,
-    "ACCESSCATALYST": 28,
-    "FIELD_VALUE": "bed"
+    "ACCESSCATALYST": 27,
+    "FIELD_VALUE": "center"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 100,
+    "FIELD_VALUE": "step"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 4,
+    "FIELD_VALUE": "room"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 6,
+    "FIELD_VALUE": "change"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 87,
+    "FIELD_VALUE": "ask"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 88,
+    "FIELD_VALUE": "and"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 57,
+    "FIELD_VALUE": "live"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 90,
+    "FIELD_VALUE": "myself"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 47,
+    "FIELD_VALUE": "population"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 52,
+    "FIELD_VALUE": "easy"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 85,
+    "FIELD_VALUE": "deal"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 50,
+    "FIELD_VALUE": "world"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 8,
+    "FIELD_VALUE": "head"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 51,
+    "FIELD_VALUE": "tonight"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 79,
+    "FIELD_VALUE": "box"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 60,
+    "FIELD_VALUE": "who"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 46,
+    "FIELD_VALUE": "president"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 64,
+    "FIELD_VALUE": "garden"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 1,
+    "FIELD_VALUE": "some"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 25,
+    "FIELD_VALUE": "visit"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 17,
+    "FIELD_VALUE": "although"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 17,
+    "FIELD_VALUE": "today"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 3,
+    "FIELD_VALUE": "PM"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 4,
+    "FIELD_VALUE": "catch"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 69,
+    "FIELD_VALUE": "child"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 12,
+    "FIELD_VALUE": "maybe"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 9,
+    "FIELD_VALUE": "hear"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 71,
+    "FIELD_VALUE": "never"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 77,
+    "FIELD_VALUE": "back"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 44,
+    "FIELD_VALUE": "someone"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 75,
+    "FIELD_VALUE": "buy"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 80,
+    "FIELD_VALUE": "pull"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 60,
+    "FIELD_VALUE": "over"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 30,
+    "FIELD_VALUE": "miss"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 37,
+    "FIELD_VALUE": "nor"
   },
   {
     "USERFIELD": 1,
     "ACCESSCATALYST": 37,
-    "FIELD_VALUE": "land"
+    "FIELD_VALUE": "maintain"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 31,
+    "FIELD_VALUE": "west"
   },
   {
     "USERFIELD": 3,
-    "ACCESSCATALYST": 58,
+    "ACCESSCATALYST": 66,
+    "FIELD_VALUE": "public"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 34,
+    "FIELD_VALUE": "play"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 65,
+    "FIELD_VALUE": "single"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 17,
+    "FIELD_VALUE": "maintain"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 74,
+    "FIELD_VALUE": "understand"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 75,
+    "FIELD_VALUE": "bill"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 99,
+    "FIELD_VALUE": "miss"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 3,
+    "FIELD_VALUE": "sing"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 49,
+    "FIELD_VALUE": "hear"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 98,
+    "FIELD_VALUE": "north"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 91,
+    "FIELD_VALUE": "drop"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 4,
+    "FIELD_VALUE": "those"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 42,
+    "FIELD_VALUE": "nation"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 87,
+    "FIELD_VALUE": "fight"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 6,
+    "FIELD_VALUE": "watch"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 70,
+    "FIELD_VALUE": "imagine"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 76,
+    "FIELD_VALUE": "even"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 27,
+    "FIELD_VALUE": "turn"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 87,
+    "FIELD_VALUE": "land"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 94,
+    "FIELD_VALUE": "bad"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 62,
+    "FIELD_VALUE": "fly"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 57,
+    "FIELD_VALUE": "range"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 15,
+    "FIELD_VALUE": "husband"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 50,
+    "FIELD_VALUE": "challenge"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 56,
+    "FIELD_VALUE": "play"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 72,
+    "FIELD_VALUE": "down"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 42,
+    "FIELD_VALUE": "democratic"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 93,
+    "FIELD_VALUE": "different"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 100,
+    "FIELD_VALUE": "item"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 21,
+    "FIELD_VALUE": "skill"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 76,
+    "FIELD_VALUE": "because"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 3,
+    "FIELD_VALUE": "state"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 89,
+    "FIELD_VALUE": "level"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 37,
+    "FIELD_VALUE": "sell"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 30,
+    "FIELD_VALUE": "spring"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 40,
+    "FIELD_VALUE": "case"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 14,
+    "FIELD_VALUE": "soon"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 7,
+    "FIELD_VALUE": "take"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 79,
+    "FIELD_VALUE": "total"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 41,
+    "FIELD_VALUE": "power"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 4,
+    "FIELD_VALUE": "scientist"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 72,
+    "FIELD_VALUE": "many"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 59,
+    "FIELD_VALUE": "draw"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 47,
+    "FIELD_VALUE": "cultural"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 66,
+    "FIELD_VALUE": "finally"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 52,
+    "FIELD_VALUE": "minute"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 23,
+    "FIELD_VALUE": "similar"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 33,
+    "FIELD_VALUE": "those"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 19,
+    "FIELD_VALUE": "third"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 23,
+    "FIELD_VALUE": "describe"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 94,
+    "FIELD_VALUE": "decision"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 12,
+    "FIELD_VALUE": "loss"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 81,
+    "FIELD_VALUE": "page"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 82,
+    "FIELD_VALUE": "technology"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 22,
+    "FIELD_VALUE": "bring"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 22,
+    "FIELD_VALUE": "final"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 14,
+    "FIELD_VALUE": "paper"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 66,
+    "FIELD_VALUE": "development"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 85,
+    "FIELD_VALUE": "must"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 6,
+    "FIELD_VALUE": "those"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 89,
+    "FIELD_VALUE": "detail"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 55,
+    "FIELD_VALUE": "cup"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 19,
+    "FIELD_VALUE": "owner"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 65,
+    "FIELD_VALUE": "song"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 12,
+    "FIELD_VALUE": "she"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 49,
+    "FIELD_VALUE": "national"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 43,
+    "FIELD_VALUE": "very"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 100,
+    "FIELD_VALUE": "increase"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 17,
+    "FIELD_VALUE": "tell"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 86,
+    "FIELD_VALUE": "today"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 53,
+    "FIELD_VALUE": "reality"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 10,
+    "FIELD_VALUE": "newspaper"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 20,
+    "FIELD_VALUE": "company"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 88,
+    "FIELD_VALUE": "her"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 3,
+    "FIELD_VALUE": "pay"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 88,
+    "FIELD_VALUE": "risk"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 63,
+    "FIELD_VALUE": "pretty"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 92,
+    "FIELD_VALUE": "lot"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 40,
+    "FIELD_VALUE": "campaign"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 89,
+    "FIELD_VALUE": "off"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 94,
+    "FIELD_VALUE": "front"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 68,
+    "FIELD_VALUE": "American"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 26,
+    "FIELD_VALUE": "drive"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 61,
+    "FIELD_VALUE": "your"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 43,
     "FIELD_VALUE": "focus"
   },
   {
     "USERFIELD": 3,
-    "ACCESSCATALYST": 12,
-    "FIELD_VALUE": "decision"
+    "ACCESSCATALYST": 79,
+    "FIELD_VALUE": "network"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 84,
+    "FIELD_VALUE": "section"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 36,
+    "FIELD_VALUE": "send"
   },
   {
     "USERFIELD": 1,
-    "ACCESSCATALYST": 13,
-    "FIELD_VALUE": "child"
+    "ACCESSCATALYST": 5,
+    "FIELD_VALUE": "begin"
   },
   {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 4,
-    "FIELD_VALUE": "more"
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 21,
+    "FIELD_VALUE": "raise"
   },
   {
-    "USERFIELD": 4,
-    "ACCESSCATALYST": 19,
-    "FIELD_VALUE": "fast"
-  },
-  {
-    "USERFIELD": 3,
-    "ACCESSCATALYST": 26,
-    "FIELD_VALUE": "finally"
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 48,
+    "FIELD_VALUE": "father"
   },
   {
     "USERFIELD": 4,
-    "ACCESSCATALYST": 6,
-    "FIELD_VALUE": "film"
+    "ACCESSCATALYST": 53,
+    "FIELD_VALUE": "administration"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 36,
+    "FIELD_VALUE": "street"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 71,
+    "FIELD_VALUE": "industry"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 10,
+    "FIELD_VALUE": "all"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 12,
+    "FIELD_VALUE": "voice"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 83,
+    "FIELD_VALUE": "face"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 36,
+    "FIELD_VALUE": "beautiful"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 71,
+    "FIELD_VALUE": "effect"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 48,
+    "FIELD_VALUE": "growth"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 3,
+    "FIELD_VALUE": "hotel"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 40,
+    "FIELD_VALUE": "could"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 36,
+    "FIELD_VALUE": "help"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 97,
+    "FIELD_VALUE": "grow"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 11,
+    "FIELD_VALUE": "forward"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 27,
+    "FIELD_VALUE": "piece"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 34,
+    "FIELD_VALUE": "first"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 75,
+    "FIELD_VALUE": "husband"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 76,
+    "FIELD_VALUE": "receive"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 8,
+    "FIELD_VALUE": "wall"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 3,
+    "FIELD_VALUE": "want"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 66,
+    "FIELD_VALUE": "forward"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 72,
+    "FIELD_VALUE": "unit"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 20,
+    "FIELD_VALUE": "budget"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 18,
+    "FIELD_VALUE": "receive"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 2,
+    "FIELD_VALUE": "college"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 34,
+    "FIELD_VALUE": "fire"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 91,
+    "FIELD_VALUE": "long"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 30,
+    "FIELD_VALUE": "answer"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 73,
+    "FIELD_VALUE": "blood"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 22,
+    "FIELD_VALUE": "have"
+  },
+  {
+    "USERFIELD": 3,
+    "ACCESSCATALYST": 68,
+    "FIELD_VALUE": "result"
+  },
+  {
+    "USERFIELD": 4,
+    "ACCESSCATALYST": 2,
+    "FIELD_VALUE": "turn"
+  },
+  {
+    "USERFIELD": 2,
+    "ACCESSCATALYST": 83,
+    "FIELD_VALUE": "marriage"
+  },
+  {
+    "USERFIELD": 1,
+    "ACCESSCATALYST": 61,
+    "FIELD_VALUE": "throw"
   }
 ]
