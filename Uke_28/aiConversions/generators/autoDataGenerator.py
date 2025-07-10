@@ -6,6 +6,7 @@ import sys
 import os
 import pyodbc
 from datetime import datetime, date, timedelta
+from openai import AzureOpenAI
 
 fake = Faker()
 
@@ -32,9 +33,44 @@ def rule_engine(field_name, field_type, description, settings, is_custom):
         return "use_ai"
     return "use_faker"
 
-def generate_data_with_ai(field_name, field_type, description, settings, is_custom):
-    # Dummy AI-generering (erstatt med faktisk AI-kall om ønskelig)
-    return f"AI_{field_name}_{random.randint(100,999)}"
+def get_azure_openai_client(api_key_path):
+    with open(api_key_path, "r") as f:
+        api_key = f.read().strip()
+    client = AzureOpenAI(
+        api_key=api_key,
+        api_version="2025-01-01-preview",
+        azure_endpoint="https://azureopenai-sin-dev.openai.azure.com"
+    )
+    return client
+
+def generate_data_with_ai(client, field_name, field_type, description, settings, is_custom, max_length=None):
+    # Strengere prompt for å få korte, enkle verdier
+    prompt = (
+        f"Generate a realistic, short, single value for the field '{field_name}' of type '{field_type}'. "
+        f"Return only the value, no explanation, no formatting, no code block. "
+        f"The value must be valid for a SQL column of type '{field_type}' and fit within the max length {max_length if max_length else ''}. "
+        f"No quotes, no markdown, no extra text."
+    )
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": "You generate realistic fake test data. Only output the value, never an explanation or code block."},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=500
+        )
+        if response and hasattr(response, 'choices') and response.choices and hasattr(response.choices[0], 'message') and hasattr(response.choices[0].message, 'content'):
+            ai_value = response.choices[0].message.content.strip()
+            if max_length and isinstance(ai_value, str):
+                ai_value = ai_value[:max_length]
+            return ai_value
+        else:
+            print(f"[WARNING] Tomt eller ugyldig AI-svar for {field_name}. Bruker fallback-verdi.")
+            return "AI"
+    except Exception as e:
+        print(f"[ERROR] AI-generering feilet for {field_name}: {e}. Bruker fallback-verdi.")
+        return "AI"
 
 def generate_data_with_faker(field_name, field_type, description, settings, is_custom):
     # Enkel mapping for noen vanlige felttyper
@@ -63,13 +99,13 @@ def generate_data_with_faker(field_name, field_type, description, settings, is_c
     # Fallback
     return fake.word()
 
-def generate_data(field_name, field_type, description, settings, is_custom):
+def generate_data(client, field_name, field_type, description, settings, is_custom, max_length=None):
     # Tving int-felter til å alltid få int, uansett navn
     if field_type.lower() in ["int", "bigint", "smallint", "tinyint"]:
         return random.randint(1, 1000)
     rule = rule_engine(field_name, field_type, description, settings, is_custom)
     if rule == "use_ai":
-        return generate_data_with_ai(field_name, field_type, description, settings, is_custom)
+        return generate_data_with_ai(client, field_name, field_type, description, settings, is_custom, max_length)
     elif rule == "use_faker":
         return generate_data_with_faker(field_name, field_type, description, settings, is_custom)
     else:
@@ -428,6 +464,15 @@ def get_next_pk_start(db_connection, table_name, pk_col):
     except Exception:
         return 1
 
+def get_column_max_lengths(db_connection, table_name):
+    cursor = db_connection.cursor()
+    cursor.execute('''
+        SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH
+        FROM INFORMATION_SCHEMA.COLUMNS
+        WHERE TABLE_NAME = ?
+    ''', (table_name,))
+    return {row[0]: row[2] for row in cursor.fetchall() if row[1].lower() in ["varchar", "nvarchar", "char"]}
+
 def main():
     conn = get_sql_server_engine()
     set_all_foreign_keys_nullable(conn)
@@ -443,6 +488,7 @@ def main():
     description = ""
     settings = {}
     is_custom = False
+    client = get_azure_openai_client("C:/Users/FredrikVillo/repos/TestDataGeneration/api_key.txt")
     for table_name in sorted_tables:
         print(f"Genererer data for tabell: {table_name}")
         col_types = get_table_columns_and_types(conn, table_name)
@@ -460,7 +506,9 @@ def main():
         for col, typ in zip(pk_cols, pk_types):
             if typ.lower() in ["int", "bigint", "smallint", "tinyint"]:
                 pk_start[col] = get_next_pk_start(conn, table_name, col)
-        for i in range(10):
+        # Hent max_length for alle kolonner i tabellen
+        col_max_lengths = get_column_max_lengths(conn, table_name)
+        for i in range(2):
             row = {}
             # Hvis composite PK, generer unik kombinasjon
             if len(pk_cols) > 1:
@@ -482,8 +530,14 @@ def main():
                 else:
                     if typ.lower() in ["int", "bigint", "smallint", "tinyint"]:
                         row[col] = random.randint(1, 1000)
+                    elif typ.lower() in ["varchar", "nvarchar", "char"]:
+                        maxlen = col_max_lengths.get(col)
+                        val = generate_data(client, col, typ, description, settings, is_custom, max_length=maxlen)
+                        if maxlen and isinstance(val, str):
+                            val = val[:maxlen]
+                        row[col] = val
                     else:
-                        row[col] = generate_data(col, typ, description, settings, is_custom)
+                        row[col] = generate_data(client, col, typ, description, settings, is_custom)
             data.append(row)
         write_to_database_with_fk_handling(table_name, data, conn)
         print(f"✅ Genererte og skrev {len(data)} rader til {table_name}")
