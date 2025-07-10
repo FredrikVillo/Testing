@@ -207,22 +207,27 @@ if access_skipped:
 print('Inserting USERPROFILE_FIELD...')
 fields = load_json('userprofile_field_data.json')
 userprofile_field_cols = [col for col in table_columns_dict['USERPROFILE_FIELD'] if col.upper() != 'USERPROFILE_FIELD_ID']  # ekskluder identity
-required_fields = [col for col in userprofile_field_cols if col.upper() == 'FIELDNAME']
 skipped_rows = []
 inserted_count = 0
 field_seen = set()
 for idx, row in enumerate(fields):
-    # Validation: FIELDNAME must not be None or empty
-    fieldname_val = row.get('FIELDNAME')
+    # Only use keys that are in the SQL schema
+    filtered_row = {col: row.get(col) for col in userprofile_field_cols}
+    # Warn if there are extra fields in the JSON row
+    extra_fields = set(row.keys()) - set(userprofile_field_cols)
+    if extra_fields:
+        print(f"[WARNING] Row {idx} contains extra fields not in schema: {extra_fields}")
+    # Validation: FIELD_NAME must not be None or empty
+    fieldname_val = filtered_row.get('FIELD_NAME')
     if fieldname_val is None or (isinstance(fieldname_val, str) and not fieldname_val.strip()):
         skipped_rows.append({'index': idx, 'row': row})
         continue
-    # Deduplication: use tuple of all non-identity columns as key
-    key = tuple(row.get(col) for col in userprofile_field_cols)
+    # Deduplication: use tuple of all non-identity columns as key (from schema only)
+    key = tuple(filtered_row.get(col) for col in userprofile_field_cols)
     if key in field_seen:
         continue
     field_seen.add(key)
-    values = [row.get(col) for col in userprofile_field_cols]
+    values = [filtered_row.get(col) for col in userprofile_field_cols]
     placeholders = ', '.join(['?'] * len(userprofile_field_cols))
     col_list = ', '.join(userprofile_field_cols)
     cursor.execute(
@@ -232,7 +237,7 @@ for idx, row in enumerate(fields):
     inserted_count += 1
 conn.commit()
 if skipped_rows:
-    print(f"[WARNING] Skipped {len(skipped_rows)} USERPROFILE_FIELD rows due to missing FIELDNAME:")
+    print(f"[WARNING] Skipped {len(skipped_rows)} USERPROFILE_FIELD rows due to missing FIELD_NAME:")
     for item in skipped_rows:
         print(f"  Row {item['index']}: {item['row']}")
 else:
@@ -285,16 +290,40 @@ else:
 # 8. USERPROFILE_HISTORY
 print('Inserting USERPROFILE_HISTORY...')
 history = load_json('userprofile_history_data.json')
-userprofile_history_cols = [col for col in table_columns_dict['USERPROFILE_HISTORY'] if col.upper() != 'USERPROFILE_HISTORY_ID']  # ekskluder identity
-for row in history:
-    values = [row.get(col) for col in userprofile_history_cols]
-    placeholders = ', '.join(['?'] * len(userprofile_history_cols))
-    col_list = ', '.join(userprofile_history_cols)
-    cursor.execute(
-        f"INSERT INTO USERPROFILE_HISTORY ({col_list}) VALUES ({placeholders})",
-        values
-    )
+userprofile_history_cols = [col for col in table_columns_dict['USERPROFILE_HISTORY'] if col.upper() not in ('USERPROFILE_HISTORY_ID', 'RECORD_NUMBER')]  # ekskluder identity
+error_messages = {}
+error_count = 0
+for idx, row in enumerate(history):
+    # Map old field name to new if present
+    if 'USERPROFILE_FIELD_ID' not in row and 'USERPROFILE_FIELD' in row:
+        row['USERPROFILE_FIELD_ID'] = row['USERPROFILE_FIELD']
+    # Remove identity columns if present
+    if 'USERPROFILE_HISTORY_ID' in row:
+        del row['USERPROFILE_HISTORY_ID']
+    if 'RECORD_NUMBER' in row:
+        del row['RECORD_NUMBER']
+    try:
+        values = [row.get(col) for col in userprofile_history_cols]
+        placeholders = ', '.join(['?'] * len(userprofile_history_cols))
+        col_list = ', '.join(userprofile_history_cols)
+        cursor.execute(
+            f"INSERT INTO USERPROFILE_HISTORY ({col_list}) VALUES ({placeholders})",
+            values
+        )
+    except Exception as e:
+        msg = str(e)
+        if msg not in error_messages:
+            if len(error_messages) < 5:
+                print(f"[ERROR] USERPROFILE_HISTORY row {idx} failed: {e}\n  Row: {row}")
+            elif len(error_messages) == 5:
+                print("[ERROR] ... (more unique error types, see summary below)")
+        error_messages[msg] = error_messages.get(msg, 0) + 1
+        error_count += 1
 conn.commit()
+if error_messages:
+    print(f"[SUMMARY] {error_count} USERPROFILE_HISTORY rows failed to insert. Unique error types:")
+    for msg, count in error_messages.items():
+        print(f"  {count} rows: {msg}")
 
 print('✅ All data loaded successfully!')
 cursor.close()

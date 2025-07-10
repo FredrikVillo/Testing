@@ -7,56 +7,33 @@ from openai import AzureOpenAI
 import sys
 import os
 
-try:
-    sys.stdout.reconfigure(encoding='utf-8')
-except Exception:
-    pass  # Ignore if not supported
-
 fake = Faker()
 
-# Load USERPROFILE_IDs and ACCESSCATALYST from CSV
-user_profiles_df = pd.read_csv(os.path.join('data', 'input', 'csv', 'userprofile_id.csv'), header=None, names=["USERPROFILE_ID", "ACCESSCATALYST"])
-user_profiles = user_profiles_df.to_dict(orient="records")
+# Load USERPROFILE_FIELD and ACCESSCATALYST from userprofile_data.json (bruker korrekt struktur)
+userprofile_path = "../aiConversions/data/output/latest/userprofile_data.json"
+with open(userprofile_path, 'r', encoding='utf-8') as f:
+    userprofiles = json.load(f)
+
+profile_pairs = [(row['USERFIELD'], row['ACCESSCATALYST']) for row in userprofiles]
 
 # Azure OpenAI setup
-def is_dry_run():
-    return "--dry-run" in sys.argv
+api_key_path = "C:/Users/FredrikVillo/repos/TestDataGeneration/api_key.txt"
+with open(api_key_path, "r") as f:
+    api_key = f.read().strip()
 
-def get_output_dir():
-    # Default to current folder if not provided
-    for arg in sys.argv[1:]:
-        if not arg.startswith("-"):
-            return arg
-    return "."
+client = AzureOpenAI(
+    api_key=api_key,
+    api_version="2025-01-01-preview",
+    azure_endpoint="https://azureopenai-sin-dev.openai.azure.com"
+)
 
-if not is_dry_run():
-    api_key_path = "C:/Users/FredrikVillo/repos/TestDataGeneration/api_key.txt"
-    with open(api_key_path, "r") as f:
-        api_key = f.read().strip()
-    client = AzureOpenAI(
-        api_key=api_key,
-        api_version="2025-01-01-preview",
-        azure_endpoint="https://azureopenai-sin-dev.openai.azure.com"
-    )
-else:
-    client = None
-
-# Predefined value pools by type
-value_pool_by_field = {
-    'Skill': ['Python', 'SQL', 'Excel', 'Java', 'Power BI'],
-    'Hobby': ['Running', 'Cycling', 'Photography', 'Hiking'],
-    'Certification': ['AWS Certified', 'PMP', 'Scrum Master', 'Azure Fundamentals']
-}
-
-# Function to call AI for reason
-def generate_reason(old_value, new_value):
-    if is_dry_run() or client is None:
-        # Use faker for dry run
+def generate_reason(field_value):
+    if dry_run:
         return fake.sentence(nb_words=8)
     prompt = (
-        f"An employee's profile value changed from '{old_value}' to '{new_value}'. "
-        "Provide a concise and realistic reason for this change in an HR system. "
-        "Avoid verbose explanations and focus on the context of the change. "
+        f"A user profile field value is now '{field_value}'. "
+        "Provide a concise and realistic reason for this value in an HR system. "
+        "Avoid verbose explanations and focus on the context of the value. "
         "For example, consider role transitions, skill updates, or personal interest changes."
     )
     try:
@@ -66,50 +43,62 @@ def generate_reason(old_value, new_value):
             max_tokens=50,
             temperature=0.7
         )
-        global total_tokens_used
-        total_tokens_used += response.usage.total_tokens  # Track token usage
         return response.choices[0].message.content.strip()
     except:
-        return f"Profile value updated from '{old_value}' to '{new_value}' for role alignment."
+        return f"Profile value set to '{field_value}' for HR context."
+
+value_pool = ['Python', 'SQL', 'Excel', 'Java', 'Power BI', 'Running', 'Cycling', 'Photography', 'Hiking', 'AWS Certified', 'PMP', 'Scrum Master', 'Azure Fundamentals']
 
 history_data = []
-history_id = 1
+dry_run = '--dry-run' in sys.argv
 
-for profile in user_profiles:
-    num_entries = random.randint(1, 3)
+# In dry run: use only a few entries and no AI calls
+def generate_reason(field_value):
+    if dry_run:
+        return fake.sentence(nb_words=8)
+    prompt = (
+        f"A user profile field value is now '{field_value}'. "
+        "Provide a concise and realistic reason for this value in an HR system. "
+        "Avoid verbose explanations and focus on the context of the value. "
+        "For example, consider role transitions, skill updates, or personal interest changes."
+    )
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=50,
+            temperature=0.7
+        )
+        return response.choices[0].message.content.strip()
+    except:
+        return f"Profile value set to '{field_value}' for HR context."
 
+if dry_run:
+    # Only a few entries for dry run
+    sample_pairs = profile_pairs[:2]
+else:
+    sample_pairs = profile_pairs
+for userfield, accesscatalyst in sample_pairs:
+    num_entries = random.randint(1, 3) if not dry_run else 1
     for _ in range(num_entries):
-        # Pick a field type
-        field_type = random.choice(list(value_pool_by_field.keys()))
-        values = value_pool_by_field[field_type]
-        old_value, new_value = random.sample(values, 2)
-
-        # Ensure correct chronological order
+        field_value = random.choice(value_pool)
         valid_from = datetime.now() - timedelta(days=random.randint(500, 1000))
-        modified_date = valid_from + timedelta(days=random.randint(10, 100))
-        valid_to = modified_date + timedelta(days=random.randint(30, 180))
-
-        ai_reason = generate_reason(old_value, new_value)
-
+        changed_date = valid_from + timedelta(days=random.randint(10, 100))
+        valid_to = changed_date + timedelta(days=random.randint(30, 180))
+        ai_reason = generate_reason(field_value)
         entry = {
-            "USERPROFILE_HISTORY_ID": history_id,
-            "USERPROFILE_ID": profile["USERPROFILE_ID"],
-            "ACCESSCATALYST": profile["ACCESSCATALYST"],
-            "OLD_VALUE": old_value,
-            "NEW_VALUE": new_value,
-            "MODIFIED": modified_date.strftime("%Y-%m-%d %H:%M:%S"),
-            "REASON": ai_reason,
-            "MODIFIEDBY": fake.user_name(),
+            "USERPROFILE_FIELD": userfield,
+            "ACCESSCATALYST": accesscatalyst,
+            "FIELD_VALUE": field_value,
             "CHANGED_BY": random.randint(1, 1000),
-            "CHANGED_DATE": modified_date.strftime("%Y-%m-%d %H:%M:%S"),
+            "CHANGED_DATE": changed_date.strftime("%Y-%m-%d %H:%M:%S"),
             "CHANGED_BY_DEPUTY": random.randint(1, 1000),
             "CHANGE_TYPE": random.randint(1, 5),
             "VALID_FROM": valid_from.strftime("%Y-%m-%d"),
             "APPROVED_BY": random.randint(1, 1000),
-            "RECORD_NUMBER": history_id,
             "VALID_TO": valid_to.strftime("%Y-%m-%d"),
             "IS_TIMELINE": random.choice([0, 1]),
-            "APPROVED_ON": (modified_date + timedelta(days=random.randint(1, 30))).strftime("%Y-%m-%d %H:%M:%S"),
+            "APPROVED_ON": (changed_date + timedelta(days=random.randint(1, 30))).strftime("%Y-%m-%d %H:%M:%S"),
             "REASON_FOR_CHANGE_IN_VALUE": ai_reason,
             "CHANGED_BY_ROLE": random.randint(1, 10),
             "PRIMARY_RECORD": random.randint(1, 1000),
@@ -121,14 +110,18 @@ for profile in user_profiles:
             "INTEGRATION_TYPE": 0,
             "INTEGRATION_MODE": 0
         }
-
         history_data.append(entry)
-        history_id += 1
 
-# Save to JSON
-output_dir = get_output_dir()
+# Determine output directory (support --dry-run like loader)
+dry_run = '--dry-run' in sys.argv
+if dry_run:
+    output_dir = os.path.join(os.path.dirname(__file__), '../data/output/dryRun')
+else:
+    output_dir = os.path.join(os.path.dirname(__file__), '../data/output/latest')
 os.makedirs(output_dir, exist_ok=True)
-with open(os.path.join(output_dir, "userprofile_history_data.json"), "w") as f:
+json_out = os.path.join(output_dir, 'userprofile_history_data.json')
+
+with open(json_out, "w", encoding="utf-8") as f:
     json.dump(history_data, f, indent=2)
 
-print(f"✅ Generated {len(history_data)} USERPROFILE_HISTORY entries with AI-enhanced reasons.")
+print(f"✅ Generated {len(history_data)} USERPROFILE_HISTORY entries with AI reasons (CORRECTED STRUCTURE) to {json_out}")
