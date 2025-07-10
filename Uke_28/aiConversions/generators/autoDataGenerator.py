@@ -7,6 +7,7 @@ import os
 import pyodbc
 from datetime import datetime, date, timedelta
 from openai import AzureOpenAI
+import argparse
 
 fake = Faker()
 
@@ -473,7 +474,40 @@ def get_column_max_lengths(db_connection, table_name):
     ''', (table_name,))
     return {row[0]: row[2] for row in cursor.fetchall() if row[1].lower() in ["varchar", "nvarchar", "char"]}
 
+def detect_cycles_in_dependencies(table_names, dependencies):
+    # Enkel DFS for å finne én syklus
+    from collections import defaultdict
+    visited = set()
+    stack = set()
+    cycle = []
+    def dfs(node, path):
+        visited.add(node)
+        stack.add(node)
+        path.append(node)
+        for neighbor in dependencies.get(node, []):
+            if neighbor not in visited:
+                if dfs(neighbor, path):
+                    return True
+            elif neighbor in stack:
+                # Syklus funnet
+                cycle.extend(path[path.index(neighbor):])
+                return True
+        stack.remove(node)
+        path.pop()
+        return False
+    for t in table_names:
+        if t not in visited:
+            path = []
+            if dfs(t, path):
+                break
+    return list(set(cycle))
+
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--dry-run', action='store_true', help='Kjør pipeline uten AI, kun med Faker')
+    args = parser.parse_args()
+    dry_run = args.dry_run
+
     conn = get_sql_server_engine()
     set_all_foreign_keys_nullable(conn)
     table_names = get_all_table_names(conn)
@@ -482,13 +516,16 @@ def main():
     try:
         sorted_tables = topological_sort_tables(table_names, dependencies)
     except Exception as e:
+        cycle_tables = detect_cycles_in_dependencies(table_names, dependencies)
+        if cycle_tables:
+            print(f"[ADVARSEL] Følgende tabeller er med i sirkulær avhengighet: {', '.join(cycle_tables)}")
         print("[WARNING] Syklisk avhengighet oppdaget! Bruker FK-handling for å sette FK-felter til NULL i første runde.")
         sorted_tables = table_names  # Faller tilbake til vilkårlig rekkefølge
     print(f"Tabellrekkefølge (avhengighetsorden): {sorted_tables}")
     description = ""
     settings = {}
     is_custom = False
-    client = get_azure_openai_client("C:/Users/FredrikVillo/repos/TestDataGeneration/api_key.txt")
+    client = None if dry_run else get_azure_openai_client("C:/Users/FredrikVillo/repos/TestDataGeneration/api_key.txt")
     for table_name in sorted_tables:
         print(f"Genererer data for tabell: {table_name}")
         col_types = get_table_columns_and_types(conn, table_name)
@@ -532,12 +569,18 @@ def main():
                         row[col] = random.randint(1, 1000)
                     elif typ.lower() in ["varchar", "nvarchar", "char"]:
                         maxlen = col_max_lengths.get(col)
-                        val = generate_data(client, col, typ, description, settings, is_custom, max_length=maxlen)
+                        if dry_run:
+                            val = generate_data_with_faker(col, typ, description, settings, is_custom)
+                        else:
+                            val = generate_data(client, col, typ, description, settings, is_custom, max_length=maxlen)
                         if maxlen and isinstance(val, str):
                             val = val[:maxlen]
                         row[col] = val
                     else:
-                        row[col] = generate_data(client, col, typ, description, settings, is_custom)
+                        if dry_run:
+                            row[col] = generate_data_with_faker(col, typ, description, settings, is_custom)
+                        else:
+                            row[col] = generate_data(client, col, typ, description, settings, is_custom)
             data.append(row)
         write_to_database_with_fk_handling(table_name, data, conn)
         print(f"✅ Genererte og skrev {len(data)} rader til {table_name}")
